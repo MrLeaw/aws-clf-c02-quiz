@@ -1,0 +1,6 @@
+target
+.DS_STORE
+json
+jsonnew
+__pycache__
+.mypy_cache
