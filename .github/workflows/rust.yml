@@ -44,3 +44,4 @@ jobs:
       with:
         files: target/release/*
         token: ${{ secrets.PAT }}
+        tag_name: ${{ github.run_id }}-${{ github.run_attempt }}
