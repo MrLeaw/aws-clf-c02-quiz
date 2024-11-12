@@ -35,7 +35,8 @@ jobs:
     - name: Build
       run: cargo build --release
     - name: Archive
-      run: zip -r ${{ runner.os }}-${{ matrix.arch }}-release.zip target/release/
+    # only archive the executable (aws-clf-c02-quiz on macos and linux, aws-clf-c02-quiz.exe on windows)
+      run: zip -r ${{ runner.os }}-${{ matrix.arch }}-release.zip target/release/aws-clf-c02-quiz*
     - name: Upload Artifact
       uses: actions/upload-artifact@v4
       with:
@@ -46,5 +47,5 @@ jobs:
       uses: softprops/action-gh-release@v2
       with:
         files: ${{ runner.os }}-${{ matrix.arch }}-release.zip
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.PAT }}
         tag_name: ${{ github.run_id }}-${{ github.run_attempt }}
