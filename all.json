@@ -7145,23 +7145,6 @@
     {
         "part": 3,
         "question_number": 53,
-        "question": "Which of the following common IT tasks can AWS cover to free up company IT resources? (Select two.)",
-        "answers": [
-            "A. Patching databases software",
-            "B. Testing application releases",
-            "C. Backing up databases",
-            "D. Creating database schema",
-            "E. Running penetration tests"
-        ],
-        "correct_answers": [
-            "B",
-            "E"
-        ],
-        "source": "awslagi"
-    },
-    {
-        "part": 3,
-        "question_number": 54,
         "question": "What can AWS edge locations be used for? (Select two.)",
         "answers": [
             "A. Hosting applications",
@@ -7178,7 +7161,7 @@
     },
     {
         "part": 3,
-        "question_number": 55,
+        "question_number": 54,
         "question": "Access keys in AWS Identity and Access Management (IAM) are used to:",
         "answers": [
             "A. log in to the AWS Management Console.",
@@ -7193,7 +7176,7 @@
     },
     {
         "part": 3,
-        "question_number": 56,
+        "question_number": 55,
         "question": "What are the benefits of using the AWS Cloud for companies with customers in many countries around the world? (Choose two",
         "answers": [
             "A. Companies can deploy applications in multiple AWS Regions to reduce latency.",
@@ -7210,7 +7193,7 @@
     },
     {
         "part": 3,
-        "question_number": 57,
+        "question_number": 56,
         "question": "Which AWS service handles the deployment details of capacity provisioning, load balancing, Auto Scaling, and application health monitoring?",
         "answers": [
             "A. AWS Config",
@@ -7225,7 +7208,7 @@
     },
     {
         "part": 3,
-        "question_number": 58,
+        "question_number": 57,
         "question": "Which AWS service provides inbound and outbound network ACLs to harden external connectivity to Amazon EC2?",
         "answers": [
             "A. AWS IAM",
@@ -7240,7 +7223,7 @@
     },
     {
         "part": 3,
-        "question_number": 59,
+        "question_number": 58,
         "question": "When a company provisions web servers in multiple AWS Regions, what is being increased?",
         "answers": [
             "A. Coupling",
@@ -7255,7 +7238,7 @@
     },
     {
         "part": 3,
-        "question_number": 60,
+        "question_number": 59,
         "question": "The pay-as-you-go pricing model for AWS services:",
         "answers": [
             "A. reduces capital expenditures.",
@@ -10966,22 +10949,6 @@
     {
         "question_number": 21,
         "part": 13,
-        "question": "A company wants to provide managed Windows virtual desktops and applications to its remote employees over secure network connections. Which AWS services can the company use to meet these requirements? (Choose two.)",
-        "answers": [
-            "A. Amazon Connect",
-            "B. Amazon AppStream 2.0",
-            "C. Amazon WorkSpaces",
-            "D. AWS Site-to-Site VPN E. Amazon Elastic Container Service (Amazon ECS)"
-        ],
-        "correct_answers": [
-            "C",
-            "D"
-        ],
-        "source": "awslagi"
-    },
-    {
-        "question_number": 22,
-        "part": 13,
         "question": "Which of the following is a managed AWS service that is used specifically for extract, transform, and load (ETL) data?",
         "answers": [
             "A. Amazon Athena",
@@ -10995,7 +10962,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 23,
+        "question_number": 22,
         "part": 13,
         "question": "Which AWS service is always free of charge for users?",
         "answers": [
@@ -11005,12 +10972,12 @@
             "D. AWS Identity and Access Management (IAM)"
         ],
         "correct_answers": [
-            "C"
+            "D"
         ],
         "source": "awslagi"
     },
     {
-        "question_number": 24,
+        "question_number": 23,
         "part": 13,
         "question": "Which AWS services can be used to store files? (Choose two.)",
         "answers": [
@@ -11028,7 +10995,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 25,
+        "question_number": 24,
         "part": 13,
         "question": "How does consolidated billing help reduce costs for a company that has multiple AWS accounts?",
         "answers": [
@@ -11043,7 +11010,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 26,
+        "question_number": 25,
         "part": 13,
         "question": "Which AWS service or feature can be used to find availability status information on all AWS services?",
         "answers": [
@@ -11058,7 +11025,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 27,
+        "question_number": 26,
         "part": 13,
         "question": "Which AWS service or feature provides users with recommendations for common billing questions?",
         "answers": [
@@ -11073,7 +11040,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 28,
+        "question_number": 27,
         "part": 13,
         "question": "A company wants to distribute its incoming traffic across multiple Amazon EC2 instances. Which AWS service or feature should be used to meet this requirement?",
         "answers": [
@@ -11088,7 +11055,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 29,
+        "question_number": 28,
         "part": 13,
         "question": "Which disaster recovery option is the LEAST expensive?",
         "answers": [
@@ -11103,7 +11070,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 30,
+        "question_number": 29,
         "part": 13,
         "question": "A company uses a database that has a simple sign-up page to create users, and a basic login form to authenticate users so they can access the database. The company wants to give users the ability to store personal information, but the user access must be controlled in a more secure and reliable way. Which AWS service or feature will meet these requirements?",
         "answers": [
@@ -11118,7 +11085,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 31,
+        "question_number": 30,
         "part": 13,
         "question": "Which pillar of the AWS Well-Architected Framework focuses on the ability to run workloads effectively, gain insight into operations, and continuously improve supporting processes and procedures?",
         "answers": [
@@ -11133,7 +11100,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 32,
+        "question_number": 31,
         "part": 13,
         "question": "Which AWS benefit is demonstrated by on-demand technology services that enable companies to replace upfront fixed expenses with variable expenses?",
         "answers": [
@@ -11148,7 +11115,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 33,
+        "question_number": 32,
         "part": 13,
         "question": "A large organization has a single AWS account. What are the advantages of reconfiguring the single account into multiple AWS accounts? (Choose two.)",
         "answers": [
@@ -11165,7 +11132,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 34,
+        "question_number": 33,
         "part": 13,
         "question": "An online retail company recently deployed a production web application. The system administrator needs to block common attack patterns such as SQL injection and cross-site scripting. Which AWS service should the administrator use to address these concerns?",
         "answers": [
@@ -11180,7 +11147,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 35,
+        "question_number": 34,
         "part": 13,
         "question": "What does Amazon CloudFront provide?",
         "answers": [
@@ -11195,7 +11162,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 36,
+        "question_number": 35,
         "part": 13,
         "question": "Which phase describes agility as a benefit of building in the AWS Cloud?",
         "answers": [
@@ -11210,7 +11177,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 37,
+        "question_number": 36,
         "part": 13,
         "question": "A company is undergoing a security audit. The audit includes security validation and compliance validation of the AWS infrastructure and services that the company uses. The auditor needs to locate compliance-related information and must download AWS security and compliance documents. These documents include the System and Organization Control (SOC) reports. Which AWS service or group can provide these documents?",
         "answers": [
@@ -11225,7 +11192,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 38,
+        "question_number": 37,
         "part": 13,
         "question": "Which AWS Trusted Advisor checks are available to users with AWS Basic Support? (Choose two.)",
         "answers": [
@@ -11242,7 +11209,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 39,
+        "question_number": 38,
         "part": 13,
         "question": "Which network security features are supported by Amazon VPC? (Choose two.)",
         "answers": [
@@ -11259,7 +11226,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 40,
+        "question_number": 39,
         "part": 13,
         "question": "A company wants to build a new architecture with AWS services. The company needs to compare service costs at various scales. Which AWS service, tool, or feature should the company use to meet this requirement?",
         "answers": [
@@ -11274,7 +11241,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 41,
+        "question_number": 40,
         "part": 13,
         "question": "An Elastic Load Balancer allows the distribution of web traffic across multiple:",
         "answers": [
@@ -11289,7 +11256,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 42,
+        "question_number": 41,
         "part": 13,
         "question": "Which characteristic of the AWS Cloud helps users eliminate underutilized CPU capacity?",
         "answers": [
@@ -11304,7 +11271,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 43,
+        "question_number": 42,
         "part": 13,
         "question": "Which AWS services make use of global edge locations? (Choose two.)",
         "answers": [
@@ -11321,7 +11288,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 44,
+        "question_number": 43,
         "part": 13,
         "question": "Which of the following are economic benefits of using AWS Cloud? (Choose two.)",
         "answers": [
@@ -11338,7 +11305,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 45,
+        "question_number": 44,
         "part": 13,
         "question": "A company is using Amazon EC2 Auto Scaling to scale its Amazon EC2 instances. Which benefit of the AWS Cloud does this example illustrate?",
         "answers": [
@@ -11353,7 +11320,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 46,
+        "question_number": 45,
         "part": 13,
         "question": "A company is running and managing its own Docker environment on Amazon EC2 instances. The company wants to alternate to help manage cluster size, scheduling, and environment maintenance. Which AWS service meets these requirements?",
         "answers": [
@@ -11368,7 +11335,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 47,
+        "question_number": 46,
         "part": 13,
         "question": "A company hosts an application on an Amazon EC2 instance. The EC2 instance needs to access several AWS resources, including Amazon S3 and Amazon DynamoDB. What is the MOST operationally efficient solution to delegate permissions?",
         "answers": [
@@ -11384,7 +11351,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 48,
+        "question_number": 47,
         "part": 13,
         "question": "Who is responsible for managing IAM user access and secret keys according to the AWS shared responsibility model?",
         "answers": [
@@ -11399,7 +11366,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 49,
+        "question_number": 48,
         "part": 13,
         "question": "A company is running a Microsoft SQL Server instance on premises and is migrating its application to AWS. The company lacks the resources needed to refactor the application, but management wants to reduce operational overhead as part of the migration. Which database service would MOST effectively support these requirements?",
         "answers": [
@@ -11414,7 +11381,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 50,
+        "question_number": 49,
         "part": 13,
         "question": "A company wants to increase its ability to recover its infrastructure in the case of a natural disaster. Which pillar of the AWS Well-Architected Framework does this ability represent?",
         "answers": [
@@ -11429,7 +11396,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 51,
+        "question_number": 50,
         "part": 13,
         "question": "Which AWS service provides the capability to view end-to-end performance metrics and troubleshoot distributed applications?",
         "answers": [
@@ -11444,7 +11411,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 52,
+        "question_number": 51,
         "part": 13,
         "question": "Which tasks require use of the AWS account root user? (Choose two.)",
         "answers": [
@@ -11461,7 +11428,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 53,
+        "question_number": 52,
         "part": 13,
         "question": "Which of the following describes AWS Local Zones?",
         "answers": [
@@ -11476,7 +11443,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 54,
+        "question_number": 53,
         "part": 13,
         "question": "Which AWS service or feature is highly available by default?",
         "answers": [
@@ -11491,7 +11458,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 55,
+        "question_number": 54,
         "part": 13,
         "question": "A company wants to improve its security and audit posture by limiting Amazon EC2 inbound access. What should the company use to access instances remotely instead of opening inbound SSH ports and managing SSH keys?",
         "answers": [
@@ -11506,7 +11473,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 56,
+        "question_number": 55,
         "part": 13,
         "question": "A user needs the ability to access as many resources as are needed. The user also needs the ability to scale up and scale down with only a few minutes of notice. Which benefit of the AWS Cloud describes these abilities?",
         "answers": [
@@ -11521,7 +11488,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 57,
+        "question_number": 56,
         "part": 13,
         "question": "Which task is an AWS responsibility when a workload is running in Amazon RDS?",
         "answers": [
@@ -11536,7 +11503,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 58,
+        "question_number": 57,
         "part": 13,
         "question": "A company is building a mobile app to provide shopping recommendations to its customers. The company wants to use a graph database as part of the shopping recommendation engine. Which AWS database service should the company choose?",
         "answers": [
@@ -11551,7 +11518,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 59,
+        "question_number": 58,
         "part": 13,
         "question": "Which duty is a responsibility of AWS under the AWS shared responsibility model?",
         "answers": [
@@ -11566,7 +11533,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 60,
+        "question_number": 59,
         "part": 13,
         "question": "Which AWS service allows users to provision resources using a consistent and repeatable process?",
         "answers": [
@@ -11581,7 +11548,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 61,
+        "question_number": 60,
         "part": 13,
         "question": "A company has an application workload that is stateless be design and can sustain occasional downtime. The application performs massively parallel computations. Which Amazon EC2 pricing model should the company choose for its application to reduce cost?",
         "answers": [
@@ -11596,7 +11563,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 62,
+        "question_number": 61,
         "part": 13,
         "question": "A company wants to establish a private network connection between AWS and its corporate network. Which AWS service or feature will meet this requirement?",
         "answers": [
@@ -11611,7 +11578,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 63,
+        "question_number": 62,
         "part": 13,
         "question": "According to the AWS shared responsibility model, the customer is responsible for applying the latest security updates and patches for which of the following?",
         "answers": [
@@ -11626,7 +11593,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 64,
+        "question_number": 63,
         "part": 13,
         "question": "Which AWS service is a relational database compatible with MySQL and PostgreSQL?",
         "answers": [
@@ -11641,7 +11608,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 65,
+        "question_number": 64,
         "part": 13,
         "question": "Which AWS service should a company use to continuously monitor the compliance of AWS resource configurations?",
         "answers": [
