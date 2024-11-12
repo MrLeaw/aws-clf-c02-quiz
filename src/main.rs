@@ -53,29 +53,57 @@ fn main() {
     }
 
     loop {
+        total_count = 0;
+        correct_count = 0;
         'outer: for random_question in questions.iter() {
             // clear the screen
             print!("\x1B[2J\x1B[1;1H");
             let termsize::Size { rows, cols } = termsize::get().unwrap();
-            // print correct rate
-            let correct_rate = (correct_count as f32 / total_count as f32);
+            // print progress out of total questions
+            let total_rate = total_count as f32 / questions.len() as f32;
+            let str = format!(
+                "{}/{} ({}%)",
+                total_count,
+                questions.len(),
+                (total_rate * 100.0).round()
+            );
+            let str2: String;
             if total_count > 0 {
-                let str = format!(
+                let correct_rate = correct_count as f32 / total_count as f32;
+                str2 = format!(
                     "{}/{} ({}%)",
                     correct_count,
                     total_count,
                     (correct_rate * 100.0).round()
                 );
+            } else {
+                str2 = "0/0 (0%)".to_string();
+            }
+            let strmaxlen = if str.len() > str2.len() {
+                str.len()
+            } else {
+                str2.len()
+            };
+            let cols_ = cols as usize - 11 - strmaxlen;
+            let finished_signs = (total_rate * cols_ as f32).round() as usize;
+            let unfinished_signs = (cols_ as usize) - finished_signs;
+            print!("Progress: ");
+            print!("{}", "█".repeat(finished_signs));
+            print!("{}", "█".repeat(unfinished_signs).dimmed());
+            print!(" {}", str);
+            println!("");
+
+            // print correct rate
+            if total_count > 0 {
+                let correct_rate = correct_count as f32 / total_count as f32;
                 // print a bar showing the correct rate (using green and red)
-                let cols = cols as usize - 10 - str.len();
+                let cols = cols as usize - 11 - strmaxlen;
                 let correct_signs = (correct_rate * cols as f32).round() as usize;
                 let incorrect_signs = (cols as usize) - correct_signs;
-                print!("Correct: ");
+                print!("Correct:  ");
                 print!("{}", "█".repeat(correct_signs).green());
                 print!("{}", "█".repeat(incorrect_signs).red());
-                print!(" {}", str);
-            } else {
-                println!("");
+                print!(" {}", str2);
             }
 
             print!("\n\n");

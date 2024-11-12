@@ -20,14 +20,23 @@ def similar(a,b):
 items = []
 total = len(all)
 
+duplicates = 0
+
 for item in tqdm(all):
     contains = [x for x in items if x['question'] == item['question'] and x['answers'] == item['answers'] and x['correct_answers'] == item['correct_answers']]
     if len(contains) == 0:
         items.append(item)
+    else:
+        print(f"Duplicate question found: {item['question']}")
+        print(f"Location 1: {contains[0]['source']} {contains[0]['part']} {contains[0]['question_number']}")
+        print(f"Location 2: {item['source']} {item['part']} {item['question_number']}\n")
+        duplicates += 1
+
+print(f"Total duplicates: {duplicates}")
 
 print(f"Total questions: {total}")
 print(f"Unique questions: {len(items)}")
-
+"""
 # filtering similar questions
 for index, item in tqdm(enumerate(items), total=len(items)):
     string = item['question'] + "".join(item['answers'])
@@ -42,7 +51,7 @@ for index, item in tqdm(enumerate(items), total=len(items)):
             print(f"Location 1: {item['source']} {item['part']} {item['question_number']}")
             print(f"Location 2: {item2['source']} {item2['part']} {item2['question_number']}")
             exit()
-
+"""
 
 with open("all.json", "w", encoding='utf8') as f:
     json.dump(items, f, ensure_ascii=False, indent=4)
