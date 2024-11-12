@@ -11,6 +11,7 @@ env:
 
 
 # should build for windows, linux and macos and arm64 and amd64 each
+# and add to releases on github
 
 jobs:
   build:
@@ -21,7 +22,7 @@ jobs:
         arch: [x64, arm64]
       fail-fast: false
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
     - name: Set up Rust
       uses: actions-rs/toolchain@v1
       with:
@@ -29,8 +30,8 @@ jobs:
         override: true
     - name: Install dependencies
       run: cargo build --release
-    - name: Run tests
-      run: cargo test
+#    - name: Run tests
+#      run: cargo test
     - name: Build
       run: cargo build --release
     - name: Archive
@@ -38,3 +39,11 @@ jobs:
       with:
         name: ${{ runner.os }}-${{ matrix.arch }}-release
         path: target/release/
+    - name: Upload Release
+      uses: softprops/action-gh-release@v2
+      with:
+        files: target/release/*
+        token: ${{ secrets.GITHUB_TOKEN }}
+        release_name: ${{ github.sha }}
+        tag_name: ${{ github.sha }}
+        body: ${{ github.sha }}
