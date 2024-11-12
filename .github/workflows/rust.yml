@@ -37,3 +37,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: ${{ runner.os }}-${{ matrix.arch }}-release
+        path: target/release/
