@@ -43,7 +43,7 @@ jobs:
       uses: softprops/action-gh-release@v2
       with:
         files: target/release/*
-        token: ${{ secrets.GITHUB_TOKEN }}
-        release_name: ${{ github.sha }}
+        token: ${{ secrets.PAT }}
+        name: ${{ github.sha }}
         tag_name: ${{ github.sha }}
         body: ${{ github.sha }}
