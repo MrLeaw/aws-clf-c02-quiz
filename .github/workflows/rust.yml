@@ -35,8 +35,7 @@ jobs:
     - name: Build
       run: cargo build --release
     - name: Archive
-      run: |
-      zip -r ${{ runner.os }}-${{ matrix.arch }}-release.zip target/release/
+      run: zip -r ${{ runner.os }}-${{ matrix.arch }}-release.zip target/release/
     - name: Upload Artifact
       uses: actions/upload-artifact@v4
       with:
