@@ -36,7 +36,12 @@ jobs:
       run: cargo build --release
     - name: Archive
     # only archive the executable (aws-clf-c02-quiz on macos and linux, aws-clf-c02-quiz.exe on windows)
-      run: zip -r ${{ runner.os }}-${{ matrix.arch }}-release.zip target/release/aws-clf-c02-quiz*
+      run: |
+        if [ ${{ runner.os }} == 'Windows' ]; then
+          powershell Compress-Archive -Path target/release/aws-clf-c02-quiz* -DestinationPath ${{ runner.os }}-${{ matrix.arch }}-release.zip
+        else
+          zip -r ${{ runner.os }}-${{ matrix.arch }}-release.zip target/release/aws-clf-c02-quiz*
+        fi
     - name: Upload Artifact
       uses: actions/upload-artifact@v4
       with:
