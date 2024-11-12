@@ -3,6 +3,8 @@ name: Rust
 on:
   push:
     branches: [ "main" ]
+    paths-ignore:
+      - 'all.json'
   pull_request:
     branches: [ "main" ]
 
