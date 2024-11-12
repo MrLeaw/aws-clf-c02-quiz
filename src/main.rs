@@ -1,7 +1,6 @@
 use colored::Colorize;
 use rand::seq::SliceRandom;
 use std::{
-    fs::File,
     io::{self, BufReader, Write},
     process::exit,
 };
@@ -17,9 +16,13 @@ struct Question {
 }
 
 fn load_questions() -> Vec<Question> {
-    // get all .json files in the PATH directory
-    let file = File::open("all.json").expect("Error opening file");
-    let reader = BufReader::new(file);
+    // load the newest questions from "https://raw.githubusercontent.com/MrLeaw/aws-clf-c02-quiz/refs/heads/main/all.json"
+    let resp = reqwest::blocking::get(
+        "https://raw.githubusercontent.com/MrLeaw/aws-clf-c02-quiz/refs/heads/main/all.json",
+    )
+    .expect("Error fetching latest questions, please check your internet connection");
+    let reader = BufReader::new(resp);
+
     let mut questions: Vec<Question> = serde_json::from_reader(reader).expect("Error reading file");
     questions.shuffle(&mut rand::thread_rng());
     questions
