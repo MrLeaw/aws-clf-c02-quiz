@@ -53,7 +53,8 @@ fn main() {
     }
 
     loop {
-        let start_timestamp = std::time::Instant::now();
+        let mut start_timestamp: std::time::Instant;
+        let mut total_time: f64 = 0.0;
         total_count = 0;
         correct_count = 0;
         'outer: for random_question in questions.iter() {
@@ -105,13 +106,12 @@ fn main() {
                 print!("{}", "█".repeat(correct_signs).green());
                 print!("{}", "█".repeat(incorrect_signs).red());
                 print!(" {}", str2);
-                let time_difference = start_timestamp.elapsed().as_millis() as f64 / 1000.0;
-                let avg_time = time_difference as f64 / total_count as f64;
+                let avg_time = total_time / total_count as f64;
                 println!("\n⌀ Time/Ques: {:.2}s", avg_time);
             }
 
             print!("\n\n");
-
+            start_timestamp = std::time::Instant::now();
             println!(
                 "{} {}",
                 "Question ID:".cyan(),
@@ -162,6 +162,7 @@ fn main() {
                 let user_input = user_input.trim().replace(",", "").to_uppercase();
                 user_selection = user_input.chars().collect();
             }
+            total_time += start_timestamp.elapsed().as_millis() as f64 / 1000.0;
             let mut correct = true;
             for answer in &random_question.correct_answers {
                 if !user_selection.contains(answer) {
