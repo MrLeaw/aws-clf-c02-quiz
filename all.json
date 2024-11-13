@@ -1634,7 +1634,7 @@
             "D. It automates the resource request process from a company’s IT vendor list."
         ],
         "correct_answers": [
-            "D"
+            "C"
         ],
         "source": "awslagi"
     },
@@ -2703,7 +2703,7 @@
         ],
         "correct_answers": [
             "A",
-            "E"
+            "C"
         ],
         "source": "awslagi"
     },
@@ -5572,8 +5572,8 @@
             "E. Elastic Load Balancing can distribute application web traffic to multiple AWS Regions around the world, which reduces latency."
         ],
         "correct_answers": [
-            "C",
-            "D"
+            "A",
+            "C"
         ],
         "source": "awslagi"
     },
@@ -6728,7 +6728,7 @@
             "D. AWS Discussion Forums"
         ],
         "correct_answers": [
-            "C"
+            "D"
         ],
         "source": "awslagi"
     },
@@ -10522,7 +10522,8 @@
             "A. Create an email case in the AWS Support Center.",
             "B. Visit a local AWS Support Center.",
             "C. Use live chat functionality.",
-            "D. Call the customer service phone number. E. Use the video conference functionality of the AWS Support console."
+            "D. Call the customer service phone number.",
+            "E. Use the video conference functionality of the AWS Support console."
         ],
         "correct_answers": [
             "C",
