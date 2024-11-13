@@ -4787,7 +4787,7 @@
     {
         "part": 3,
         "question_number": 1,
-        "question": "Which principles are used to architect applications for reliability on the AWS Cloud? (Choose two",
+        "question": "Which principles are used to architect applications for reliability on the AWS Cloud? (Choose two.)",
         "answers": [
             "A. Design for automated failure recovery",
             "B. Use multiple Availability Zones",
@@ -4804,7 +4804,7 @@
     {
         "part": 3,
         "question_number": 2,
-        "question": "What tasks should a customer perform when that customer suspects an AWS account has been compromised? (Choose two",
+        "question": "What tasks should a customer perform when that customer suspects an AWS account has been compromised? (Choose two.)",
         "answers": [
             "A. Rotate passwords and access keys.",
             "B. Remove MFA tokens.",
@@ -4881,7 +4881,7 @@
     {
         "part": 3,
         "question_number": 7,
-        "question": "What are the advantages of Reserved Instances? (Choose two",
+        "question": "What are the advantages of Reserved Instances? (Choose two.)",
         "answers": [
             "A. They provide a discount over on-demand pricing.",
             "B. They provide access to additional instance types.",
@@ -4943,7 +4943,7 @@
     {
         "part": 3,
         "question_number": 11,
-        "question": "Which of the following AWS services provide compute resources? (Choose two",
+        "question": "Which of the following AWS services provide compute resources? (Choose two.)",
         "answers": [
             "A. AWS Lambda",
             "B. Amazon Elastic Container Service (Amazon ECS)",
@@ -4975,7 +4975,7 @@
     {
         "part": 3,
         "question_number": 13,
-        "question": "Which AWS services provide a way to extend an on-premises architecture to the AWS Cloud? (Choose two",
+        "question": "Which AWS services provide a way to extend an on-premises architecture to the AWS Cloud? (Choose two.)",
         "answers": [
             "A. Amazon EBS",
             "B. AWS Direct Connect",
@@ -5054,7 +5054,7 @@
     {
         "part": 3,
         "question_number": 18,
-        "question": "What is the value of using third-party software from AWS Marketplace instead of installing third-party software on Amazon EC2? (Choose two",
+        "question": "What is the value of using third-party software from AWS Marketplace instead of installing third-party software on Amazon EC2? (Choose two.)",
         "answers": [
             "A. Users pay for software by the hour or month depending on licensing.",
             "B. AWS Marketplace enables the user to launch applications with 1-Click.",
@@ -5086,7 +5086,7 @@
     {
         "part": 3,
         "question_number": 20,
-        "question": "Under the shared responsibility model; which of the following areas are the customer’s responsibility? (Choose two",
+        "question": "Under the shared responsibility model; which of the following areas are the customer’s responsibility? (Choose two.)",
         "answers": [
             "A. Firmware upgrades of network infrastructure",
             "B. Patching of operating systems",
@@ -5193,7 +5193,7 @@
     {
         "part": 3,
         "question_number": 27,
-        "question": "Which of the following are benefits of hosting infrastructure in the AWS Cloud? (Choose two",
+        "question": "Which of the following are benefits of hosting infrastructure in the AWS Cloud? (Choose two.)",
         "answers": [
             "A. There are no upfront commitments.",
             "B. AWS manages all security in the cloud.",
@@ -5660,7 +5660,7 @@
     {
         "part": 3,
         "question_number": 55,
-        "question": "What are the benefits of using the AWS Cloud for companies with customers in many countries around the world? (Choose two",
+        "question": "What are the benefits of using the AWS Cloud for companies with customers in many countries around the world? (Choose two.)",
         "answers": [
             "A. Companies can deploy applications in multiple AWS Regions to reduce latency.",
             "B. Amazon Translate automatically translates third-party website interfaces into multiple languages.",
