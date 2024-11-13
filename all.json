@@ -4754,7 +4754,7 @@
     {
         "part": 3,
         "question_number": 5,
-        "question": "A company wants to monitor the CPU usage of its Amazon EC2 resources",
+        "question": "A company wants to monitor the CPU usage of its Amazon EC2 resources.\nWhich AWS service should the company use?",
         "answers": [
             "A. AWS CloudTrail",
             "B. Amazon CloudWatch",
@@ -6007,7 +6007,7 @@
         ],
         "correct_answers": [
             "A",
-            "D"
+            "C"
         ],
         "source": "awslagi"
     },
@@ -6782,7 +6782,7 @@
     {
         "part": 4,
         "question_number": 8,
-        "question": "A Cloud Practitioner is asked how to estimate the cost of using a new application on AWS",
+        "question": "A Cloud Practitioner is asked how to estimate the cost of using a new application on AWS. What is the MOST appropriate response?",
         "answers": [
             "A. Inform the user that AWS pricing allows for on-demand pricing.",
             "B. Direct the user to the AWS Simple Monthly Calculator for an estimate.",
@@ -6797,7 +6797,7 @@
     {
         "part": 4,
         "question_number": 9,
-        "question": "A company wants to migrate its applications to a VPC on AWS",
+        "question": "A company wants to migrate its applications to a VPC on AWS. These applications will need to access on-premises resources.\nWhat combination of actions will enable the company to accomplish this goal? (Choose two.)",
         "answers": [
             "A. Use the AWS Service Catalog to identify a list of on-premises resources that can be migrated.",
             "B. Build a VPN connection between an on-premises device and a virtual private gateway in the new VPC.",
@@ -6814,7 +6814,7 @@
     {
         "part": 4,
         "question_number": 10,
-        "question": "A web application running on AWS has been spammed with malicious requests from a recurring set of IP addresses",
+        "question": "A web application running on AWS has been spammed with malicious requests from a recurring set of IP addresses. Which AWS service can help secure the application and block the malicious traffic?",
         "answers": [
             "A. AWS IAM",
             "B. Amazon GuardDuty",
@@ -6844,7 +6844,7 @@
     {
         "part": 4,
         "question_number": 12,
-        "question": "A company requires a dedicated network connection between its on-premises servers and the AWS Cloud",
+        "question": "A company requires a dedicated network connection between its on-premises servers and the AWS Cloud. Which AWS service should be used?",
         "answers": [
             "A. AWS VPN",
             "B. AWS Direct Connect",
@@ -6889,7 +6889,7 @@
     {
         "part": 4,
         "question_number": 15,
-        "question": "A Cloud Practitioner must determine if any security groups in an AWS account have been provisioned to allow unrestricted access for specific ports",
+        "question": "A Cloud Practitioner must determine if any security groups in an AWS account have been provisioned to allow unrestricted access for specific ports. What is the SIMPLEST way to do this?",
         "answers": [
             "A. Review the inbound rules for each security group in the Amazon EC2 management console to check for port 0.0.0.0/0.",
             "B. Run AWS Trusted Advisor and review the findings.",
@@ -6921,7 +6921,7 @@
     {
         "part": 4,
         "question_number": 17,
-        "question": "A user needs an automated security assessment report that will identify unintended network access to Amazon EC2 instances and vulnerabilities on those instances",
+        "question": "A user needs an automated security assessment report that will identify unintended network access to Amazon EC2 instances and vulnerabilities on those instances. Which AWS service will provide this assessment report?",
         "answers": [
             "A. EC2 security groups",
             "B. AWS Config",
@@ -7043,7 +7043,7 @@
     {
         "part": 4,
         "question_number": 25,
-        "question": "A system in the AWS Cloud is designed to withstand the failure of one or more components",
+        "question": "A system in the AWS Cloud is designed to withstand the failure of one or more components. What is this an example of?",
         "answers": [
             "A. Elasticity",
             "B. High Availability",
@@ -7058,7 +7058,7 @@
     {
         "part": 4,
         "question_number": 26,
-        "question": "A Cloud Practitioner needs a consistent and dedicated connection between AWS resources and an on-premises system",
+        "question": "A Cloud Practitioner needs a consistent and dedicated connection between AWS resources and an on-premises system. Which AWS service can fulfill this requirement?",
         "answers": [
             "A. AWS Direct Connect",
             "B. AWS VPN",
@@ -7152,7 +7152,7 @@
     {
         "part": 4,
         "question_number": 32,
-        "question": "A company wants to build its new application workloads in the AWS Cloud instead of using on-premises resources",
+        "question": "A company wants to build its new application workloads in the AWS Cloud instead of using on-premises resources. What expense can be reduced using the AWS Cloud?",
         "answers": [
             "A. The cost of writing custom-built Java or Node .js code",
             "B. Penetration testing for security",
@@ -7524,7 +7524,7 @@
     {
         "part": 4,
         "question_number": 56,
-        "question": "A new service using AWS must be highly available",
+        "question": "A new service using AWS must be highly available. Yet, due to regulatory requirements, all of its Amazon EC2 instances must be located in a single geographic area.\nAccording to best practices, to meet these requirements, the EC2 instances must be placed in at least two:",
         "answers": [
             "A. AWS Regions",
             "B. Availability Zones",
@@ -7554,7 +7554,7 @@
     {
         "part": 4,
         "question_number": 58,
-        "question": "A company has multiple AWS accounts within AWS Organizations and wants to apply the Amazon EC2 Reserved Instances benefit to a single account only",
+        "question": "A company has multiple AWS accounts within AWS Organizations and wants to apply the Amazon EC2 Reserved Instances benefit to a single account only. Which action should be taken?",
         "answers": [
             "A. Purchase the Reserved Instances from master payer account and turn off Reserved Instance sharing.",
             "B. Enable billing alerts in the AWS Billing and Cost Management console.",
