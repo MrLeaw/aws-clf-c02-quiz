@@ -1543,10 +1543,10 @@
         "part": 1,
         "question": "Under the shared responsibility model, which of the following is the customer responsible for?",
         "answers": [
-            "A.Ensuring that disk drives are wiped after use.",
-            "B.Ensuring that firmware is updated on hardware devices.",
-            "C.Ensuring that data is encrypted at rest.",
-            "D.Ensuring that network cables are category six or higher."
+            "A. Ensuring that disk drives are wiped after use.",
+            "B. Ensuring that firmware is updated on hardware devices.",
+            "C. Ensuring that data is encrypted at rest.",
+            "D. Ensuring that network cables are category six or higher."
         ],
         "correct_answers": [
             "B"
@@ -1561,7 +1561,7 @@
             "A. Amazon EC2, Amazon S3, Amazon Athena",
             "B. Amazon Kinesis, Amazon SQS, Amazon EMR",
             "C. AWS Step Functions, Amazon DynamoDB, Amazon SNS",
-            "D.Amazon Athena, Amazon Cognito, Amazon EC2"
+            "D. Amazon Athena, Amazon Cognito, Amazon EC2"
         ],
         "correct_answers": [
             "C"
@@ -1573,10 +1573,10 @@
         "part": 1,
         "question": "Which of the following services is in the category of AWS serverless platform?",
         "answers": [
-            "A.Amazon EMR",
-            "B.Elastic Load Balancing",
-            "C.AWS Lambda",
-            "D.AWS Mobile Hub"
+            "A. Amazon EMR",
+            "B. Elastic Load Balancing",
+            "C. AWS Lambda",
+            "D. AWS Mobile Hub"
         ],
         "correct_answers": [
             "C"
@@ -1588,10 +1588,10 @@
         "part": 1,
         "question": "An administrator needs to rapidly deploy a popular IT solution and start using it immediately. Where can the administrator find assistance?",
         "answers": [
-            "A.AWS Well-Architected Framework documentation",
-            "B.Amazon CloudFront",
-            "C.AWS CodeCommit",
-            "D.AWS Quick Start reference deployments"
+            "A. AWS Well-Architected Framework documentation",
+            "B. Amazon CloudFront",
+            "C. AWS CodeCommit",
+            "D. AWS Quick Start reference deployments"
         ],
         "correct_answers": [
             "D"
@@ -1603,10 +1603,10 @@
         "part": 1,
         "question": "One benefit of On-Demand Amazon Elastic Compute Cloud (Amazon EC2) pricing is:",
         "answers": [
-            "A.the ability to bid for a lower hourly cost.",
-            "B.paying a daily rate regardless of time used.",
-            "C.paying only for time used.",
-            "D.pre-paying for instances and paying a lower hourly rate."
+            "A. the ability to bid for a lower hourly cost.",
+            "B. paying a daily rate regardless of time used.",
+            "C. paying only for time used.",
+            "D. pre-paying for instances and paying a lower hourly rate."
         ],
         "correct_answers": [
             "C"
@@ -1618,10 +1618,10 @@
         "part": 1,
         "question": "Which of the following tasks is the responsibility of AWS?",
         "answers": [
-            "A.Encrypting client-side data",
-            "B.Configuring AWS Identity and Access Management (IAM) roles",
-            "C.Securing the Amazon EC2 hypervisor",
-            "D.Setting user password policies"
+            "A. Encrypting client-side data",
+            "B. Configuring AWS Identity and Access Management (IAM) roles",
+            "C. Securing the Amazon EC2 hypervisor",
+            "D. Setting user password policies"
         ],
         "correct_answers": [
             "C"
@@ -1633,10 +1633,10 @@
         "part": 1,
         "question": "Which is the MINIMUM AWS Support plan that provides technical support through phone calls?",
         "answers": [
-            "A.Enterprise",
-            "B.Business",
-            "C.Developer",
-            "D.Basic"
+            "A. Enterprise",
+            "B. Business",
+            "C. Developer",
+            "D. Basic"
         ],
         "correct_answers": [
             "B"
@@ -1648,10 +1648,10 @@
         "part": 1,
         "question": "How should a customer forecast the future costs for running a new web application?",
         "answers": [
-            "A.Amazon Aurora Backtrack",
-            "B.Amazon CloudWatch Billing Alarms",
-            "C.AWS Simple Monthly Calculator",
-            "D.AWS Cost and Usage report"
+            "A. Amazon Aurora Backtrack",
+            "B. Amazon CloudWatch Billing Alarms",
+            "C. AWS Simple Monthly Calculator",
+            "D. AWS Cost and Usage report"
         ],
         "correct_answers": [
             "C"
@@ -1663,10 +1663,10 @@
         "part": 1,
         "question": "A company will be moving from an on-premises data center to the AWS Cloud. What would be one financial difference after the move?",
         "answers": [
-            "A.Moving from variable operational expense (opex) to upfront capital expense (capex).",
-            "B.Moving from upfront capital expense (capex) to variable capital expense (capex).",
-            "C.Moving from upfront capital expense (capex) to variable operational expense (opex).",
-            "D.Elimination of upfront capital expense (capex) and elimination of variable operational expense(opex)."
+            "A. Moving from variable operational expense (opex) to upfront capital expense (capex).",
+            "B. Moving from upfront capital expense (capex) to variable capital expense (capex).",
+            "C. Moving from upfront capital expense (capex) to variable operational expense (opex).",
+            "D. Elimination of upfront capital expense (capex) and elimination of variable operational expense(opex)."
         ],
         "correct_answers": [
             "C"
@@ -1678,10 +1678,10 @@
         "part": 1,
         "question": "A solution that is able to support growth in users, traffic, or data size with no drop in performance aligns with which cloud architecture principle?",
         "answers": [
-            "A.Think parallel",
-            "B.Implement elasticity",
-            "C.Decouple your components",
-            "D.Design for failure"
+            "A. Think parallel",
+            "B. Implement elasticity",
+            "C. Decouple your components",
+            "D. Design for failure"
         ],
         "correct_answers": [
             "B"
@@ -1693,10 +1693,10 @@
         "part": 1,
         "question": "Which of the following can limit Amazon Simple Storage Service (Amazon S3) bucket access to specific users?",
         "answers": [
-            "A.A public and private key-pair",
-            "B.Amazon Inspector",
-            "C.AWS Identity and Access Management (IAM) policies",
-            "D.Security Groups"
+            "A. A public and private key-pair",
+            "B. Amazon Inspector",
+            "C. AWS Identity and Access Management (IAM) policies",
+            "D. Security Groups"
         ],
         "correct_answers": [
             "C"
@@ -1708,10 +1708,10 @@
         "part": 1,
         "question": "What can AWS edge locations be used for? (Choose two.)",
         "answers": [
-            "A.Hosting applications",
-            "B.Delivering content closer to users",
-            "C.Running NoSQL database caching services",
-            "D.Reducing traffic on the server by caching responses",
+            "A. Hosting applications",
+            "B. Delivering content closer to users",
+            "C. Running NoSQL database caching services",
+            "D. Reducing traffic on the server by caching responses",
             "E.Sending notification messages to end users"
         ],
         "correct_answers": [
@@ -1725,10 +1725,10 @@
         "part": 1,
         "question": "How does AWS shorten the time to provision IT resources?",
         "answers": [
-            "A.It supplies an online IT ticketing platform for resource requests.",
-            "B.It supports automatic code validation services.",
-            "C.It provides the ability to programmatically provision existing resources.",
-            "D.It automates the resource request process from a company’s IT vendor list."
+            "A. It supplies an online IT ticketing platform for resource requests.",
+            "B. It supports automatic code validation services.",
+            "C. It provides the ability to programmatically provision existing resources.",
+            "D. It automates the resource request process from a company’s IT vendor list."
         ],
         "correct_answers": [
             "D"
@@ -1740,10 +1740,10 @@
         "part": 1,
         "question": "Which AWS service can serve a static website?",
         "answers": [
-            "A.Amazon S3",
-            "B.Amazon Route 53",
-            "C.Amazon QuickSight",
-            "D.AWS X-Ray"
+            "A. Amazon S3",
+            "B. Amazon Route 53",
+            "C. Amazon QuickSight",
+            "D. AWS X-Ray"
         ],
         "correct_answers": [
             "A"
@@ -1755,10 +1755,10 @@
         "part": 1,
         "question": "Which is the minimum AWS Support plan that includes Infrastructure Event Management without additional costs?",
         "answers": [
-            "A.Enterprise",
-            "B.Business",
-            "C.Developer",
-            "D.Basic"
+            "A. Enterprise",
+            "B. Business",
+            "C. Developer",
+            "D. Basic"
         ],
         "correct_answers": [
             "A"
@@ -1770,10 +1770,10 @@
         "part": 1,
         "question": "Which AWS feature should a customer leverage to achieve high availability of an application?",
         "answers": [
-            "A.AWS Direct Connect",
-            "B.Availability Zones",
-            "C.Data centers",
-            "D.Amazon Virtual Private Cloud (Amazon VPC)"
+            "A. AWS Direct Connect",
+            "B. Availability Zones",
+            "C. Data centers",
+            "D. Amazon Virtual Private Cloud (Amazon VPC)"
         ],
         "correct_answers": [
             "B"
@@ -1785,10 +1785,10 @@
         "part": 1,
         "question": "In which scenario should Amazon EC2 Spot Instances be used?",
         "answers": [
-            "A.A company wants to move its main website to AWS from an on-premises web server.",
-            "B.A company has a number of application services whose Service Level Agreement (SLA) requires 99.999% uptime.",
-            "C.A company’s heavily used legacy database is currently running on-premises.",
-            "D.A company has a number of infrequent, interruptible jobs that are currently using On-Demand Instances"
+            "A. A company wants to move its main website to AWS from an on-premises web server.",
+            "B. A company has a number of application services whose Service Level Agreement (SLA) requires 99.999% uptime.",
+            "C. A company’s heavily used legacy database is currently running on-premises.",
+            "D. A company has a number of infrequent, interruptible jobs that are currently using On-Demand Instances"
         ],
         "correct_answers": [
             "D"
@@ -1800,10 +1800,10 @@
         "part": 1,
         "question": "Which of the following common IT tasks can AWS cover to free up company IT resources? (Choose two.)",
         "answers": [
-            "A.Patching databases software",
-            "B.Testing application releases",
-            "C.Backing up databases",
-            "D.Creating database schema",
+            "A. Patching databases software",
+            "B. Testing application releases",
+            "C. Backing up databases",
+            "D. Creating database schema",
             "E.Running penetration tests"
         ],
         "correct_answers": [
@@ -1817,10 +1817,10 @@
         "part": 1,
         "question": "Which AWS services can be used to gather information about AWS account activity? (Choose two.)",
         "answers": [
-            "A.Amazon CloudFront",
-            "B.AWS Cloud9",
-            "C.AWS CloudTrail",
-            "D.AWS CloudHSM",
+            "A. Amazon CloudFront",
+            "B. AWS Cloud9",
+            "C. AWS CloudTrail",
+            "D. AWS CloudHSM",
             "E.Amazon CloudWatch"
         ],
         "correct_answers": [
@@ -1834,10 +1834,10 @@
         "part": 1,
         "question": "How do customers benefit from Amazon’s massive economies of scale?",
         "answers": [
-            "A.Periodic price reductions as the result of Amazon’s operational efficiencies",
-            "B.New Amazon EC2 instance types providing the latest hardware",
-            "C.The ability to scale up and down when needed",
-            "D.Increased reliability in the underlying hardware of Amazon EC2 instances"
+            "A. Periodic price reductions as the result of Amazon’s operational efficiencies",
+            "B. New Amazon EC2 instance types providing the latest hardware",
+            "C. The ability to scale up and down when needed",
+            "D. Increased reliability in the underlying hardware of Amazon EC2 instances"
         ],
         "correct_answers": [
             "A"
@@ -1849,10 +1849,10 @@
         "part": 1,
         "question": "If each department within a company has its own AWS account, what is one way to enable consolidated billing?",
         "answers": [
-            "A.Use AWS Budgets on each account to pay only to budget.",
-            "B.Contact AWS Support for a monthly bill.",
-            "C.Create an AWS Organization from the payer account and invite the other accounts to join.",
-            "D.Put all invoices into one Amazon Simple Storage Service (Amazon S3) bucket, load data into",
+            "A. Use AWS Budgets on each account to pay only to budget.",
+            "B. Contact AWS Support for a monthly bill.",
+            "C. Create an AWS Organization from the payer account and invite the other accounts to join.",
+            "D. Put all invoices into one Amazon Simple Storage Service (Amazon S3) bucket, load data into",
             "Amazon Redshift, and then run a billing report."
         ],
         "correct_answers": [
@@ -1865,10 +1865,10 @@
         "part": 1,
         "question": "Which of the following features can be configured through the Amazon Virtual Private Cloud (Amazon VPC) Dashboard? (Choose two.)",
         "answers": [
-            "A.Amazon CloudFront distributions",
-            "B.Amazon Route 53",
-            "C.Security Groups",
-            "D.Subnets",
+            "A. Amazon CloudFront distributions",
+            "B. Amazon Route 53",
+            "C. Security Groups",
+            "D. Subnets",
             "E.Elastic Load Balancing"
         ],
         "correct_answers": [
@@ -1882,10 +1882,10 @@
         "part": 1,
         "question": "Which options does AWS make available for customers who want to learn about security in the cloud in an instructor-led setting? (Choose two.)",
         "answers": [
-            "A.AWS Trusted Advisor",
-            "B.AWS Online Tech Talks",
-            "C.AWS Blog",
-            "D.AWS Forums",
+            "A. AWS Trusted Advisor",
+            "B. AWS Online Tech Talks",
+            "C. AWS Blog",
+            "D. AWS Forums",
             "E.AWS Classroom Training"
         ],
         "correct_answers": [
@@ -1899,10 +1899,10 @@
         "part": 1,
         "question": "Which of the following is a component of the shared responsibility model managed entirely by AWS?",
         "answers": [
-            "A.Patching operating system software",
-            "B.Encrypting data",
-            "C.Enforcing multi-factor authentication",
-            "D.Auditing physical data center assets"
+            "A. Patching operating system software",
+            "B. Encrypting data",
+            "C. Enforcing multi-factor authentication",
+            "D. Auditing physical data center assets"
         ],
         "correct_answers": [
             "D"
@@ -1914,10 +1914,10 @@
         "part": 1,
         "question": "Which service is best for storing common database query results, which helps to alleviate database access load?",
         "answers": [
-            "A.Amazon Machine Learning",
-            "B.Amazon SQS",
-            "C.Amazon ElastiCache",
-            "D.Amazon EC2 Instance Store"
+            "A. Amazon Machine Learning",
+            "B. Amazon SQS",
+            "C. Amazon ElastiCache",
+            "D. Amazon EC2 Instance Store"
         ],
         "correct_answers": [
             "C"
@@ -1929,10 +1929,10 @@
         "part": 1,
         "question": "Amazon Relational Database Service (Amazon RDS) offers which of the following benefits over traditional database management?",
         "answers": [
-            "A.AWS manages the data stored in Amazon RDS tables.",
-            "B.AWS manages the maintenance of the operating system.",
-            "C.AWS automatically scales up instance types on demand.",
-            "D.AWS manages the database type."
+            "A. AWS manages the data stored in Amazon RDS tables.",
+            "B. AWS manages the maintenance of the operating system.",
+            "C. AWS automatically scales up instance types on demand.",
+            "D. AWS manages the database type."
         ],
         "correct_answers": [
             "B"
@@ -1944,10 +1944,10 @@
         "part": 1,
         "question": "Which AWS support plan includes a dedicated Technical Account Manager?",
         "answers": [
-            "A.Developer",
-            "B.Enterprise",
-            "C.Business",
-            "D.Basic"
+            "A. Developer",
+            "B. Enterprise",
+            "C. Business",
+            "D. Basic"
         ],
         "correct_answers": [
             "B"
@@ -1959,10 +1959,10 @@
         "part": 1,
         "question": "Which of the following is an important architectural design principle when designing cloud applications?",
         "answers": [
-            "A.Use multiple Availability Zones.",
-            "B.Use tightly coupled components.",
-            "C.Use open source software.",
-            "D.Provision extra capacity"
+            "A. Use multiple Availability Zones.",
+            "B. Use tightly coupled components.",
+            "C. Use open source software.",
+            "D. Provision extra capacity"
         ],
         "correct_answers": [
             "A"
@@ -1974,10 +1974,10 @@
         "part": 1,
         "question": "Which of the following services falls under the responsibility of the customer to maintain operating system configuration, security patching, and networking?",
         "answers": [
-            "A.Amazon RDS",
-            "B.Amazon EC2",
-            "C.Amazon ElastiCache",
-            "D.AWS Fargate"
+            "A. Amazon RDS",
+            "B. Amazon EC2",
+            "C. Amazon ElastiCache",
+            "D. AWS Fargate"
         ],
         "correct_answers": [
             "B"
@@ -1989,10 +1989,10 @@
         "part": 1,
         "question": "Which service provides a hybrid storage service that enables on-premises applications to seamlessly use cloud storage?",
         "answers": [
-            "A.Amazon Glacier",
-            "B.AWS Snowball",
-            "C.AWS Storage Gateway",
-            "D.Amazon Elastic Block Storage (Amazon EBS)"
+            "A. Amazon Glacier",
+            "B. AWS Snowball",
+            "C. AWS Storage Gateway",
+            "D. Amazon Elastic Block Storage (Amazon EBS)"
         ],
         "correct_answers": [
             "C"
@@ -2004,10 +2004,10 @@
         "part": 1,
         "question": "Which of the following security measures protect access to an AWS account? (Choose two.)",
         "answers": [
-            "A.Enable AWS CloudTrail.",
-            "B.Grant least privilege access to IAM users.",
-            "C.Create one IAM user and share with many developers and users.",
-            "D.Enable Amazon CloudFront.",
+            "A. Enable AWS CloudTrail.",
+            "B. Grant least privilege access to IAM users.",
+            "C. Create one IAM user and share with many developers and users.",
+            "D. Enable Amazon CloudFront.",
             "E.Activate multi-factor authentication (MFA) for privileged users."
         ],
         "correct_answers": [
@@ -2021,10 +2021,10 @@
         "part": 1,
         "question": "Which of the following is an AWS Cloud architecture design principle?",
         "answers": [
-            "A.Implement single points of failure.",
-            "B.Implement loose coupling.",
-            "C.Implement monolithic design.",
-            "D.Implement vertical scaling"
+            "A. Implement single points of failure.",
+            "B. Implement loose coupling.",
+            "C. Implement monolithic design.",
+            "D. Implement vertical scaling"
         ],
         "correct_answers": [
             "D"
@@ -2036,10 +2036,10 @@
         "part": 1,
         "question": "Which of the following can an AWS customer use to launch a new Amazon Relational Database Service (Amazon RDS) cluster? (Choose two.)",
         "answers": [
-            "A.AWS Concierge",
-            "B.AWS CloudFormation",
-            "C.Amazon Simple Storage Service (Amazon S3)",
-            "D.Amazon EC2 Auto Scaling",
+            "A. AWS Concierge",
+            "B. AWS CloudFormation",
+            "C. Amazon Simple Storage Service (Amazon S3)",
+            "D. Amazon EC2 Auto Scaling",
             "E.AWS Management Console"
         ],
         "correct_answers": [
@@ -2053,10 +2053,10 @@
         "part": 1,
         "question": "Which AWS Cost Management tool allows you to view the most granular data about your AWS bill?",
         "answers": [
-            "A.AWS Cost Explorer",
-            "B.AWS Budgets",
-            "C.AWS Cost and Usage report",
-            "D.AWS Billing dashboard"
+            "A. AWS Cost Explorer",
+            "B. AWS Budgets",
+            "C. AWS Cost and Usage report",
+            "D. AWS Billing dashboard"
         ],
         "correct_answers": [
             "C"
@@ -2068,10 +2068,10 @@
         "part": 1,
         "question": "The financial benefits of using AWS are: (Choose two.)",
         "answers": [
-            "A.reduced Total Cost of Ownership (TCO).",
-            "B.increased capital expenditure (capex).",
-            "C.reduced operational expenditure (opex).",
-            "D.deferred payment plans for startups.",
+            "A. reduced Total Cost of Ownership (TCO).",
+            "B. increased capital expenditure (capex).",
+            "C. reduced operational expenditure (opex).",
+            "D. deferred payment plans for startups.",
             "E.business credit lines for stratups"
         ],
         "correct_answers": [
@@ -2085,10 +2085,10 @@
         "part": 1,
         "question": "A company is migrating an application that is running non-interruptible workloads for a three-year time frame. Which pricing construct would provide the MOST cost-effective solution?",
         "answers": [
-            "A.Amazon EC2 Spot Instances",
-            "B.Amazon EC2 Dedicated Instances",
-            "C.Amazon EC2 On-Demand Instances",
-            "D.Amazon EC2 Reserved Instances"
+            "A. Amazon EC2 Spot Instances",
+            "B. Amazon EC2 Dedicated Instances",
+            "C. Amazon EC2 On-Demand Instances",
+            "D. Amazon EC2 Reserved Instances"
         ],
         "correct_answers": [
             "D"
@@ -2100,10 +2100,10 @@
         "part": 1,
         "question": "Which AWS service can be used to manually launch instances based on resource requirements?",
         "answers": [
-            "A.Amazon EBS",
-            "B.Amazon S3",
-            "C.Amazon EC2",
-            "D.Amazon ECS"
+            "A. Amazon EBS",
+            "B. Amazon S3",
+            "C. Amazon EC2",
+            "D. Amazon ECS"
         ],
         "correct_answers": [
             "C"
@@ -2115,10 +2115,10 @@
         "part": 1,
         "question": "Under the shared responsibility model, which of the following tasks are the responsibility of the AWS customer? (Choose two.)",
         "answers": [
-            "A.Ensuring that application data is encrypted at rest",
-            "B.Ensuring that AWS NTP servers are set to the correct time",
-            "C.Ensuring that users have received security training in the use of AWS services",
-            "D.Ensuring that access to data centers is restricted",
+            "A. Ensuring that application data is encrypted at rest",
+            "B. Ensuring that AWS NTP servers are set to the correct time",
+            "C. Ensuring that users have received security training in the use of AWS services",
+            "D. Ensuring that access to data centers is restricted",
             "E.Ensuring that hardware is disposed of properly"
         ],
         "correct_answers": [
@@ -2132,10 +2132,10 @@
         "part": 1,
         "question": "Which AWS service would you use to obtain compliance reports and certificates?",
         "answers": [
-            "A.AWS Artifact",
-            "B.AWS Lambda",
-            "C.Amazon Inspector",
-            "D.AWS Certificate Manager"
+            "A. AWS Artifact",
+            "B. AWS Lambda",
+            "C. Amazon Inspector",
+            "D. AWS Certificate Manager"
         ],
         "correct_answers": [
             "A"
@@ -2147,10 +2147,10 @@
         "part": 1,
         "question": "Which AWS services are defined as global instead of regional? (Choose two.)",
         "answers": [
-            "A.Amazon Route 53",
-            "B.Amazon EC2",
-            "C.Amazon S3",
-            "D.Amazon CloudFront",
+            "A. Amazon Route 53",
+            "B. Amazon EC2",
+            "C. Amazon S3",
+            "D. Amazon CloudFront",
             "E.Amazon DynamoDB"
         ],
         "correct_answers": [
@@ -2164,10 +2164,10 @@
         "part": 1,
         "question": "What technology enables compute capacity to adjust as loads change?",
         "answers": [
-            "A.Load balancing",
-            "B.Automatic failover",
-            "C.Round robin",
-            "D.Auto Scaling"
+            "A. Load balancing",
+            "B. Automatic failover",
+            "C. Round robin",
+            "D. Auto Scaling"
         ],
         "correct_answers": [
             "D"
@@ -2179,10 +2179,10 @@
         "part": 1,
         "question": "How would an AWS customer easily apply common access controls to a large set of users?",
         "answers": [
-            "A.Apply an IAM policy to an IAM group.",
-            "B.Apply an IAM policy to an IAM role.",
-            "C.Apply the same IAM policy to all IAM users with access to the same workload.",
-            "D.Apply an IAM policy to an Amazon Cognito user pool."
+            "A. Apply an IAM policy to an IAM group.",
+            "B. Apply an IAM policy to an IAM role.",
+            "C. Apply the same IAM policy to all IAM users with access to the same workload.",
+            "D. Apply an IAM policy to an Amazon Cognito user pool."
         ],
         "correct_answers": [
             "A"
@@ -2194,10 +2194,10 @@
         "part": 1,
         "question": "Which of the following AWS features enables a user to launch a pre-configured Amazon Elastic Compute Cloud (Amazon EC2) instance?",
         "answers": [
-            "A.Amazon Elastic Block Store (Amazon EBS)",
-            "B.Amazon Machine Image",
-            "C.Amazon EC2 Systems Manager",
-            "D.Amazon AppStream 2.0"
+            "A. Amazon Elastic Block Store (Amazon EBS)",
+            "B. Amazon Machine Image",
+            "C. Amazon EC2 Systems Manager",
+            "D. Amazon AppStream 2.0"
         ],
         "correct_answers": [
             "B"
@@ -2209,11 +2209,11 @@
         "part": 1,
         "question": "Which of the following steps should be taken by a customer when conducting penetration testing on AWS?",
         "answers": [
-            "A.Conduct penetration testing using Amazon Inspector, and then notify AWS support.",
-            "B.Request and wait for approval from the customer’s internal security team, and then conduct",
+            "A. Conduct penetration testing using Amazon Inspector, and then notify AWS support.",
+            "B. Request and wait for approval from the customer’s internal security team, and then conduct",
             "testing.",
-            "C.Notify AWS support, and then conduct testing immediately.",
-            "D.Request and wait for approval from AWS support, and then conduct testing."
+            "C. Notify AWS support, and then conduct testing immediately.",
+            "D. Request and wait for approval from AWS support, and then conduct testing."
         ],
         "correct_answers": [
             "D"
@@ -2225,10 +2225,10 @@
         "part": 1,
         "question": "Which of the following is an advantage of consolidated billing on AWS?",
         "answers": [
-            "A.Volume pricing qualification",
-            "B.Shared access permissions",
-            "C.Multiple bills per account",
-            "D.Eliminates the need for tagging"
+            "A. Volume pricing qualification",
+            "B. Shared access permissions",
+            "C. Multiple bills per account",
+            "D. Eliminates the need for tagging"
         ],
         "correct_answers": [
             "A"
@@ -2240,10 +2240,10 @@
         "part": 1,
         "question": "Which AWS service provides a customized view of the health of specific AWS services that power a customer’s workloads running on AWS?",
         "answers": [
-            "A.AWS Service Health Dashboard",
-            "B.AWS X-Ray",
-            "C.AWS Personal Health Dashboard",
-            "D.Amazon CloudWatch"
+            "A. AWS Service Health Dashboard",
+            "B. AWS X-Ray",
+            "C. AWS Personal Health Dashboard",
+            "D. Amazon CloudWatch"
         ],
         "correct_answers": [
             "B"
@@ -2255,10 +2255,10 @@
         "part": 1,
         "question": "Where can AWS compliance and certification reports be downloaded?",
         "answers": [
-            "A.AWS Artifact",
-            "B.AWS Concierge",
-            "C.AWS Certificate Manager",
-            "D.AWS Trusted Advisor"
+            "A. AWS Artifact",
+            "B. AWS Concierge",
+            "C. AWS Certificate Manager",
+            "D. AWS Trusted Advisor"
         ],
         "correct_answers": [
             "A"
@@ -2270,10 +2270,10 @@
         "part": 1,
         "question": "Which is the MINIMUM AWS Support plan that allows for one-hour target response time for support cases?",
         "answers": [
-            "A.Enterprise",
-            "B.Business",
-            "C.Developer",
-            "D.Basic"
+            "A. Enterprise",
+            "B. Business",
+            "C. Developer",
+            "D. Basic"
         ],
         "correct_answers": [
             "B"
@@ -2285,10 +2285,10 @@
         "part": 1,
         "question": "Which design principles for cloud architecture are recommended when re-architecting a large monolithic application? (Choose two.)",
         "answers": [
-            "A.Use manual monitoring.",
-            "B.Use fixed servers.",
-            "C.Implement loose coupling.",
-            "D.Rely on individual components.",
+            "A. Use manual monitoring.",
+            "B. Use fixed servers.",
+            "C. Implement loose coupling.",
+            "D. Rely on individual components.",
             "E.Design for scalability."
         ],
         "correct_answers": [
@@ -2302,10 +2302,10 @@
         "part": 1,
         "question": "Which Amazon EC2 pricing model adjusts based on supply and demand of EC2 instances?",
         "answers": [
-            "A.On-Demand Instances",
-            "B.Reserved Instances",
-            "C.Spot Instances",
-            "D.Convertible Reserved Instances"
+            "A. On-Demand Instances",
+            "B. Reserved Instances",
+            "C. Spot Instances",
+            "D. Convertible Reserved Instances"
         ],
         "correct_answers": [
             "C"
@@ -2317,10 +2317,10 @@
         "part": 1,
         "question": "Which of the following services could be used to deploy an application to servers running onpremises? (Choose two.)",
         "answers": [
-            "A.AWS Elastic Beanstalk",
-            "B.AWS OpsWorks",
-            "C.AWS CodeDeploy",
-            "D.AWS Batch",
+            "A. AWS Elastic Beanstalk",
+            "B. AWS OpsWorks",
+            "C. AWS CodeDeploy",
+            "D. AWS Batch",
             "E.AWS X-Ray"
         ],
         "correct_answers": [
@@ -2334,10 +2334,10 @@
         "part": 1,
         "question": "Which service allows a company with multiple AWS accounts to combine its usage to obtain volume discounts?",
         "answers": [
-            "A.AWS Server Migration Service",
-            "B.AWS Organizations",
-            "C.AWS Budgets",
-            "D.AWS Trusted Advisor"
+            "A. AWS Server Migration Service",
+            "B. AWS Organizations",
+            "C. AWS Budgets",
+            "D. AWS Trusted Advisor"
         ],
         "correct_answers": [
             "B"
@@ -2638,10 +2638,10 @@
         "part": 1,
         "question": "Web servers running on Amazon EC2 access a legacy application running in a corporate data center. What term would describe this model?",
         "answers": [
-            "A.Cloud-native",
-            "B.Partner network",
-            "C.Hybrid architecture",
-            "D.Infrastructure as a service"
+            "A. Cloud-native",
+            "B. Partner network",
+            "C. Hybrid architecture",
+            "D. Infrastructure as a service"
         ],
         "correct_answers": [
             "C"
@@ -2717,10 +2717,10 @@
         "part": 1,
         "question": "A company is looking for a scalable data warehouse solution. Which of the following AWS solutions would meet the company’s needs?",
         "answers": [
-            "A.Amazon Simple Storage Service (Amazon S3)",
-            "B.Amazon DynamoDB",
-            "C.Amazon Kinesis",
-            "D.Amazon Redshift"
+            "A. Amazon Simple Storage Service (Amazon S3)",
+            "B. Amazon DynamoDB",
+            "C. Amazon Kinesis",
+            "D. Amazon Redshift"
         ],
         "correct_answers": [
             "D"
@@ -2732,10 +2732,10 @@
         "part": 1,
         "question": "Which of the following AWS Cloud services can be used to run a customer-managed relational database?",
         "answers": [
-            "A.Amazon EC2",
-            "B.Amazon Route 53",
-            "C.Amazon ElastiCache",
-            "D.Amazon DynamoDB"
+            "A. Amazon EC2",
+            "B. Amazon Route 53",
+            "C. Amazon ElastiCache",
+            "D. Amazon DynamoDB"
         ],
         "correct_answers": [
             "A"
@@ -2901,10 +2901,10 @@
         "part": 1,
         "question": "What approach to transcoding a large number of individual video files adheres to AWS architecture principles?",
         "answers": [
-            "A.Using many instances in parallel",
-            "B.Using a single large instance during off-peak hours",
-            "C.Using dedicated hardware",
-            "D.Using a large GPU instance type"
+            "A. Using many instances in parallel",
+            "B. Using a single large instance during off-peak hours",
+            "C. Using dedicated hardware",
+            "D. Using a large GPU instance type"
         ],
         "correct_answers": [
             "A"
@@ -3036,10 +3036,10 @@
         "part": 1,
         "question": "Which of the following components of the AWS Global Infrastructure consists of one or more discrete data centers interconnected through low latency links?",
         "answers": [
-            "A.Availability Zone",
-            "B.Edge location",
-            "C.Region",
-            "D.Private networking"
+            "A. Availability Zone",
+            "B. Edge location",
+            "C. Region",
+            "D. Private networking"
         ],
         "correct_answers": [
             "A"
@@ -3081,10 +3081,10 @@
         "part": 1,
         "question": "Which AWS services should be used for read/write of constantly changing data? (Choose two.)",
         "answers": [
-            "A.Amazon Glacier",
-            "B.Amazon RDS",
-            "C.AWS Snowball",
-            "D.Amazon Redshift",
+            "A. Amazon Glacier",
+            "B. Amazon RDS",
+            "C. AWS Snowball",
+            "D. Amazon Redshift",
             "E.Amazon EFS"
         ],
         "correct_answers": [
@@ -3098,10 +3098,10 @@
         "part": 1,
         "question": "AWS supports which of the following methods to add security to Identity and Access Management (IAM) users? (Choose two.)",
         "answers": [
-            "A.Implementing Amazon Rekognition",
-            "B.Using AWS Shield-protected resources",
-            "C.Blocking access with Security Groups",
-            "D.Using Multi-Factor Authentication (MFA)",
+            "A. Implementing Amazon Rekognition",
+            "B. Using AWS Shield-protected resources",
+            "C. Blocking access with Security Groups",
+            "D. Using Multi-Factor Authentication (MFA)",
             "E.Enforcing password strength and expiration"
         ],
         "correct_answers": [
@@ -3472,7 +3472,7 @@
         "part": 1,
         "question": "Which AWS services can host a Microsoft SQL Server database? (Choose two.)",
         "answers": [
-            "A.Amazon EC2",
+            "A. Amazon EC2",
             "B. Amazon Relational Database Service (Amazon RDS)",
             "C. Amazon Aurora",
             "D. Amazon Redshift",
@@ -3891,7 +3891,7 @@
             "D. Amazon Simple Storage Service (Amazon S3) transfer acceleration"
         ],
         "correct_answers": [
-            "B"
+            "A"
         ],
         "source": "awslagi"
     },
@@ -6832,7 +6832,7 @@
     {
         "part": 4,
         "question_number": 5,
-        "question": "Which of the following are pillars of the AWS Well-Architected Framework? (Choose two",
+        "question": "Which of the following are pillars of the AWS Well-Architected Framework? (Choose two.)",
         "answers": [
             "A. Multiple Availability Zones",
             "B. Performance efficiency",
@@ -7001,7 +7001,7 @@
     {
         "part": 4,
         "question_number": 16,
-        "question": "What are the benefits of developing and running a new application in the AWS Cloud compared to on-premises? (Choose two",
+        "question": "What are the benefits of developing and running a new application in the AWS Cloud compared to on-premises? (Choose two.)",
         "answers": [
             "A. AWS automatically distributes the data globally for higher durability.",
             "B. AWS will take care of operating the application.",
@@ -7078,7 +7078,7 @@
     {
         "part": 4,
         "question_number": 21,
-        "question": "What are the immediate benefits of using the AWS Cloud? (Choose two",
+        "question": "What are the immediate benefits of using the AWS Cloud? (Choose two.)",
         "answers": [
             "A. Increased IT staff.",
             "B. Capital expenses are replaced with variable expenses.",
@@ -7087,7 +7087,7 @@
             "E. AWS holds responsibility for security in the cloud."
         ],
         "correct_answers": [
-            "C",
+            "B",
             "D"
         ],
         "source": "awslagi"
@@ -7193,14 +7193,14 @@
             "D. an API key."
         ],
         "correct_answers": [
-            "C"
+            "B"
         ],
         "source": "awslagi"
     },
     {
         "part": 4,
         "question_number": 29,
-        "question": "How does AWS charge for AWS Lambda usage once the free tier has been exceeded? (Choose two",
+        "question": "How does AWS charge for AWS Lambda usage once the free tier has been exceeded? (Choose two.)",
         "answers": [
             "A. By the time it takes for the Lambda function to execute.",
             "B. By the number of versions of a specific Lambda function.",
@@ -7217,7 +7217,7 @@
     {
         "part": 4,
         "question_number": 30,
-        "question": "Which of the following describes the relationships among AWS Regions, Availability Zones, and edge locations? (Choose two",
+        "question": "Which of the following describes the relationships among AWS Regions, Availability Zones, and edge locations? (Choose two.)",
         "answers": [
             "A. There are more AWS Regions than Availability Zones.",
             "B. There are more edge locations than AWS Regions.",
@@ -7264,7 +7264,7 @@
     {
         "part": 4,
         "question_number": 33,
-        "question": "What does AWS Marketplace allow users to do? (Choose two",
+        "question": "What does AWS Marketplace allow users to do? (Choose two.)",
         "answers": [
             "A. Sell unused Amazon EC2 Spot Instances.",
             "B. Sell solutions to other AWS users.",
@@ -7341,7 +7341,7 @@
     {
         "part": 4,
         "question_number": 38,
-        "question": "What are the advantages of the AWS Cloud? (Choose two",
+        "question": "What are the advantages of the AWS Cloud? (Choose two.)",
         "answers": [
             "A. Fixed rate monthly cost",
             "B. No need to guess capacity requirements",
@@ -7358,7 +7358,7 @@
     {
         "part": 4,
         "question_number": 39,
-        "question": "When comparing the total cost of ownership (TCO) of an on-premises infrastructure to a cloud architecture, what costs should be considered? (Choose two",
+        "question": "When comparing the total cost of ownership (TCO) of an on-premises infrastructure to a cloud architecture, what costs should be considered? (Choose two.)",
         "answers": [
             "A. The credit card processing fees for application transactions in the cloud.",
             "B. The cost of purchasing and installing server hardware in the on-premises data.",
@@ -7525,7 +7525,7 @@
     {
         "part": 4,
         "question_number": 50,
-        "question": "When designing a typical three-tier web application, which AWS services and/or features improve availability and reduce the impact failures? (Choose two",
+        "question": "When designing a typical three-tier web application, which AWS services and/or features improve availability and reduce the impact failures? (Choose two.)",
         "answers": [
             "A. AWS Auto Scaling for Amazon EC2 instances",
             "B. Amazon VPC subnet ACLs to check the health of a service",
@@ -7557,7 +7557,7 @@
     {
         "part": 4,
         "question_number": 52,
-        "question": "Which of the following are recommended practices for managing IAM users? (Choose two",
+        "question": "Which of the following are recommended practices for managing IAM users? (Choose two.)",
         "answers": [
             "A. Require IAM users to change their passwords after a specified period of time",
             "B. Prevent IAM users from reusing previous passwords",
