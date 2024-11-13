@@ -23,7 +23,9 @@ total = len(all)
 duplicates = 0
 
 for item in tqdm(all):
-    contains = [x for x in items if x['question'] == item['question'] and x['answers'] == item['answers'] and x['correct_answers'] == item['correct_answers']]
+    contains = [x for x in items if x['question'] == item['question'] and x['answers'] == item['answers']
+                #and x['correct_answers'] == item['correct_answers']
+                ]
     if len(contains) == 0:
         items.append(item)
     else:

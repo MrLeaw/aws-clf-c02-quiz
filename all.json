@@ -47,21 +47,6 @@
     {
         "question_number": 4,
         "part": 6,
-        "question": "What tool enables customers without an AWS account to estimate costs for almost all AWS services?",
-        "answers": [
-            "A. Cost Explorer",
-            "B. TCO Calculator",
-            "C. AWS Budgets",
-            "D. Simple Monthly Calculator"
-        ],
-        "correct_answers": [
-            "B"
-        ],
-        "source": "awslagi"
-    },
-    {
-        "question_number": 5,
-        "part": 6,
         "question": "Which component must be attached to a VPC to enable inbound Internet access?",
         "answers": [
             "A. NAT gateway",
@@ -75,7 +60,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 6,
+        "question_number": 5,
         "part": 6,
         "question": "Which pricing model would result in maximum Amazon Elastic Compute Cloud (Amazon EC2) savings for a database server that must be online for one year?",
         "answers": [
@@ -90,7 +75,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 7,
+        "question_number": 6,
         "part": 6,
         "question": "A company has a MySQL database running on a single Amazon EC2 instance. The company now requires higher availability in the event of an outage. Which set of tasks would meet this requirement?",
         "answers": [
@@ -105,7 +90,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 8,
+        "question_number": 7,
         "part": 6,
         "question": "A company wants to ensure that AWS Management Console users are meeting password complexity requirements. How can the company configure password complexity?",
         "answers": [
@@ -120,7 +105,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 9,
+        "question_number": 8,
         "part": 6,
         "question": "Under the AWS shared responsibility model, which of the following is the customer’s responsibility?",
         "answers": [
@@ -135,7 +120,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 10,
+        "question_number": 9,
         "part": 6,
         "question": "Which of the following tasks is required to deploy a PCI-compliant workload on AWS?",
         "answers": [
@@ -150,7 +135,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 11,
+        "question_number": 10,
         "part": 6,
         "question": "Which are benefits of using Amazon RDS over Amazon EC2 when running relational databases on AWS? (Choose two.)",
         "answers": [
@@ -167,7 +152,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 12,
+        "question_number": 11,
         "part": 6,
         "question": "What does the Amazon S3 Intelligent-Tiering storage class offer?",
         "answers": [
@@ -182,7 +167,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 13,
+        "question_number": 12,
         "part": 6,
         "question": "A company has multiple data sources across the organization and wants to consolidate data into one data warehouse. Which AWS service can be used to meet this requirement?",
         "answers": [
@@ -197,7 +182,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 14,
+        "question_number": 13,
         "part": 6,
         "question": "Which AWS service can be used to track resource changes and establish compliance?",
         "answers": [
@@ -212,7 +197,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 15,
+        "question_number": 14,
         "part": 6,
         "question": "A user has underutilized on-premises resources. Which AWS Cloud concept can BEST address this issue?",
         "answers": [
@@ -227,7 +212,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 16,
+        "question_number": 15,
         "part": 6,
         "question": "A user has a stateful workload that will run on Amazon EC2 for the next 3 years. What is the MOST cost-effective pricing model for this workload?",
         "answers": [
@@ -242,7 +227,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 17,
+        "question_number": 16,
         "part": 6,
         "question": "A cloud practitioner needs an Amazon EC2 instance to launch and run for 7 hours without interruptions. What is the most suitable and cost-effective option for this task?",
         "answers": [
@@ -257,7 +242,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 18,
+        "question_number": 17,
         "part": 6,
         "question": "A developer has been hired by a large company and needs AWS credentials. Which are security best practices that should be followed? (Choose two.)",
         "answers": [
@@ -274,7 +259,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 19,
+        "question_number": 18,
         "part": 6,
         "question": "Which AWS storage service is designed to transfer petabytes of data in and out of the cloud?",
         "answers": [
@@ -289,7 +274,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 20,
+        "question_number": 19,
         "part": 6,
         "question": "Which AWS service allows for effective cost management of multiple AWS accounts?",
         "answers": [
@@ -304,7 +289,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 21,
+        "question_number": 20,
         "part": 6,
         "question": "A company is piloting a new customer-facing application on Amazon Elastic Compute Cloud (Amazon EC2) for one month. What pricing model is appropriate?",
         "answers": [
@@ -319,7 +304,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 22,
+        "question_number": 21,
         "part": 6,
         "question": "Which AWS tools automatically forecast future AWS costs?",
         "answers": [
@@ -334,7 +319,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 23,
+        "question_number": 22,
         "part": 6,
         "question": "Under the AWS shared responsibility model, which of the following is a responsibility of AWS?",
         "answers": [
@@ -349,7 +334,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 24,
+        "question_number": 23,
         "part": 6,
         "question": "A user is able to set up a master payer account to view consolidated billing reports through:",
         "answers": [
@@ -364,7 +349,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 25,
+        "question_number": 24,
         "part": 6,
         "question": "Performing operations as code is a design principle that supports which pillar of the AWS Well-Architected Framework?",
         "answers": [
@@ -379,7 +364,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 26,
+        "question_number": 25,
         "part": 6,
         "question": "Which design principle is achieved by following the reliability pillar of the AWS Well-Architected Framework?",
         "answers": [
@@ -394,7 +379,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 27,
+        "question_number": 26,
         "part": 6,
         "question": "What is a characteristic of Convertible Reserved Instances (RIs)?",
         "answers": [
@@ -409,7 +394,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 28,
+        "question_number": 27,
         "part": 6,
         "question": "The user is fully responsible for which action when running workloads on AWS?",
         "answers": [
@@ -424,7 +409,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 29,
+        "question_number": 28,
         "part": 6,
         "question": "An architecture design includes Amazon EC2, an Elastic Load Balancer, and Amazon RDS. What is the BEST way to get a monthly cost estimation for this architecture?",
         "answers": [
@@ -439,7 +424,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 30,
+        "question_number": 29,
         "part": 6,
         "question": "Which AWS service allows users to download security and compliance reports about the AWS infrastructure on demand?",
         "answers": [
@@ -454,7 +439,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 31,
+        "question_number": 30,
         "part": 6,
         "question": "Which requirement must be met for a member account to be unlinked from an AWS Organizations account?",
         "answers": [
@@ -469,7 +454,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 32,
+        "question_number": 31,
         "part": 6,
         "question": "What AWS benefit refers to a customer’s ability to deploy applications that scale up and down the meet variable demand?",
         "answers": [
@@ -484,7 +469,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 33,
+        "question_number": 32,
         "part": 6,
         "question": "During a compliance review, one of the auditors requires a copy of the AWS SOC 2 report. Which service should be used to submit this request?",
         "answers": [
@@ -499,7 +484,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 34,
+        "question_number": 33,
         "part": 6,
         "question": "A company wants to set up a highly available workload in AWS with a disaster recovery plan that will allow the company to recover in case of a regional service interruption. Which configuration will meet these requirements?",
         "answers": [
@@ -514,7 +499,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 35,
+        "question_number": 34,
         "part": 6,
         "question": "A company has a 500 TB image repository that needs to be transported to AWS for processing. Which AWS service can import this data MOST cost-effectively?",
         "answers": [
@@ -529,7 +514,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 36,
+        "question_number": 35,
         "part": 6,
         "question": "Which of the following assist in identifying costs by department? (Choose two.)",
         "answers": [
@@ -546,7 +531,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 37,
+        "question_number": 36,
         "part": 6,
         "question": "A company must store critical business data in Amazon S3 with a backup to another AWS Region. How can this be achieved?",
         "answers": [
@@ -561,7 +546,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 38,
+        "question_number": 37,
         "part": 6,
         "question": "Which AWS Cloud service can send alerts to customers if custom spending thresholds are exceeded?",
         "answers": [
@@ -576,7 +561,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 39,
+        "question_number": 38,
         "part": 6,
         "question": "What is the recommended method to request penetration testing on AWS resources?",
         "answers": [
@@ -591,7 +576,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 40,
+        "question_number": 39,
         "part": 6,
         "question": "A user needs to automatically discover, classify, and protect sensitive data stored in Amazon S3. Which AWS service can meet these requirements?",
         "answers": [
@@ -606,7 +591,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 41,
+        "question_number": 40,
         "part": 6,
         "question": "Which components are required to build a successful site-to-site VPN connection on AWS? (Choose two.)",
         "answers": [
@@ -623,7 +608,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 42,
+        "question_number": 41,
         "part": 6,
         "question": "Which Amazon EC2 pricing option is best suited for applications with short-term, spiky, or unpredictable workloads that cannot be interrupted?",
         "answers": [
@@ -638,7 +623,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 43,
+        "question_number": 42,
         "part": 6,
         "question": "Which AWS cloud architecture principle states that systems should reduce interdependencies?",
         "answers": [
@@ -653,7 +638,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 44,
+        "question_number": 43,
         "part": 6,
         "question": "What is the MOST effective resource for staying up to date on AWS security announcements?",
         "answers": [
@@ -668,7 +653,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 45,
+        "question_number": 44,
         "part": 6,
         "question": "Which AWS service offers persistent storage for a file system?",
         "answers": [
@@ -683,7 +668,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 46,
+        "question_number": 45,
         "part": 6,
         "question": "Which of the following allows AWS users to manage cost allocations for billing?",
         "answers": [
@@ -698,7 +683,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 47,
+        "question_number": 46,
         "part": 6,
         "question": "Which of the following tasks can only be performed after signing in with AWS account root user credentials? (Choose two.)",
         "answers": [
@@ -715,7 +700,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 48,
+        "question_number": 47,
         "part": 6,
         "question": "Fault tolerance refers to:",
         "answers": [
@@ -730,7 +715,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 49,
+        "question_number": 48,
         "part": 6,
         "question": "A company operating in the AWS Cloud requires separate invoices for specific environments, such as development, testing, and production. How can this be achieved?",
         "answers": [
@@ -745,7 +730,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 50,
+        "question_number": 49,
         "part": 6,
         "question": "Which AWS service can be used in the application deployment process?",
         "answers": [
@@ -760,7 +745,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 51,
+        "question_number": 50,
         "part": 6,
         "question": "What can be used to reduce the cost of running Amazon EC2 instances? (Choose two.)",
         "answers": [
@@ -777,7 +762,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 52,
+        "question_number": 51,
         "part": 6,
         "question": "A company is launching an e-commerce site that will store and process credit card data. The company requires information about AWS compliance reports and",
         "answers": [
@@ -793,7 +778,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 53,
+        "question_number": 52,
         "part": 6,
         "question": "Which AWS service can be used to track unauthorized API calls?",
         "answers": [
@@ -808,7 +793,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 54,
+        "question_number": 53,
         "part": 6,
         "question": "A user needs to regularly audit and evaluate the setup of all AWS resources, identify non-compliant accounts, and be notified when a resource changes. Which AWS service can be used to meet these requirements?",
         "answers": [
@@ -823,7 +808,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 55,
+        "question_number": 54,
         "part": 6,
         "question": "A user is planning to launch two additional Amazon EC2 instances to increase availability. Which action should the user take?",
         "answers": [
@@ -838,7 +823,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 56,
+        "question_number": 55,
         "part": 6,
         "question": "A company’s application has flexible start and end times. Which Amazon EC2 pricing model will be the MOST cost-effective?",
         "answers": [
@@ -853,7 +838,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 57,
+        "question_number": 56,
         "part": 6,
         "question": "Under the AWS shared responsibility model, what are the customer’s responsibilities? (Choose two.)",
         "answers": [
@@ -870,7 +855,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 58,
+        "question_number": 57,
         "part": 6,
         "question": "A cloud practitioner has a data analysis workload that is infrequently executed and can be interrupted without harm. To optimize for cost, which Amazon EC2 purchasing option should be used?",
         "answers": [
@@ -885,7 +870,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 59,
+        "question_number": 58,
         "part": 6,
         "question": "Which AWS container service will help a user install, operate, and scale the cluster management infrastructure?",
         "answers": [
@@ -900,7 +885,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 60,
+        "question_number": 59,
         "part": 6,
         "question": "Which of the following allows an application running on an Amazon EC2 instance to securely write data to an Amazon S3 bucket without using long term credentials?",
         "answers": [
@@ -915,7 +900,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 61,
+        "question_number": 60,
         "part": 6,
         "question": "A company with a Developer-level AWS Support plan provisioned an Amazon RDS database and cannot connect to it. Who should the developer contact for this level of support?",
         "answers": [
@@ -930,7 +915,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 62,
+        "question_number": 61,
         "part": 6,
         "question": "A company must ensure that its endpoint for a database instance remains the same after a single Availability Zone service interruption. The application needs to resume database operations without the need for manual administrative intervention. How can these requirements be met?",
         "answers": [
@@ -945,7 +930,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 63,
+        "question_number": 62,
         "part": 6,
         "question": "Which AWS managed service can be used to distribute traffic between one or more Amazon EC2 instances?",
         "answers": [
@@ -960,7 +945,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 64,
+        "question_number": 63,
         "part": 6,
         "question": "AWS Trusted Advisor provides recommendations on which of the following? (Choose two.)",
         "answers": [
@@ -1027,23 +1012,6 @@
     {
         "question_number": 4,
         "part": 10,
-        "question": "Which AWS services offer compute capabilities? (Choose two.)",
-        "answers": [
-            "A. Amazon EC2",
-            "B. Amazon S3",
-            "C. Amazon Elastic Block Store (Amazon EBS)",
-            "D. Amazon Cognito",
-            "E. AWS Lambda"
-        ],
-        "correct_answers": [
-            "A",
-            "C"
-        ],
-        "source": "awslagi"
-    },
-    {
-        "question_number": 5,
-        "part": 10,
         "question": "Which tool can be used to identify scheduled changes to the AWS infrastructure?",
         "answers": [
             "A. AWS Personal Health Dashboard",
@@ -1057,7 +1025,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 6,
+        "question_number": 5,
         "part": 10,
         "question": "What tool enables customers without an AWS account to estimate costs for almost all AWS services?",
         "answers": [
@@ -1446,54 +1414,6 @@
     {
         "question_number": 1,
         "part": 7,
-        "question": "When comparing AWS Cloud with on-premises Total Cost of Ownership, which expenses must be considered? (Choose two.)",
-        "answers": [
-            "A. Physical storage hardware",
-            "B. Operating system administration",
-            "C. Network infrastructure of data center",
-            "D. Project management",
-            "E. Database schema development"
-        ],
-        "correct_answers": [
-            "A"
-        ],
-        "source": "awslagi"
-    },
-    {
-        "question_number": 2,
-        "part": 7,
-        "question": "Which tasks require using AWS account root user credentials? (Choose two.)",
-        "answers": [
-            "A. Creating an Amazon EC2 key pair",
-            "B. Removing an IAM user from the administrators group",
-            "C. Changing the AWS Support plan",
-            "D. Creating an Amazon CloudFront key pair",
-            "E. Granting an IAM user full administrative access"
-        ],
-        "correct_answers": [
-            "C",
-            "E"
-        ],
-        "source": "awslagi"
-    },
-    {
-        "question_number": 3,
-        "part": 7,
-        "question": "Which Amazon S3 storage class allows users to store data backups for long periods of time at the LOWEST cost?",
-        "answers": [
-            "A. S3 Standard-Infrequent Access (S3 Standard-IA)",
-            "B. S3 Standard",
-            "C. S3 Glacier",
-            "D. S3 One Zone-Infrequent Access (S3 One Zone-IA)"
-        ],
-        "correct_answers": [
-            "D"
-        ],
-        "source": "awslagi"
-    },
-    {
-        "question_number": 4,
-        "part": 7,
         "question": "When using Amazon RDS, what is the customer responsible for?",
         "answers": [
             "A. Patching and maintenance of the underlying operating system.",
@@ -1507,24 +1427,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 5,
-        "part": 7,
-        "question": "Which design principles are enabled by the AWS Cloud to improve the operation of workloads? (Choose two.)",
-        "answers": [
-            "A. Minimize upfront design",
-            "B. Loose coupling",
-            "C. Disposable resources",
-            "D. Server design and concurrency",
-            "E. Minimal viable product"
-        ],
-        "correct_answers": [
-            "B",
-            "D"
-        ],
-        "source": "awslagi"
-    },
-    {
-        "question_number": 6,
+        "question_number": 2,
         "part": 7,
         "question": "How can a user achieve high availability for a web application hosted on AWS?",
         "answers": [
@@ -2315,7 +2218,7 @@
     {
         "question_number": 51,
         "part": 1,
-        "question": "Which of the following services could be used to deploy an application to servers running onpremises? (Choose two.)",
+        "question": "Which of the following services could be used to deploy an application to servers running on premises? (Choose two.)",
         "answers": [
             "A. AWS Elastic Beanstalk",
             "B. AWS OpsWorks",
@@ -5948,7 +5851,7 @@
             "D. Pay-as-you-go pricing"
         ],
         "correct_answers": [
-            "A"
+            "D"
         ],
         "source": "awslagi"
     },
@@ -9773,21 +9676,6 @@
     {
         "question_number": 50,
         "part": 9,
-        "question": "How can a user achieve high availability for a web application hosted on AWS?",
-        "answers": [
-            "A. Use a Classic Load Balancer across multiple AWS Regions.",
-            "B. Use an Application Load Balancer across multiple Availability Zones in one AWS Region.",
-            "C. Set up automatic scaling and load balancing with another application instance running on premises.",
-            "D. Use the AWS Region with the highest number of Availability Zones."
-        ],
-        "correct_answers": [
-            "A"
-        ],
-        "source": "awslagi"
-    },
-    {
-        "question_number": 51,
-        "part": 9,
         "question": "Which of the following is an AWS best practice for managing an AWS account root user?",
         "answers": [
             "A. Keep the root user password with the security team.",
@@ -9801,7 +9689,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 52,
+        "question_number": 51,
         "part": 9,
         "question": "A company wants to securely access an Amazon S3 bucket from an Amazon EC2 instance without accessing the internet. What should the company use to accomplish this goal?",
         "answers": [
@@ -9816,7 +9704,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 53,
+        "question_number": 52,
         "part": 9,
         "question": "Which statement is true about AWS global infrastructure?",
         "answers": [
@@ -9831,7 +9719,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 54,
+        "question_number": 53,
         "part": 9,
         "question": "Which AWS service or feature provides information about ongoing or upcoming scheduled events that can affect an AWS account?",
         "answers": [
@@ -9846,7 +9734,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 55,
+        "question_number": 54,
         "part": 9,
         "question": "A bank needs to store recordings of calls made to its contact center for 6 years. The recordings must be accessible within 48 hours from the time they are requested. Which AWS service will provide a secure and cost-effective solution for retaining these files?",
         "answers": [
@@ -9861,7 +9749,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 56,
+        "question_number": 55,
         "part": 9,
         "question": "A media company wants to distribute video content to millions of users worldwide over the internet. The company wants to use the AWS global network backbone to distribute cached content with low latency and high data transfer speeds. Which AWS service will meet these requirements?",
         "answers": [
@@ -9876,7 +9764,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 57,
+        "question_number": 56,
         "part": 9,
         "question": "The AWS global infrastructure consists of Regions, Availability Zones, and what else?",
         "answers": [
@@ -9891,7 +9779,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 58,
+        "question_number": 57,
         "part": 9,
         "question": "Which AWS Trusted Advisor feature is available exclusively to users with AWS Business Support or AWS Enterprise Support?",
         "answers": [
@@ -9906,7 +9794,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 59,
+        "question_number": 58,
         "part": 9,
         "question": "A company is required to store its data close to its primary users. Which benefit of the AWS Cloud supports this requirement?",
         "answers": [
@@ -10169,21 +10057,6 @@
     {
         "question_number": 17,
         "part": 5,
-        "question": "Which tool can be used to identify scheduled changes to the AWS infrastructure?",
-        "answers": [
-            "A. AWS Personal Health Dashboard",
-            "B. AWS Trusted Advisor",
-            "C. Billing Dashboard",
-            "D. AWS Config"
-        ],
-        "correct_answers": [
-            "D"
-        ],
-        "source": "awslagi"
-    },
-    {
-        "question_number": 18,
-        "part": 5,
         "question": "A workload on AWS will run for the foreseeable future by using a consistent number of Amazon EC2 instances. What pricing model will minimize cost while ensuring that compute resources remain available?",
         "answers": [
             "A. Dedicated Hosts",
@@ -10197,7 +10070,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 19,
+        "question_number": 18,
         "part": 5,
         "question": "What are the advantages of deploying an application with Amazon EC2 instances in multiple Availability Zones? (Choose two.)",
         "answers": [
@@ -10214,7 +10087,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 20,
+        "question_number": 19,
         "part": 5,
         "question": "A company is running a self-managed Oracle database directly on Amazon EC2 for its steady-state database. The company wants to reduce compute costs. Which option should the company use to maximize savings over a 3-year term?",
         "answers": [
@@ -10229,7 +10102,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 21,
+        "question_number": 20,
         "part": 5,
         "question": "How should a web application be deployed to ensure high availability in the AWS Cloud?",
         "answers": [
@@ -10244,7 +10117,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 22,
+        "question_number": 21,
         "part": 5,
         "question": "A company has an AWS-hosted website located behind an Application Load Balancer. The company wants to safeguard the website from SQL injection or cross- site scripting. Which AWS service should the company use?",
         "answers": [
@@ -10259,7 +10132,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 23,
+        "question_number": 22,
         "part": 5,
         "question": "Which AWS service can be used to retrieve compliance reports on demand?",
         "answers": [
@@ -10274,7 +10147,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 24,
+        "question_number": 23,
         "part": 5,
         "question": "A company wants to connect to AWS over a private, low-latency connection from its remote office. What is the recommended method to meet these requirements?",
         "answers": [
@@ -10289,7 +10162,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 25,
+        "question_number": 24,
         "part": 5,
         "question": "Which AWS Cloud design principles can help increase reliability? (Choose two.)",
         "answers": [
@@ -10306,7 +10179,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 26,
+        "question_number": 25,
         "part": 5,
         "question": "A company wants to ensure its infrastructure is designed for fault tolerance and business continuity in the event of an environmental disruption. Which AWS infrastructure component should the company replicate across?",
         "answers": [
@@ -10321,7 +10194,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 27,
+        "question_number": 26,
         "part": 5,
         "question": "Which AWS service should a cloud practitioner use to identify security vulnerabilities of an AWS account?",
         "answers": [
@@ -10336,7 +10209,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 28,
+        "question_number": 27,
         "part": 5,
         "question": "Which AWS service can be used to privately store and manage versions of source code?",
         "answers": [
@@ -10351,7 +10224,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 29,
+        "question_number": 28,
         "part": 5,
         "question": "Which AWS service or feature can be used to prevent SQL injection attacks?",
         "answers": [
@@ -10366,7 +10239,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 30,
+        "question_number": 29,
         "part": 5,
         "question": "How can AWS enable a company to control expenses as an application’s usage changes unpredictably?",
         "answers": [
@@ -10381,7 +10254,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 31,
+        "question_number": 30,
         "part": 5,
         "question": "A pharmaceutical company operates its infrastructure in a single AWS Region. The company has thousands of VPCs in a various AWS accounts that it wants to interconnect. Which AWS service or feature should the company use to help simplify management and reduce operational costs?",
         "answers": [
@@ -10396,22 +10269,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 32,
-        "part": 5,
-        "question": "Which cloud computing benefit does AWS demonstrate with its ability to offer lower variable costs as a result of high purchase volumes?",
-        "answers": [
-            "A. Pay-as-you-go pricing",
-            "B. High availability",
-            "C. Global reach",
-            "D. Economies of scale"
-        ],
-        "correct_answers": [
-            "A"
-        ],
-        "source": "awslagi"
-    },
-    {
-        "question_number": 33,
+        "question_number": 31,
         "part": 5,
         "question": "The AWS IAM best practice for granting least privilege is to:",
         "answers": [
@@ -10426,7 +10284,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 34,
+        "question_number": 32,
         "part": 5,
         "question": "A company wants to track AWS resource configuration changes for compliance reasons. Which AWS feature can be used to meet this requirement?",
         "answers": [
@@ -10441,7 +10299,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 35,
+        "question_number": 33,
         "part": 5,
         "question": "A company is expecting a short-term spike in internet traffic for its application. During the traffic increase, the application cannot be interrupted. The company also needs to minimize cost and maximize flexibility. Which Amazon EC2 instance type should the company use to meet these requirements?",
         "answers": [
@@ -10456,7 +10314,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 36,
+        "question_number": 34,
         "part": 5,
         "question": "What are the benefits of consolidated billing for AWS Cloud services? (Choose two.)",
         "answers": [
@@ -10473,7 +10331,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 37,
+        "question_number": 35,
         "part": 5,
         "question": "An external auditor has requested that a company provide a list of all its IAM users, including the status of users’ credentials and access keys. What it the SIMPLEST way to provide this information?",
         "answers": [
@@ -10488,7 +10346,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 38,
+        "question_number": 36,
         "part": 5,
         "question": "A company wants to transfer petabytes of data as quickly as possible from on-premises locations to the AWS Cloud. Which AWS service should the company use?",
         "answers": [
@@ -10503,7 +10361,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 39,
+        "question_number": 37,
         "part": 5,
         "question": "According to the AWS shared responsibility model, which of the following are AWS responsibilities? (Choose two.)",
         "answers": [
@@ -10520,7 +10378,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 40,
+        "question_number": 38,
         "part": 5,
         "question": "A company needs to track the activity in its AWS accounts, and needs to know when an API call is made against its AWS resources. Which AWS tool or service can be used to meet these requirements?",
         "answers": [
@@ -10535,7 +10393,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 41,
+        "question_number": 39,
         "part": 5,
         "question": "Under the AWS shared responsibility model, which task is the customer’s responsibility when managing AWS Lambda functions?",
         "answers": [
@@ -10550,7 +10408,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 42,
+        "question_number": 40,
         "part": 5,
         "question": "Which AWS service automatically handles application health monitoring?",
         "answers": [
@@ -10565,7 +10423,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 43,
+        "question_number": 41,
         "part": 5,
         "question": "A user can increase operational efficiency in the AWS Cloud by:",
         "answers": [
@@ -10580,7 +10438,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 44,
+        "question_number": 42,
         "part": 5,
         "question": "Which of the following IT tasks does AWS perform to offload a company’s IT resource management responsibilities? (Choose two.)",
         "answers": [
@@ -10597,7 +10455,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 45,
+        "question_number": 43,
         "part": 5,
         "question": "Which AWS service can help a company detect an outage of its website servers and redirect users to alternate servers?",
         "answers": [
@@ -10612,22 +10470,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 46,
-        "part": 5,
-        "question": "A company wants to securely access an Amazon S3 bucket from an Amazon EC2 instance without accessing the internet. What should the company use to accomplish this goal?",
-        "answers": [
-            "A. VPN connection",
-            "B. Internet gateway",
-            "C. VPC endpoint",
-            "D. NAT gateway"
-        ],
-        "correct_answers": [
-            "D"
-        ],
-        "source": "awslagi"
-    },
-    {
-        "question_number": 47,
+        "question_number": 44,
         "part": 5,
         "question": "A company hosts images in an Amazon S3 bucket for a public-facing website that is viewed by millions of users around the globe. Which AWS service will deliver this content with reduced latency?",
         "answers": [
@@ -10642,7 +10485,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 48,
+        "question_number": 45,
         "part": 5,
         "question": "A company has refined its workload to use specific AWS services to improve efficiency and reduce cost. Which best practice for cost governance does this example show?",
         "answers": [
