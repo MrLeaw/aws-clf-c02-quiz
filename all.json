@@ -1712,7 +1712,7 @@
             "B. Delivering content closer to users",
             "C. Running NoSQL database caching services",
             "D. Reducing traffic on the server by caching responses",
-            "E.Sending notification messages to end users"
+            "E. Sending notification messages to end users"
         ],
         "correct_answers": [
             "B",
@@ -1804,7 +1804,7 @@
             "B. Testing application releases",
             "C. Backing up databases",
             "D. Creating database schema",
-            "E.Running penetration tests"
+            "E. Running penetration tests"
         ],
         "correct_answers": [
             "A",
@@ -1821,7 +1821,7 @@
             "B. AWS Cloud9",
             "C. AWS CloudTrail",
             "D. AWS CloudHSM",
-            "E.Amazon CloudWatch"
+            "E. Amazon CloudWatch"
         ],
         "correct_answers": [
             "C",
@@ -1869,7 +1869,7 @@
             "B. Amazon Route 53",
             "C. Security Groups",
             "D. Subnets",
-            "E.Elastic Load Balancing"
+            "E. Elastic Load Balancing"
         ],
         "correct_answers": [
             "C",
@@ -1886,7 +1886,7 @@
             "B. AWS Online Tech Talks",
             "C. AWS Blog",
             "D. AWS Forums",
-            "E.AWS Classroom Training"
+            "E. AWS Classroom Training"
         ],
         "correct_answers": [
             "B",
@@ -2008,7 +2008,7 @@
             "B. Grant least privilege access to IAM users.",
             "C. Create one IAM user and share with many developers and users.",
             "D. Enable Amazon CloudFront.",
-            "E.Activate multi-factor authentication (MFA) for privileged users."
+            "E. Activate multi-factor authentication (MFA) for privileged users."
         ],
         "correct_answers": [
             "B",
@@ -2040,7 +2040,7 @@
             "B. AWS CloudFormation",
             "C. Amazon Simple Storage Service (Amazon S3)",
             "D. Amazon EC2 Auto Scaling",
-            "E.AWS Management Console"
+            "E. AWS Management Console"
         ],
         "correct_answers": [
             "B",
@@ -2072,7 +2072,7 @@
             "B. increased capital expenditure (capex).",
             "C. reduced operational expenditure (opex).",
             "D. deferred payment plans for startups.",
-            "E.business credit lines for stratups"
+            "E. business credit lines for stratups"
         ],
         "correct_answers": [
             "A",
@@ -2119,7 +2119,7 @@
             "B. Ensuring that AWS NTP servers are set to the correct time",
             "C. Ensuring that users have received security training in the use of AWS services",
             "D. Ensuring that access to data centers is restricted",
-            "E.Ensuring that hardware is disposed of properly"
+            "E. Ensuring that hardware is disposed of properly"
         ],
         "correct_answers": [
             "A",
@@ -2151,7 +2151,7 @@
             "B. Amazon EC2",
             "C. Amazon S3",
             "D. Amazon CloudFront",
-            "E.Amazon DynamoDB"
+            "E. Amazon DynamoDB"
         ],
         "correct_answers": [
             "A",
@@ -2289,7 +2289,7 @@
             "B. Use fixed servers.",
             "C. Implement loose coupling.",
             "D. Rely on individual components.",
-            "E.Design for scalability."
+            "E. Design for scalability."
         ],
         "correct_answers": [
             "C",
@@ -2321,7 +2321,7 @@
             "B. AWS OpsWorks",
             "C. AWS CodeDeploy",
             "D. AWS Batch",
-            "E.AWS X-Ray"
+            "E. AWS X-Ray"
         ],
         "correct_answers": [
             "B",
@@ -3085,7 +3085,7 @@
             "B. Amazon RDS",
             "C. AWS Snowball",
             "D. Amazon Redshift",
-            "E.Amazon EFS"
+            "E. Amazon EFS"
         ],
         "correct_answers": [
             "B",
@@ -3102,7 +3102,7 @@
             "B. Using AWS Shield-protected resources",
             "C. Blocking access with Security Groups",
             "D. Using Multi-Factor Authentication (MFA)",
-            "E.Enforcing password strength and expiration"
+            "E. Enforcing password strength and expiration"
         ],
         "correct_answers": [
             "D",
@@ -3479,8 +3479,8 @@
             "E. Amazon S3"
         ],
         "correct_answers": [
-            "B",
-            "C"
+            "A",
+            "B"
         ],
         "source": "awslagi"
     },
@@ -5383,7 +5383,7 @@
         ],
         "correct_answers": [
             "B",
-            "D"
+            "E"
         ],
         "source": "awslagi"
     },
@@ -6209,7 +6209,7 @@
             "D. AWS Discussion Forums"
         ],
         "correct_answers": [
-            "A"
+            "D"
         ],
         "source": "awslagi"
     },
@@ -7063,7 +7063,7 @@
     {
         "part": 4,
         "question_number": 20,
-        "question": "A Cloud Practitioner needs to store data for 7 years to meet regulatory requirements",
+        "question": "A Cloud Practitioner needs to store data for 7 years to meet regulatory requirements. Which AWS service will meet this requirement at the LOWEST cost?",
         "answers": [
             "A. Amazon S3",
             "B. AWS Snowball",
