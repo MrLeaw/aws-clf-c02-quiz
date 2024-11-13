@@ -29,8 +29,8 @@ fn load_questions() -> Vec<Question> {
 }
 
 fn main() {
-    let mut correct_count = 0;
-    let mut total_count = 0;
+    let mut correct_count;
+    let mut total_count;
     let mut questions = load_questions();
     // Do something with the questions
     // print first question
@@ -58,7 +58,7 @@ fn main() {
         'outer: for random_question in questions.iter() {
             // clear the screen
             print!("\x1B[2J\x1B[1;1H");
-            let termsize::Size { rows, cols } = termsize::get().unwrap();
+            let termsize::Size { rows: _, cols } = termsize::get().unwrap();
             // print progress out of total questions
             let total_rate = total_count as f32 / questions.len() as f32;
             let str = format!(
@@ -118,7 +118,7 @@ fn main() {
                 .bright_yellow()
             );
             println!("{}\n", random_question.question);
-            for (i, answer) in random_question.answers.iter().enumerate() {
+            for answer in random_question.answers.iter() {
                 println!("{}", answer);
             }
             println!("\n");
