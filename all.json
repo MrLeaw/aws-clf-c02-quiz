@@ -2911,7 +2911,7 @@
             "D. Environmental risk management"
         ],
         "correct_answers": [
-            "D"
+            "B"
         ],
         "source": "awslagi"
     },
@@ -5144,7 +5144,7 @@
             "D. Amazon API Gateway"
         ],
         "correct_answers": [
-            "A"
+            "B"
         ],
         "source": "awslagi"
     },
@@ -6223,8 +6223,8 @@
             "E. Management of network throughput of each AWS Region"
         ],
         "correct_answers": [
-            "D",
-            "E"
+            "B",
+            "C"
         ],
         "source": "awslagi"
     },
@@ -10714,7 +10714,7 @@
             "D. Client-side encryption"
         ],
         "correct_answers": [
-            "A"
+            "B"
         ],
         "source": "awslagi"
     },
@@ -11284,7 +11284,7 @@
             "D. Amazon RDS"
         ],
         "correct_answers": [
-            "D"
+            "B"
         ],
         "source": "awslagi"
     },
