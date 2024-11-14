@@ -54,7 +54,7 @@ fn main() {
 
     loop {
         let mut start_timestamp: std::time::Instant;
-        let mut total_time: f64 = 0.0;
+        let mut times: Vec<f64> = Vec::new();
         total_count = 0;
         correct_count = 0;
         'outer: for random_question in questions.iter() {
@@ -99,15 +99,36 @@ fn main() {
             if total_count > 0 {
                 let correct_rate = correct_count as f32 / total_count as f32;
                 // print a bar showing the correct rate (using green and red)
-                let cols = cols as usize - 11 - strmaxlen;
-                let correct_signs = (correct_rate * cols as f32).round() as usize;
-                let incorrect_signs = (cols as usize) - correct_signs;
+                let cols_ = cols as usize - 11 - strmaxlen;
+                let correct_signs = (correct_rate * cols_ as f32).round() as usize;
+                let incorrect_signs = (cols_ as usize) - correct_signs;
                 print!("Correct:  ");
                 print!("{}", "█".repeat(correct_signs).green());
                 print!("{}", "█".repeat(incorrect_signs).red());
-                print!(" {}", str2);
-                let avg_time = total_time / total_count as f64;
-                println!("\n⌀ Time/Ques: {:.2}s", avg_time);
+                print!(" {}\n\n", str2);
+
+                let avg_time = times.iter().sum::<f64>() / times.len() as f64;
+                let median_time = {
+                    let mut sorted_times = times.clone();
+                    sorted_times.sort_by(|a, b| a.partial_cmp(b).unwrap());
+                    let mid = sorted_times.len() / 2;
+                    if sorted_times.len() % 2 == 0 {
+                        (sorted_times[mid - 1] + sorted_times[mid]) / 2.0
+                    } else {
+                        sorted_times[mid]
+                    }
+                };
+                let max_time = times.iter().fold(0.0_f64, |a, &b| a.max(b));
+                let min_time = times.iter().fold(100000.0_f64, |a, &b| a.min(b));
+                let str3 = format!(
+                    "⏳ Time: 🔻 Min: {:.2}s, 🔶 Median: {:.2}s, ➖ Average: {:.2}s, 🔺 Max: {:.2}s",
+                    min_time, median_time, avg_time, max_time
+                );
+                // center the text
+                let str3maxlen = str3.len();
+                let cols_ = cols as usize - str3maxlen;
+                let half = cols_ / 2;
+                println!("{}{}", " ".repeat(half), str3);
             }
 
             print!("\n\n");
@@ -162,7 +183,7 @@ fn main() {
                 let user_input = user_input.trim().replace(",", "").to_uppercase();
                 user_selection = user_input.chars().collect();
             }
-            total_time += start_timestamp.elapsed().as_millis() as f64 / 1000.0;
+            times.push(start_timestamp.elapsed().as_millis() as f64 / 1000.0);
             let mut correct = true;
             for answer in &random_question.correct_answers {
                 if !user_selection.contains(answer) {
