@@ -12,6 +12,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "6bc9ae27-1c4f-4c70-af9a-6b5b86e8fa96",
         "source": "awslagi"
     },
     {
@@ -27,6 +28,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "c080a864-df25-4d64-870c-899c8cc2cd22",
         "source": "awslagi"
     },
     {
@@ -42,6 +44,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "2cf73c87-e55f-4f1a-8133-e431374ed765",
         "source": "awslagi"
     },
     {
@@ -57,6 +60,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "ba2c69da-3925-4289-8130-4a086c9eb701",
         "source": "awslagi"
     },
     {
@@ -72,6 +76,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "06b95490-6bd7-44d3-9b87-99569bfc0a84",
         "source": "awslagi"
     },
     {
@@ -87,6 +92,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "e5bda3d7-0645-4917-9814-1544892486c5",
         "source": "awslagi"
     },
     {
@@ -102,6 +108,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "1f7d7e7d-22e1-4b3e-9b9a-32c7fb955be3",
         "source": "awslagi"
     },
     {
@@ -117,6 +124,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "944fb033-b478-4877-8519-eb9d89da352f",
         "source": "awslagi"
     },
     {
@@ -132,6 +140,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "7e92fe4f-397f-41c4-96c9-cd516f6de86b",
         "source": "awslagi"
     },
     {
@@ -149,6 +158,7 @@
             "A",
             "D"
         ],
+        "uuid": "94aa822d-ad9c-4312-8344-4d360ee63d90",
         "source": "awslagi"
     },
     {
@@ -164,6 +174,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "bec915a5-d6d9-41d3-b772-ac80fbc3d6a9",
         "source": "awslagi"
     },
     {
@@ -179,6 +190,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "40e176c7-ef59-4abf-a5a8-33475a683b2a",
         "source": "awslagi"
     },
     {
@@ -194,6 +206,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "7a52566e-bff2-4cf5-b972-97c64c75eadf",
         "source": "awslagi"
     },
     {
@@ -209,6 +222,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "5c566fd4-5214-4a08-a30b-dfc0ec8d27a4",
         "source": "awslagi"
     },
     {
@@ -224,6 +238,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "fdf9bd6c-7014-47c8-9513-355d45d73b12",
         "source": "awslagi"
     },
     {
@@ -239,6 +254,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "cbfc19ea-8bfb-4e74-a47e-22af710671f7",
         "source": "awslagi"
     },
     {
@@ -254,6 +270,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "34b84074-1f0d-4c26-b3cf-00abd24b9ac8",
         "source": "awslagi"
     },
     {
@@ -269,6 +286,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "04aab912-002e-4a24-8ef7-c45e03585f1c",
         "source": "awslagi"
     },
     {
@@ -284,6 +302,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "ac4012b9-5bbc-4b11-8ffb-88c13dafbb23",
         "source": "awslagi"
     },
     {
@@ -299,6 +318,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "d81992cb-c8bd-4df3-8e5b-3148286770ec",
         "source": "awslagi"
     },
     {
@@ -314,6 +334,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "f67ce211-946d-4fcd-96a5-288bc2d0ef1a",
         "source": "awslagi"
     },
     {
@@ -329,6 +350,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "713ada8d-b08f-4156-828d-df84dc1a5862",
         "source": "awslagi"
     },
     {
@@ -344,6 +366,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "e16f12b6-16e5-4460-a08f-d882bdf69a3c",
         "source": "awslagi"
     },
     {
@@ -359,6 +382,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "6216a1ec-1d1c-47bb-a06b-4fe9cb6f79e1",
         "source": "awslagi"
     },
     {
@@ -374,6 +398,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "85273f5e-4fb0-4f7b-881c-011c116ecb7d",
         "source": "awslagi"
     },
     {
@@ -389,6 +414,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "1da61eac-9700-4122-9398-21f19c9dcc2f",
         "source": "awslagi"
     },
     {
@@ -404,6 +430,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "1e5c245c-bea5-41c7-90ce-cfae2daec037",
         "source": "awslagi"
     },
     {
@@ -419,6 +446,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "82378c19-2c33-4db1-b45b-d9d92e28bf59",
         "source": "awslagi"
     },
     {
@@ -434,6 +462,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "d3ec1bc1-b51f-4047-b48c-c8270244c8fb",
         "source": "awslagi"
     },
     {
@@ -449,6 +478,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "cfaa41bb-4833-4686-896f-34aa0c109786",
         "source": "awslagi"
     },
     {
@@ -464,6 +494,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "a6cbd4ed-2ca7-4848-9f4f-821cec13939b",
         "source": "awslagi"
     },
     {
@@ -479,6 +510,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "aab3dea9-e255-4a83-a65e-f60654cfc97b",
         "source": "awslagi"
     },
     {
@@ -494,6 +526,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "90886a0f-c854-412c-863f-6a0fc4ca3c06",
         "source": "awslagi"
     },
     {
@@ -511,6 +544,7 @@
             "A",
             "B"
         ],
+        "uuid": "f0e04da7-d87a-4c50-aab4-d2a3485eef9f",
         "source": "awslagi"
     },
     {
@@ -526,6 +560,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "7a129584-9008-4433-b30c-2b0f048cd892",
         "source": "awslagi"
     },
     {
@@ -541,6 +576,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "4553a71c-188a-4fd0-91be-5f2af0802427",
         "source": "awslagi"
     },
     {
@@ -556,6 +592,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "3a45dede-da48-46d1-961c-d4639416ab58",
         "source": "awslagi"
     },
     {
@@ -571,6 +608,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "4a666701-b6a7-4e7c-b153-2f60c9f80f37",
         "source": "awslagi"
     },
     {
@@ -588,6 +626,7 @@
             "C",
             "E"
         ],
+        "uuid": "1c6dd352-341d-40fe-9ada-0219984075b5",
         "source": "awslagi"
     },
     {
@@ -603,6 +642,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "1cf9a027-6629-48c2-b1dc-7246912d6580",
         "source": "awslagi"
     },
     {
@@ -618,6 +658,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "f726aa54-9bae-48c0-a2b2-72b022a40a50",
         "source": "awslagi"
     },
     {
@@ -633,6 +674,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "50e62210-a2d0-4b8c-ad1f-541ec2120ab2",
         "source": "awslagi"
     },
     {
@@ -648,6 +690,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "f57b4fe3-7877-42ec-897d-2f6e2e1740a9",
         "source": "awslagi"
     },
     {
@@ -663,6 +706,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "52eff2cd-1ae5-44f7-8363-4dc99f440d9a",
         "source": "awslagi"
     },
     {
@@ -680,6 +724,7 @@
             "A",
             "C"
         ],
+        "uuid": "331a0dba-264e-4347-966e-db86763a7f67",
         "source": "awslagi"
     },
     {
@@ -695,6 +740,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "ec0a45a4-0dcd-4319-be73-2a1970e91eef",
         "source": "awslagi"
     },
     {
@@ -710,6 +756,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "4d8ffd4c-f973-4af7-b110-3335cca12e3b",
         "source": "awslagi"
     },
     {
@@ -725,6 +772,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "58bf0194-c37a-4dde-837d-f83f305c8f51",
         "source": "awslagi"
     },
     {
@@ -742,6 +790,7 @@
             "A",
             "D"
         ],
+        "uuid": "a59a2e2c-df6a-4415-b7f9-1fb52ea3f1dd",
         "source": "awslagi"
     },
     {
@@ -758,6 +807,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "6c9af924-9e72-4542-bf86-323e1594415b",
         "source": "awslagi"
     },
     {
@@ -773,6 +823,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "96d90236-ea46-4c9b-83fe-33772145336c",
         "source": "awslagi"
     },
     {
@@ -788,6 +839,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "51847fed-a5d6-4908-be66-37553db7c503",
         "source": "awslagi"
     },
     {
@@ -803,6 +855,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "e2d88cd6-7e34-4ed8-93aa-259fb16c950a",
         "source": "awslagi"
     },
     {
@@ -818,6 +871,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "c17db8bf-73cd-40cf-8819-1b665ec661d3",
         "source": "awslagi"
     },
     {
@@ -835,6 +889,7 @@
             "D",
             "E"
         ],
+        "uuid": "de7c64a9-12ee-4021-bf40-475b1019d0b6",
         "source": "awslagi"
     },
     {
@@ -850,6 +905,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "20634353-4575-4be4-8c40-b99155d8fbca",
         "source": "awslagi"
     },
     {
@@ -865,6 +921,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "338c48bf-b1d1-47e4-8f3b-94b2f88947f9",
         "source": "awslagi"
     },
     {
@@ -880,6 +937,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "44e676ce-71ea-4cda-b059-7e4855af77c1",
         "source": "awslagi"
     },
     {
@@ -895,6 +953,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "37be0d48-3cf1-487b-9924-3549c00c74f9",
         "source": "awslagi"
     },
     {
@@ -910,6 +969,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "552d25cb-1b0f-435c-a378-d4803f0859e4",
         "source": "awslagi"
     },
     {
@@ -925,6 +985,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "1d75fa84-8a01-43aa-bae8-e9177839f238",
         "source": "awslagi"
     },
     {
@@ -942,6 +1003,7 @@
             "A",
             "D"
         ],
+        "uuid": "72ee73db-063b-46dc-8b22-0bbb03e8a2f6",
         "source": "awslagi"
     },
     {
@@ -955,6 +1017,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "4d5bfa82-8c55-4b68-9e62-0061243981a0",
         "source": "examtopics",
         "part": 10,
         "question_number": 1
@@ -970,6 +1033,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "8e18fc56-3942-4559-9bd7-5e7a6458a4e1",
         "source": "examtopics",
         "part": 10,
         "question_number": 2
@@ -985,6 +1049,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "c4679f50-02a1-48ac-9487-8a0949c3f7b1",
         "source": "examtopics",
         "part": 10,
         "question_number": 3
@@ -1000,6 +1065,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "049b7484-fc28-4660-a798-c819d12e7df4",
         "source": "examtopics",
         "part": 10,
         "question_number": 4
@@ -1015,6 +1081,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "fdba24fd-9bc7-4150-a399-15ed3af5e688",
         "source": "examtopics",
         "part": 10,
         "question_number": 5
@@ -1030,6 +1097,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "1c0ff234-33cb-4431-92fc-3b83d448d51c",
         "source": "examtopics",
         "part": 10,
         "question_number": 6
@@ -1047,6 +1115,7 @@
             "B",
             "E"
         ],
+        "uuid": "ab5d9cd7-f092-4185-bff2-d8676bf6b857",
         "source": "examtopics",
         "part": 10,
         "question_number": 7
@@ -1062,6 +1131,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "445167e2-edf2-4239-92a2-4dd516e33ce0",
         "source": "examtopics",
         "part": 10,
         "question_number": 8
@@ -1077,6 +1147,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "225876ec-f5fc-4b59-9e87-63ce161e242c",
         "source": "examtopics",
         "part": 10,
         "question_number": 9
@@ -1092,6 +1163,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "455bbd09-8a58-416e-930b-b7ee80c299f6",
         "source": "examtopics",
         "part": 10,
         "question_number": 10
@@ -1111,6 +1183,7 @@
             "C",
             "E"
         ],
+        "uuid": "5125b9f6-43d4-4424-be87-4c043d2906ec",
         "source": "awslagi"
     },
     {
@@ -1126,6 +1199,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "75ba0f44-4b5d-4de1-99e0-17cbd9d6240e",
         "source": "awslagi"
     },
     {
@@ -1142,6 +1216,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "6ee45b9f-e853-48d6-8612-92d7a110ba1c",
         "source": "awslagi"
     },
     {
@@ -1157,6 +1232,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "b8d309b6-01f5-4043-b338-1022cf664303",
         "source": "awslagi"
     },
     {
@@ -1172,6 +1248,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "e8032072-f795-4a0d-936f-86e1424edbd5",
         "source": "awslagi"
     },
     {
@@ -1185,6 +1262,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "482e7d3e-0043-47ab-8180-6f9ff375841e",
         "source": "examtopics",
         "part": 6,
         "question_number": 1
@@ -1200,6 +1278,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "1ba56438-3374-48f9-9fad-e71fc6d2652f",
         "source": "examtopics",
         "part": 6,
         "question_number": 2
@@ -1215,6 +1294,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "dc49ed5d-2f6c-4f85-91f3-bb0a423fa40b",
         "source": "examtopics",
         "part": 6,
         "question_number": 3
@@ -1230,6 +1310,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "35efc755-6fe2-4b01-930b-62eb10156e13",
         "source": "examtopics",
         "part": 6,
         "question_number": 4
@@ -1245,6 +1326,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "cc260505-b8ef-4ee2-85a5-95a7bfd5c9de",
         "source": "examtopics",
         "part": 6,
         "question_number": 5
@@ -1260,6 +1342,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "44e21540-688e-49ef-8ff1-444d092f3034",
         "source": "examtopics",
         "part": 6,
         "question_number": 6
@@ -1275,6 +1358,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "1d9c9f6f-3dc4-4570-b04e-a3b6f15b34fb",
         "source": "examtopics",
         "part": 6,
         "question_number": 7
@@ -1290,6 +1374,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "90dbf1ea-5d3c-4c61-9b6b-2364c9566046",
         "source": "examtopics",
         "part": 6,
         "question_number": 8
@@ -1307,6 +1392,7 @@
             "A",
             "C"
         ],
+        "uuid": "24b00227-e752-4d45-87aa-69e9ce1a4918",
         "source": "examtopics",
         "part": 6,
         "question_number": 9
@@ -1322,6 +1408,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "f1bf6a08-2bb7-469c-aa90-823181a8a151",
         "source": "examtopics",
         "part": 6,
         "question_number": 10
@@ -1337,6 +1424,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "4ac3c573-379d-4a12-82e1-a16f8cd40939",
         "source": "examtopics",
         "part": 7,
         "question_number": 1
@@ -1352,6 +1440,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "f7f6482b-df94-4a36-9085-5963c45b24ed",
         "source": "examtopics",
         "part": 7,
         "question_number": 2
@@ -1367,6 +1456,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "706ab23c-ceb3-49da-b4dc-faa40bf2d9af",
         "source": "examtopics",
         "part": 7,
         "question_number": 3
@@ -1384,6 +1474,7 @@
             "B",
             "C"
         ],
+        "uuid": "ce90bd3a-7ce1-4bf8-a4a3-f28bfd215719",
         "source": "examtopics",
         "part": 7,
         "question_number": 4
@@ -1399,6 +1490,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "584d98e7-46e2-41f5-a7c3-205628b14a70",
         "source": "examtopics",
         "part": 7,
         "question_number": 5
@@ -1414,6 +1506,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "f6817d1e-e21b-499b-9666-39c6390c4820",
         "source": "examtopics",
         "part": 7,
         "question_number": 6
@@ -1429,6 +1522,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "19295466-7654-4685-83b2-c297748e5f2d",
         "source": "examtopics",
         "part": 7,
         "question_number": 7
@@ -1446,6 +1540,7 @@
             "B",
             "C"
         ],
+        "uuid": "8718b5b6-5a6d-43a3-bada-bf5d0f82761e",
         "source": "examtopics",
         "part": 7,
         "question_number": 8
@@ -1461,6 +1556,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "72b92458-43c1-4bf9-a887-29c354e6d26b",
         "source": "examtopics",
         "part": 7,
         "question_number": 9
@@ -1476,6 +1572,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "c8bdd479-4cdd-4469-ac85-3a4e6d8c8485",
         "source": "examtopics",
         "part": 7,
         "question_number": 10
@@ -1495,6 +1592,7 @@
             "A",
             "C"
         ],
+        "uuid": "98c3c8b1-7389-4080-b7c2-27c766ece938",
         "source": "awslagi"
     },
     {
@@ -1510,6 +1608,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "19286928-24f9-47a3-9ae3-35477bfd7577",
         "source": "awslagi"
     },
     {
@@ -1527,6 +1626,7 @@
             "A",
             "D"
         ],
+        "uuid": "2fad5fe0-3d24-44b4-96a3-dd5a206c5b48",
         "source": "awslagi"
     },
     {
@@ -1544,6 +1644,7 @@
             "A",
             "C"
         ],
+        "uuid": "1c7b23d2-a772-43bd-ad45-0911c93a8435",
         "source": "awslagi"
     },
     {
@@ -1557,6 +1658,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "7fbb1b77-a1f0-4105-8cc7-f70d3aef62cf",
         "source": "examtopics",
         "part": 11,
         "question_number": 1
@@ -1572,6 +1674,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "cbde239e-8dab-441c-b33a-57097c9d49d1",
         "source": "examtopics",
         "part": 11,
         "question_number": 2
@@ -1587,6 +1690,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "268b3721-8f46-4273-b66a-5dfaeb1c1e6f",
         "source": "examtopics",
         "part": 11,
         "question_number": 3
@@ -1602,6 +1706,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "04e599f3-4a1b-44e7-9195-295cbeac627c",
         "source": "examtopics",
         "part": 11,
         "question_number": 4
@@ -1619,6 +1724,7 @@
             "B",
             "C"
         ],
+        "uuid": "deda0ccd-d5af-4af6-b970-625786d34afd",
         "source": "examtopics",
         "part": 11,
         "question_number": 5
@@ -1636,6 +1742,7 @@
             "A",
             "E"
         ],
+        "uuid": "6b433e63-7e19-48b3-adf8-de4ec4d303a3",
         "source": "examtopics",
         "part": 11,
         "question_number": 6
@@ -1651,6 +1758,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "1c7e929d-9f9c-46eb-887c-183796ed38d9",
         "source": "examtopics",
         "part": 11,
         "question_number": 7
@@ -1666,6 +1774,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "b0c66694-b15e-41e1-b17e-fef851eb81a4",
         "source": "examtopics",
         "part": 11,
         "question_number": 8
@@ -1681,6 +1790,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "a7657043-cdb5-4d9f-8712-fa07617d08cb",
         "source": "examtopics",
         "part": 11,
         "question_number": 9
@@ -1696,6 +1806,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "7bff0fae-57ae-406a-afc8-9604e3754a71",
         "source": "examtopics",
         "part": 11,
         "question_number": 10
@@ -1713,6 +1824,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "4cc9f1eb-f8ad-44a8-9681-d7e1a434df98",
         "source": "awslagi"
     },
     {
@@ -1728,6 +1840,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "a9df232d-19af-4cd4-81ca-0f7dde9a2d15",
         "source": "awslagi"
     },
     {
@@ -1743,6 +1856,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "32a816b7-2fea-45d9-b921-101aeeb8e00e",
         "source": "awslagi"
     },
     {
@@ -1758,6 +1872,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "75d2ddcf-4c48-4548-a0ee-7e55b016979c",
         "source": "awslagi"
     },
     {
@@ -1773,6 +1888,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "bc602c2c-86e2-420f-b9a9-5a38bb6f2322",
         "source": "awslagi"
     },
     {
@@ -1788,6 +1904,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "7de0470b-4432-4ca0-8728-b7d8e79cda9a",
         "source": "awslagi"
     },
     {
@@ -1803,6 +1920,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "9f595f33-7d77-48b3-a4f5-b7fe70be26b2",
         "source": "awslagi"
     },
     {
@@ -1818,6 +1936,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "3677d602-e2b6-487a-8aca-1be967a46134",
         "source": "awslagi"
     },
     {
@@ -1833,6 +1952,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "4ede7f11-77f4-499c-bbd1-c5a536be17d6",
         "source": "awslagi"
     },
     {
@@ -1848,6 +1968,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "856fdb52-33ad-4951-b1e8-e960bf90eecf",
         "source": "awslagi"
     },
     {
@@ -1863,6 +1984,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "49cd5da3-cfcb-47a8-94fa-f3fc187bf1bb",
         "source": "awslagi"
     },
     {
@@ -1878,6 +2000,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "8e1d6ab3-56a8-4d9b-aecf-d449a10bb8af",
         "source": "awslagi"
     },
     {
@@ -1893,6 +2016,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "dd14d09a-12ed-4a42-a22f-1ad75f7d61be",
         "source": "awslagi"
     },
     {
@@ -1910,6 +2034,7 @@
             "B",
             "D"
         ],
+        "uuid": "0f06d89e-cf24-443b-a7c8-807f86ba800f",
         "source": "awslagi"
     },
     {
@@ -1925,6 +2050,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "4d751c5a-5b00-4df5-a7b4-85fade6ed7ec",
         "source": "awslagi"
     },
     {
@@ -1940,6 +2066,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "a0896b7c-d311-4051-b408-b6d950629e43",
         "source": "awslagi"
     },
     {
@@ -1955,6 +2082,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "9ebc73ee-b87d-4239-831f-e2e263c1b508",
         "source": "awslagi"
     },
     {
@@ -1970,6 +2098,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "4eba93b1-1978-4f56-a897-79d9d73cf287",
         "source": "awslagi"
     },
     {
@@ -1985,6 +2114,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "ad9c857f-ae3b-4736-9592-5c74ad297f44",
         "source": "awslagi"
     },
     {
@@ -2002,6 +2132,7 @@
             "A",
             "C"
         ],
+        "uuid": "9d73760d-46a3-4544-b011-afb60abaaba1",
         "source": "awslagi"
     },
     {
@@ -2019,6 +2150,7 @@
             "C",
             "E"
         ],
+        "uuid": "e90cd9fa-c28c-4adb-a64d-dc18c031f967",
         "source": "awslagi"
     },
     {
@@ -2034,6 +2166,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "36ebcf52-7e5c-4853-b444-b757ad6fb664",
         "source": "awslagi"
     },
     {
@@ -2050,6 +2183,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "3afe70e3-dccd-4d51-a1dd-58c7546cdf2f",
         "source": "awslagi"
     },
     {
@@ -2067,6 +2201,7 @@
             "C",
             "D"
         ],
+        "uuid": "0b52db3b-0976-4ac4-a133-f78277a65e38",
         "source": "awslagi"
     },
     {
@@ -2084,6 +2219,7 @@
             "B",
             "E"
         ],
+        "uuid": "d0b9002d-20e5-4103-b3e0-a4264eaa93c2",
         "source": "awslagi"
     },
     {
@@ -2099,6 +2235,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "62e64ec0-4965-4ddc-a61b-9424ed9dfe63",
         "source": "awslagi"
     },
     {
@@ -2114,6 +2251,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "7b9c4c70-1f2c-46c7-be7b-94743a8e71e7",
         "source": "awslagi"
     },
     {
@@ -2129,6 +2267,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "dc3bf9a7-d028-4cb5-b238-3d28fc310a89",
         "source": "awslagi"
     },
     {
@@ -2144,6 +2283,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "f60f784e-7b47-4916-95a9-317f95a7ddee",
         "source": "awslagi"
     },
     {
@@ -2159,6 +2299,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "5d352fd8-eab5-496d-b34f-b0c484de8fd5",
         "source": "awslagi"
     },
     {
@@ -2174,6 +2315,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "97aa2f73-f78d-4298-9786-59c1bb02b8b6",
         "source": "awslagi"
     },
     {
@@ -2189,6 +2331,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "faf11088-4a5b-4123-bdce-ed45053f2104",
         "source": "awslagi"
     },
     {
@@ -2206,6 +2349,7 @@
             "B",
             "E"
         ],
+        "uuid": "72e6beac-52bb-4177-85d4-1b8d2f95ad46",
         "source": "awslagi"
     },
     {
@@ -2221,6 +2365,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "e7facad5-0ba1-4eca-989c-fe7bb6fb9384",
         "source": "awslagi"
     },
     {
@@ -2238,6 +2383,7 @@
             "B",
             "E"
         ],
+        "uuid": "7dff6d66-cf34-41df-9a91-2952ddbc2c78",
         "source": "awslagi"
     },
     {
@@ -2253,6 +2399,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "3c921faa-524d-4a83-ac4e-bff81700c08e",
         "source": "awslagi"
     },
     {
@@ -2268,6 +2415,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "0104c1f4-73fc-4a58-aef8-0c6387ebc5ca",
         "source": "awslagi"
     },
     {
@@ -2283,6 +2431,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "8515e41b-925c-4931-86cf-e892ce884965",
         "source": "awslagi"
     },
     {
@@ -2300,6 +2449,7 @@
             "A",
             "C"
         ],
+        "uuid": "ad1de76a-43dc-42ea-ab89-e329947472b9",
         "source": "awslagi"
     },
     {
@@ -2315,6 +2465,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "32e40f0b-a9f3-4909-b374-98a801c9075c",
         "source": "awslagi"
     },
     {
@@ -2332,6 +2483,7 @@
             "A",
             "D"
         ],
+        "uuid": "da2aecd8-84d9-4156-b98d-3b1c40003c99",
         "source": "awslagi"
     },
     {
@@ -2347,6 +2499,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "836ded00-4050-4e77-bbe8-9d9dc2175fd1",
         "source": "awslagi"
     },
     {
@@ -2362,6 +2515,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "a33f8c60-15a9-457a-a4dc-6d2285ccb83e",
         "source": "awslagi"
     },
     {
@@ -2377,6 +2531,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "6481dde1-7463-4e8f-b7dd-39ea213d3bc2",
         "source": "awslagi"
     },
     {
@@ -2393,6 +2548,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "2674bd26-1f44-4a75-95b7-c3c1124ce6cb",
         "source": "awslagi"
     },
     {
@@ -2408,6 +2564,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "fa508269-2660-4ffd-aaad-804ca5404332",
         "source": "awslagi"
     },
     {
@@ -2423,6 +2580,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "a72e54c9-2eda-46e3-8f10-c04c748e2441",
         "source": "awslagi"
     },
     {
@@ -2438,6 +2596,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "b563802d-d906-4d47-b4c2-b99a336b0002",
         "source": "awslagi"
     },
     {
@@ -2453,6 +2612,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "203d72a2-2e8d-4aa6-8008-fab8c6bc3eb6",
         "source": "awslagi"
     },
     {
@@ -2470,6 +2630,7 @@
             "C",
             "E"
         ],
+        "uuid": "3b9ec92f-7683-4859-82b5-98975a29ec93",
         "source": "awslagi"
     },
     {
@@ -2485,6 +2646,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "5dc90ec6-25e7-4345-aa0e-1ac1da908328",
         "source": "awslagi"
     },
     {
@@ -2500,6 +2662,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "171c9099-ed68-4ce5-bbb3-090da67b6fe9",
         "source": "awslagi"
     },
     {
@@ -2515,6 +2678,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "c283d866-6920-4145-85e2-e3e51ed65341",
         "source": "awslagi"
     },
     {
@@ -2530,6 +2694,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "b1424f88-f007-485e-8658-785f4ad9573a",
         "source": "awslagi"
     },
     {
@@ -2545,6 +2710,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "f0b0c965-61d6-4347-8cac-36704c81a676",
         "source": "awslagi"
     },
     {
@@ -2560,6 +2726,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "01006aab-da55-49d6-b5fd-33687b0d24be",
         "source": "awslagi"
     },
     {
@@ -2575,6 +2742,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "5da952a1-c5fa-430f-927b-ee1a3da123b2",
         "source": "awslagi"
     },
     {
@@ -2590,6 +2758,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "b40beea7-7d73-4769-8437-15b614fefd1e",
         "source": "awslagi"
     },
     {
@@ -2607,6 +2776,7 @@
             "A",
             "D"
         ],
+        "uuid": "ead586b1-d4aa-4636-b056-168495341c50",
         "source": "awslagi"
     },
     {
@@ -2622,6 +2792,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "6658694f-a252-467c-b6d9-18df00906f28",
         "source": "awslagi"
     },
     {
@@ -2637,6 +2808,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "05f350f8-9682-4973-a5ee-8921c5cb6c07",
         "source": "awslagi"
     },
     {
@@ -2652,6 +2824,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "c0d9e8fe-edce-4deb-a22c-828b8a554bdd",
         "source": "awslagi"
     },
     {
@@ -2667,6 +2840,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "bbcbbef8-b6f4-473a-9539-2f6ae9c3b2d0",
         "source": "awslagi"
     },
     {
@@ -2682,6 +2856,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "362b0dc5-1998-40d2-adb0-16366fb48d28",
         "source": "awslagi"
     },
     {
@@ -2697,6 +2872,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "0dc4f17d-9ebf-4224-b78a-164882506a64",
         "source": "awslagi"
     },
     {
@@ -2712,6 +2888,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "c89c1532-979a-480c-9bde-c2c6b95b119a",
         "source": "awslagi"
     },
     {
@@ -2727,6 +2904,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "aa6d54b6-dfc1-4dc4-b3c2-ab12e4e2dd7e",
         "source": "awslagi"
     },
     {
@@ -2744,6 +2922,7 @@
             "B",
             "C"
         ],
+        "uuid": "19eaa97d-77e7-4ae3-8987-bf9448077771",
         "source": "awslagi"
     },
     {
@@ -2759,6 +2938,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "8887737b-cd7e-4eb7-aef1-03075ca7acd5",
         "source": "awslagi"
     },
     {
@@ -2774,6 +2954,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "66ae56ea-6156-4a51-a6b2-78e6bb327e52",
         "source": "awslagi"
     },
     {
@@ -2789,6 +2970,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "111c8277-566b-4569-b903-5bfc75d7d0b0",
         "source": "awslagi"
     },
     {
@@ -2804,6 +2986,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "c45f718b-9ffe-42eb-aee3-04cdd475ca7f",
         "source": "awslagi"
     },
     {
@@ -2821,6 +3004,7 @@
             "B",
             "E"
         ],
+        "uuid": "e5455a01-5921-43c6-8129-8f51bfa34be6",
         "source": "awslagi"
     },
     {
@@ -2836,6 +3020,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "74d1f385-0349-44fd-a5c6-73894d3d82f2",
         "source": "awslagi"
     },
     {
@@ -2853,6 +3038,7 @@
             "A",
             "C"
         ],
+        "uuid": "2f9a2732-a7cb-47ed-b984-d4d46c73f325",
         "source": "awslagi"
     },
     {
@@ -2868,6 +3054,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "d0f664d0-f09e-4968-8f58-ace8b971fcd4",
         "source": "awslagi"
     },
     {
@@ -2883,6 +3070,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "d9ed2c86-0875-44c2-af77-94d15cc61205",
         "source": "awslagi"
     },
     {
@@ -2898,6 +3086,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "d4ae89ea-6032-499d-9d44-4577236fe479",
         "source": "awslagi"
     },
     {
@@ -2913,6 +3102,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "13429e13-c040-4f1c-95b3-bf917fce911a",
         "source": "awslagi"
     },
     {
@@ -2928,6 +3118,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "30c25fe3-4596-4e0c-b1a8-a03c0e3b0da6",
         "source": "awslagi"
     },
     {
@@ -2943,6 +3134,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "03a042eb-c9bb-498f-bce7-8a1bc33564cf",
         "source": "awslagi"
     },
     {
@@ -2960,6 +3152,7 @@
             "A",
             "C"
         ],
+        "uuid": "8e789800-4b81-4f68-84d1-4c8be118b7c4",
         "source": "awslagi"
     },
     {
@@ -2975,6 +3168,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "c90f17c0-d1be-4fdc-8cc4-6bbf1b407b67",
         "source": "awslagi"
     },
     {
@@ -2992,6 +3186,7 @@
             "D",
             "E"
         ],
+        "uuid": "168b0421-3f1d-4acd-877b-c93e5d918e83",
         "source": "awslagi"
     },
     {
@@ -3007,6 +3202,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "8b0ea238-1026-4af5-b024-cfdc8292e451",
         "source": "awslagi"
     },
     {
@@ -3022,6 +3218,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "36c38a50-3fda-4889-85b1-3198c4e504aa",
         "source": "awslagi"
     },
     {
@@ -3037,6 +3234,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "54e60291-c65c-408e-b6e9-572a798fda65",
         "source": "awslagi"
     },
     {
@@ -3052,6 +3250,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "cd17d273-110d-4c87-a8d9-e4021414af63",
         "source": "awslagi"
     },
     {
@@ -3067,6 +3266,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "d24fea36-eac4-4052-873e-e2b910e8f253",
         "source": "awslagi"
     },
     {
@@ -3082,6 +3282,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "609f1ab5-7d97-4b74-b1b7-e13c0bc8df8f",
         "source": "awslagi"
     },
     {
@@ -3097,6 +3298,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "86868cc6-0542-47f4-a8ba-d8845ef9d3f4",
         "source": "awslagi"
     },
     {
@@ -3112,6 +3314,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "61b7316e-75d5-4026-ae89-83d2d95ecf56",
         "source": "awslagi"
     },
     {
@@ -3127,6 +3330,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "9a05f3d6-13f8-4df1-aa7f-bbc4e1dc3d1d",
         "source": "awslagi"
     },
     {
@@ -3142,6 +3346,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "de346e38-568e-4da1-b577-0f931a2821eb",
         "source": "awslagi"
     },
     {
@@ -3157,6 +3362,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "c30592ed-e63c-4b9f-82c1-524410073317",
         "source": "awslagi"
     },
     {
@@ -3172,6 +3378,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "c066d2fb-59d1-4185-95ed-abbcc7dd535a",
         "source": "awslagi"
     },
     {
@@ -3187,6 +3394,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "5ada9c27-baab-443b-ad6e-8c52245a2e39",
         "source": "awslagi"
     },
     {
@@ -3202,6 +3410,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "48883711-ad85-4a4e-b386-082dbea48a36",
         "source": "awslagi"
     },
     {
@@ -3217,6 +3426,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "176270c1-61d5-40fa-a840-b4fb2c1cf318",
         "source": "awslagi"
     },
     {
@@ -3232,6 +3442,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "c2cc3379-095e-4815-850c-569337c3ea36",
         "source": "awslagi"
     },
     {
@@ -3249,6 +3460,7 @@
             "B",
             "E"
         ],
+        "uuid": "0e06ee3a-6536-451d-99e3-c6215e732e7e",
         "source": "awslagi"
     },
     {
@@ -3266,6 +3478,7 @@
             "D",
             "E"
         ],
+        "uuid": "858d1944-d2dc-40ad-a3fd-a53a1a54b386",
         "source": "awslagi"
     },
     {
@@ -3281,6 +3494,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "8be2b068-f31a-42d0-8b72-4d5d44aa41fb",
         "source": "awslagi"
     },
     {
@@ -3296,6 +3510,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "942f0f3a-8d90-4b1c-bb03-9184eb8c644d",
         "source": "awslagi"
     },
     {
@@ -3313,6 +3528,7 @@
             "B",
             "D"
         ],
+        "uuid": "28d18eba-7315-48af-a07f-1fef71421bb0",
         "source": "awslagi"
     },
     {
@@ -3328,6 +3544,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "54a35c7b-9dfd-4bb1-a568-32c22c84fbf7",
         "source": "awslagi"
     },
     {
@@ -3343,6 +3560,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "57fddb77-f920-4a18-9732-4fc20ff59418",
         "source": "awslagi"
     },
     {
@@ -3358,6 +3576,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "4e2253fa-8912-45da-b783-33f85a4d3ac8",
         "source": "awslagi"
     },
     {
@@ -3373,6 +3592,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "3c83f1de-8b0b-4d9d-964e-07df1e038dea",
         "source": "awslagi"
     },
     {
@@ -3388,6 +3608,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "76efe606-eebe-40ed-9e46-4e0f8a7fc3a9",
         "source": "awslagi"
     },
     {
@@ -3403,6 +3624,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "7a94968d-b053-4c2e-b18b-902cc496ec30",
         "source": "awslagi"
     },
     {
@@ -3418,6 +3640,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "2fc53a8d-3f6d-4c77-8cc5-185c9491f4e1",
         "source": "awslagi"
     },
     {
@@ -3433,6 +3656,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "d7ce21e8-7452-45e0-a19b-85af97d7dcec",
         "source": "awslagi"
     },
     {
@@ -3450,6 +3674,7 @@
             "A",
             "D"
         ],
+        "uuid": "022324c3-811d-4b1e-b46b-628232f4caef",
         "source": "awslagi"
     },
     {
@@ -3467,6 +3692,7 @@
             "C",
             "E"
         ],
+        "uuid": "7396f6f7-6437-4e78-9502-b573a63359ee",
         "source": "awslagi"
     },
     {
@@ -3482,6 +3708,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "f9134f0d-df38-46a6-8eaf-c56a77ebb307",
         "source": "awslagi"
     },
     {
@@ -3497,6 +3724,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "e9f1cbbd-43c1-4924-9868-4cc953fd3360",
         "source": "awslagi"
     },
     {
@@ -3512,6 +3740,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "90fc4bb1-20fc-40e1-ac02-ddcb9f79aac5",
         "source": "awslagi"
     },
     {
@@ -3529,6 +3758,7 @@
             "A",
             "B"
         ],
+        "uuid": "0e61fd47-93a0-4130-8c4f-b4c337c7c2d8",
         "source": "awslagi"
     },
     {
@@ -3546,6 +3776,7 @@
             "B",
             "E"
         ],
+        "uuid": "e36aec6c-037c-4bf2-9295-5155af315fb6",
         "source": "awslagi"
     },
     {
@@ -3561,6 +3792,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "c9aee9aa-adbe-4315-88a0-6e6761878e11",
         "source": "awslagi"
     },
     {
@@ -3578,6 +3810,7 @@
             "C",
             "D"
         ],
+        "uuid": "e39314cd-1814-49f6-bb70-85cfdf01311f",
         "source": "awslagi"
     },
     {
@@ -3593,6 +3826,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "89acb7c1-8741-43ec-9422-493615809293",
         "source": "awslagi"
     },
     {
@@ -3608,6 +3842,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "f42533c3-ad7c-4140-9b36-e22cd62e8e18",
         "source": "awslagi"
     },
     {
@@ -3625,6 +3860,7 @@
             "A",
             "B"
         ],
+        "uuid": "4e2fa301-7300-4399-8c98-f91b3a7931d7",
         "source": "awslagi"
     },
     {
@@ -3640,6 +3876,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "a72c23b5-febf-4a9c-ad9e-581a41f44ae7",
         "source": "awslagi"
     },
     {
@@ -3655,6 +3892,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "2f430e88-c059-4a81-beb8-5ef06e62fe0f",
         "source": "awslagi"
     },
     {
@@ -3670,6 +3908,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "28dadcc9-991f-4fa4-86a8-0a7a7664fb19",
         "source": "awslagi"
     },
     {
@@ -3685,6 +3924,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "51ffa0f6-6efa-4351-afb5-4d2bffac2a41",
         "source": "awslagi"
     },
     {
@@ -3700,6 +3940,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "3940ecbe-b396-48fc-a865-44759d9f76ce",
         "source": "awslagi"
     },
     {
@@ -3713,6 +3954,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "86823c27-f6ad-438e-b50e-57647ea2eb7d",
         "source": "examtopics",
         "part": 1,
         "question_number": 1
@@ -3728,6 +3970,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "036d9e9c-1480-4a78-aea9-b5141f0304d1",
         "source": "examtopics",
         "part": 1,
         "question_number": 2
@@ -3743,6 +3986,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "59ae1492-8ab1-4317-9055-39675040c302",
         "source": "examtopics",
         "part": 1,
         "question_number": 3
@@ -3758,6 +4002,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "2ad3232a-901e-4126-85ba-7f6fa41609d2",
         "source": "examtopics",
         "part": 1,
         "question_number": 4
@@ -3773,6 +4018,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "e979a16c-496b-4e56-986a-3863f474538f",
         "source": "examtopics",
         "part": 1,
         "question_number": 5
@@ -3788,6 +4034,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "d12f3809-05ae-4508-bb80-853cb2a01ba3",
         "source": "examtopics",
         "part": 1,
         "question_number": 6
@@ -3803,6 +4050,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "42eb0e3e-cfed-4995-8e39-c4849df30da8",
         "source": "examtopics",
         "part": 1,
         "question_number": 7
@@ -3818,6 +4066,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "29f6e7e3-565c-434a-9d4e-46f422158cd9",
         "source": "examtopics",
         "part": 1,
         "question_number": 8
@@ -3835,6 +4084,7 @@
             "A",
             "E"
         ],
+        "uuid": "64019f18-3b05-457d-89b9-df97f449007d",
         "source": "examtopics",
         "part": 1,
         "question_number": 9
@@ -3852,6 +4102,7 @@
             "C",
             "D"
         ],
+        "uuid": "a7642010-6b0c-4e4b-bc50-1092e7b92266",
         "source": "examtopics",
         "part": 1,
         "question_number": 10
@@ -3867,6 +4118,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "80c51278-df2f-4f23-8c7f-d1b360b06b9a",
         "source": "examtopics",
         "part": 2,
         "question_number": 1
@@ -3882,6 +4134,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "c5c662b9-c2cd-4ce4-bdd6-614cab3a83f4",
         "source": "examtopics",
         "part": 2,
         "question_number": 2
@@ -3897,6 +4150,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "48206ded-4dfb-419f-bc07-dbac460af2cd",
         "source": "examtopics",
         "part": 2,
         "question_number": 3
@@ -3914,6 +4168,7 @@
             "A",
             "D"
         ],
+        "uuid": "02ac9092-f185-4011-95f6-0e99405b282c",
         "source": "examtopics",
         "part": 2,
         "question_number": 4
@@ -3929,6 +4184,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "14294282-668d-4664-8061-e60fa9c994a3",
         "source": "examtopics",
         "part": 2,
         "question_number": 5
@@ -3944,6 +4200,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "f0f983a0-fc35-4600-a641-3aa7d0a87290",
         "source": "examtopics",
         "part": 2,
         "question_number": 6
@@ -3959,6 +4216,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "2bffe906-ac30-470b-b345-e6e9eaeaa6b7",
         "source": "examtopics",
         "part": 2,
         "question_number": 7
@@ -3974,6 +4232,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "d9726ec8-33d4-4e0e-b83e-846af363a409",
         "source": "examtopics",
         "part": 2,
         "question_number": 8
@@ -3989,6 +4248,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "39744de1-907e-4e79-a85b-a7722687c47b",
         "source": "examtopics",
         "part": 2,
         "question_number": 9
@@ -4004,6 +4264,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "39120e2d-85d6-4e0d-8aea-51ac7c186985",
         "source": "examtopics",
         "part": 2,
         "question_number": 10
@@ -4021,6 +4282,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "0e00cbd0-c25f-47ad-83ff-e2425b8ccc14",
         "source": "awslagi"
     },
     {
@@ -4036,6 +4298,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "284b1d81-8fd3-4d9b-b5ca-3620be7bd75c",
         "source": "awslagi"
     },
     {
@@ -4051,6 +4314,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "cecca81f-6663-4856-be82-142ab5e0c359",
         "source": "awslagi"
     },
     {
@@ -4066,6 +4330,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "bc366e6a-ceb2-445f-a8cf-65b70bec9b82",
         "source": "awslagi"
     },
     {
@@ -4081,6 +4346,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "60eb0d24-fb0a-4c96-8140-b79c9e96f7e7",
         "source": "awslagi"
     },
     {
@@ -4098,6 +4364,7 @@
             "B",
             "D"
         ],
+        "uuid": "3e061c92-e8d5-401b-99ad-b4e3b7ef0579",
         "source": "awslagi"
     },
     {
@@ -4113,6 +4380,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "4b327472-f17f-4381-99d2-ba74d897f0e6",
         "source": "awslagi"
     },
     {
@@ -4128,6 +4396,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "05ca5262-f72d-4df1-8261-d3bb8d6f74c7",
         "source": "awslagi"
     },
     {
@@ -4143,6 +4412,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "e939974b-2766-46c9-81d5-401cb566b440",
         "source": "awslagi"
     },
     {
@@ -4160,6 +4430,7 @@
             "C",
             "E"
         ],
+        "uuid": "b529a55b-bc02-470b-a6a0-64e8e1ed71fd",
         "source": "awslagi"
     },
     {
@@ -4175,6 +4446,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "3cebff74-3f9c-4bb0-8780-3300f07ad651",
         "source": "awslagi"
     },
     {
@@ -4190,6 +4462,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "77021889-0b94-4ede-ad08-658435549b58",
         "source": "awslagi"
     },
     {
@@ -4205,6 +4478,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "1a9562ca-9113-4f5b-bd54-fb54ebac611d",
         "source": "awslagi"
     },
     {
@@ -4220,6 +4494,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "57222b9e-2e6b-44c3-998b-fd2c17ef376d",
         "source": "awslagi"
     },
     {
@@ -4235,6 +4510,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "961130d1-0063-4f48-92a6-998996d27636",
         "source": "awslagi"
     },
     {
@@ -4250,6 +4526,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "85a369d3-2254-4c72-913e-4a717f8344dc",
         "source": "awslagi"
     },
     {
@@ -4265,6 +4542,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "e8c12b3a-8b60-4005-88ae-7e2f54b0fbb6",
         "source": "awslagi"
     },
     {
@@ -4282,6 +4560,7 @@
             "B",
             "C"
         ],
+        "uuid": "f4cddc54-bec1-4d11-8a82-df568e5cbbc5",
         "source": "awslagi"
     },
     {
@@ -4297,6 +4576,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "43764fda-b9fc-4ecd-95f2-d0eefbb2d6bc",
         "source": "awslagi"
     },
     {
@@ -4312,6 +4592,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "0c5f9c61-b095-4c0a-9819-970f1689b46e",
         "source": "awslagi"
     },
     {
@@ -4327,6 +4608,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "f555f6d8-64d7-4f0b-8141-66e934cced2d",
         "source": "awslagi"
     },
     {
@@ -4342,6 +4624,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "94aeecbb-d7d3-4708-9b5f-26ffa4e3d0aa",
         "source": "awslagi"
     },
     {
@@ -4357,6 +4640,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "ca59c9c1-1685-4f66-8fbe-13922aba5792",
         "source": "awslagi"
     },
     {
@@ -4372,6 +4656,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "01ddb52a-063e-41fa-a0ed-cc1e0e02e561",
         "source": "awslagi"
     },
     {
@@ -4387,6 +4672,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "2e7026c3-b5e1-4b8f-9215-bdda2be155f9",
         "source": "awslagi"
     },
     {
@@ -4402,6 +4688,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "91445daf-99e9-4171-a09f-58cf78ca514d",
         "source": "awslagi"
     },
     {
@@ -4417,6 +4704,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "426297e2-5743-493c-8fd3-80e38e1dbc65",
         "source": "awslagi"
     },
     {
@@ -4432,6 +4720,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "eccc0846-4c12-499b-bbf4-658de8e40670",
         "source": "awslagi"
     },
     {
@@ -4447,6 +4736,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "8cae8eb5-e08c-4025-9ae4-0a9a414634c4",
         "source": "awslagi"
     },
     {
@@ -4462,6 +4752,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "6a8eaf95-ad97-4f37-8840-c723b0f3fb6a",
         "source": "awslagi"
     },
     {
@@ -4477,6 +4768,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "dd5eef79-1462-4252-bd62-3151e7050b70",
         "source": "awslagi"
     },
     {
@@ -4492,6 +4784,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "fd87ec96-3862-46ae-878d-7df2e89bfea7",
         "source": "awslagi"
     },
     {
@@ -4507,6 +4800,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "997df5e6-b2cc-46ff-9c85-15bc9d4ce037",
         "source": "awslagi"
     },
     {
@@ -4524,6 +4818,7 @@
             "B",
             "E"
         ],
+        "uuid": "aede5d10-63dc-49b6-9f49-3028588ef144",
         "source": "awslagi"
     },
     {
@@ -4541,6 +4836,7 @@
             "C",
             "E"
         ],
+        "uuid": "5e6c2d02-9d5c-407d-8791-d55e1a9d0eb1",
         "source": "awslagi"
     },
     {
@@ -4556,6 +4852,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "4813099f-974f-4628-acf8-09810cd2b216",
         "source": "awslagi"
     },
     {
@@ -4571,6 +4868,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "fceba604-1a16-4b80-849a-574193fdd48e",
         "source": "awslagi"
     },
     {
@@ -4586,6 +4884,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "6b0fc5d5-46e8-4ce4-b543-e629b8b8edee",
         "source": "awslagi"
     },
     {
@@ -4601,6 +4900,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "ec57d479-9baf-4b38-8d69-580b89535488",
         "source": "awslagi"
     },
     {
@@ -4616,6 +4916,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "37b6625e-5f37-4d9e-8314-000902ff9675",
         "source": "awslagi"
     },
     {
@@ -4631,6 +4932,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "337062eb-01ec-4520-84da-29e0f5d1f98e",
         "source": "awslagi"
     },
     {
@@ -4646,6 +4948,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "2755b1f6-9af7-4fc0-8aac-82bd0048f745",
         "source": "awslagi"
     },
     {
@@ -4661,6 +4964,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "f8e1214d-aabb-4a4b-8084-521e4dde1fba",
         "source": "awslagi"
     },
     {
@@ -4676,6 +4980,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "d03c88de-07dd-4b4b-b565-dc9ed835ee05",
         "source": "awslagi"
     },
     {
@@ -4693,6 +4998,7 @@
             "A",
             "D"
         ],
+        "uuid": "2cefcde6-88a0-4d70-b9a1-bc283406e55d",
         "source": "awslagi"
     },
     {
@@ -4712,6 +5018,7 @@
             "C",
             "D"
         ],
+        "uuid": "cf6cb07e-f74a-4d4c-9f26-79d3b926599a",
         "source": "awslagi"
     },
     {
@@ -4727,6 +5034,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "743c44ea-57c9-4976-8f21-a0b2a904ad74",
         "source": "awslagi"
     },
     {
@@ -4742,6 +5050,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "169d8de0-5b35-4843-b5a8-f51ac5d06a7d",
         "source": "awslagi"
     },
     {
@@ -4757,6 +5066,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "6a98ce98-c3f5-423d-8363-8b1a14d40f03",
         "source": "awslagi"
     },
     {
@@ -4772,6 +5082,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "43aea0cf-352f-49c8-bb2a-0f41ce959746",
         "source": "awslagi"
     },
     {
@@ -4787,6 +5098,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "beb16732-c103-4dc7-ae41-53c5d10a7eb4",
         "source": "awslagi"
     },
     {
@@ -4802,6 +5114,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "19f7352e-61a0-444c-a283-bf44df1082c4",
         "source": "awslagi"
     },
     {
@@ -4817,6 +5130,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "2714b17f-18da-4f60-b70e-037a74aa86c2",
         "source": "awslagi"
     },
     {
@@ -4832,6 +5146,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "03f6e5b4-734d-4541-97e6-ea286eda8b86",
         "source": "awslagi"
     },
     {
@@ -4847,6 +5162,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "63f6aeb6-5c75-4383-8111-f2729f398f6d",
         "source": "awslagi"
     },
     {
@@ -4862,6 +5178,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "91e6358d-ad55-429d-bb33-21e99ec262e1",
         "source": "awslagi"
     },
     {
@@ -4879,6 +5196,7 @@
             "B",
             "C"
         ],
+        "uuid": "5f24cf06-67dd-4fff-9120-fef9c1b803d0",
         "source": "awslagi"
     },
     {
@@ -4894,6 +5212,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "c9648d7d-e4df-41ed-8f4c-a523e7911e31",
         "source": "awslagi"
     },
     {
@@ -4911,6 +5230,7 @@
             "A",
             "C"
         ],
+        "uuid": "5fbfb9f9-1912-4470-9c02-8064d2fe6e72",
         "source": "awslagi"
     },
     {
@@ -4928,6 +5248,7 @@
             "A",
             "E"
         ],
+        "uuid": "e6039a2e-26e2-4b91-981a-79d071c0c5d3",
         "source": "awslagi"
     },
     {
@@ -4943,6 +5264,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "8a77fbb7-eb78-48de-8638-bfbc306f4279",
         "source": "awslagi"
     },
     {
@@ -4958,6 +5280,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "7ac0b4a7-8597-405c-8066-27bc9224c2a0",
         "source": "awslagi"
     },
     {
@@ -4973,6 +5296,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "d2686c88-5fd8-479a-8472-f26b424f9652",
         "source": "awslagi"
     },
     {
@@ -4988,6 +5312,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "0f865623-242a-4333-949f-c489807f0b2c",
         "source": "awslagi"
     },
     {
@@ -5005,6 +5330,7 @@
             "A",
             "E"
         ],
+        "uuid": "ba0fd0c9-8179-4274-ab47-5f148b4b1a87",
         "source": "awslagi"
     },
     {
@@ -5020,6 +5346,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "6f8c54be-4bb8-4d8d-9839-8dddbb6a6567",
         "source": "awslagi"
     },
     {
@@ -5035,6 +5362,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "1f0c839a-efe7-4d84-b95a-44626b67fee1",
         "source": "awslagi"
     },
     {
@@ -5050,6 +5378,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "db8916a6-613f-4851-aa73-df6275212269",
         "source": "awslagi"
     },
     {
@@ -5067,6 +5396,7 @@
             "A",
             "B"
         ],
+        "uuid": "01cfd7c8-5418-46bb-9541-8771918ba6a3",
         "source": "awslagi"
     },
     {
@@ -5082,6 +5412,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "881168a6-9e92-43c2-b2a0-d88b5d3dd956",
         "source": "awslagi"
     },
     {
@@ -5099,6 +5430,7 @@
             "B",
             "D"
         ],
+        "uuid": "9c770bf5-a16f-436f-b878-c369c6276897",
         "source": "awslagi"
     },
     {
@@ -5114,6 +5446,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "7a84df9e-aeb1-4c59-b6e2-adc891896cbe",
         "source": "awslagi"
     },
     {
@@ -5131,6 +5464,7 @@
             "A",
             "C"
         ],
+        "uuid": "0e03f921-3302-420c-b013-1cb14f7551ad",
         "source": "awslagi"
     },
     {
@@ -5146,6 +5480,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "6b96c3d3-9369-4eb0-a2c4-6d551b6135d8",
         "source": "awslagi"
     },
     {
@@ -5161,6 +5496,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "ba0f6de9-876a-49e6-8b9b-42f5b6f61ecf",
         "source": "awslagi"
     },
     {
@@ -5178,6 +5514,7 @@
             "A",
             "B"
         ],
+        "uuid": "0df9a15e-1f7f-43c3-8a68-9d6053f26ff4",
         "source": "awslagi"
     },
     {
@@ -5193,6 +5530,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "d63d08c9-34bf-41ec-aabd-159d73f1c8dc",
         "source": "awslagi"
     },
     {
@@ -5210,6 +5548,7 @@
             "B",
             "E"
         ],
+        "uuid": "7d092caa-eddd-4d2e-993e-dc9496ec77da",
         "source": "awslagi"
     },
     {
@@ -5225,6 +5564,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "4e81e46a-5ae5-40a9-890e-196ab2a325f9",
         "source": "awslagi"
     },
     {
@@ -5240,6 +5580,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "07bb0b7f-20d1-4d34-9c66-9ef40b81fe46",
         "source": "awslagi"
     },
     {
@@ -5255,6 +5596,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "2e177133-20df-4255-b299-b778b8f66fc7",
         "source": "awslagi"
     },
     {
@@ -5270,6 +5612,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "58da2984-d0ed-422a-ba28-83f8d8eb3afa",
         "source": "awslagi"
     },
     {
@@ -5285,6 +5628,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "71dfb6a5-7e9a-4086-bfce-1cd3cd7da95e",
         "source": "awslagi"
     },
     {
@@ -5300,6 +5644,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "70503b68-a0d2-4a87-b6aa-6ed7801532c7",
         "source": "awslagi"
     },
     {
@@ -5317,6 +5662,7 @@
             "B",
             "C"
         ],
+        "uuid": "cc55ba13-648e-4df0-95bb-a879ced926c1",
         "source": "awslagi"
     },
     {
@@ -5332,6 +5678,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "db622d51-652a-4e07-87af-e90482ee1bc0",
         "source": "awslagi"
     },
     {
@@ -5347,6 +5694,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "54dd2317-7fc7-4627-a47f-e1a2bcca9dbd",
         "source": "awslagi"
     },
     {
@@ -5362,6 +5710,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "6de4bcfb-96a9-4c44-b9ce-6adf8a303163",
         "source": "awslagi"
     },
     {
@@ -5377,6 +5726,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "61242af4-575c-44e2-86a9-8ffed968aa34",
         "source": "awslagi"
     },
     {
@@ -5394,6 +5744,7 @@
             "B",
             "C"
         ],
+        "uuid": "d187c635-d5d3-4f14-95ef-7ac9d1241669",
         "source": "awslagi"
     },
     {
@@ -5411,6 +5762,7 @@
             "A",
             "C"
         ],
+        "uuid": "d699553a-99c7-4505-9719-ae84b988cba2",
         "source": "awslagi"
     },
     {
@@ -5426,6 +5778,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "ff98f9dc-b0b2-43f5-99fe-70b2c117dd62",
         "source": "awslagi"
     },
     {
@@ -5443,6 +5796,7 @@
             "A",
             "C"
         ],
+        "uuid": "99570562-a435-45d4-a01c-56be324ddf35",
         "source": "awslagi"
     },
     {
@@ -5458,6 +5812,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "1a87bda1-e201-46ed-b8ca-b45317860661",
         "source": "awslagi"
     },
     {
@@ -5473,6 +5828,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "a7bd3ad8-4f0f-466f-9390-320c01c8edf7",
         "source": "awslagi"
     },
     {
@@ -5488,6 +5844,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "eb80a96f-1149-4dab-82db-dfce796f7b63",
         "source": "awslagi"
     },
     {
@@ -5503,6 +5860,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "fdde58aa-cdc7-437c-8a53-466e4ad1ce6d",
         "source": "awslagi"
     },
     {
@@ -5516,6 +5874,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "a3060d97-6c40-4938-80d2-1ef3cb749776",
         "source": "examtopics",
         "part": 3,
         "question_number": 1
@@ -5531,6 +5890,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "71bfc395-3bb2-4982-8691-7911dae259e6",
         "source": "examtopics",
         "part": 3,
         "question_number": 2
@@ -5546,6 +5906,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "0af93e86-7206-4557-805e-bae89e40d9a0",
         "source": "examtopics",
         "part": 3,
         "question_number": 3
@@ -5561,6 +5922,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "135606b6-cc35-46ca-94d5-b176ce8c6d6f",
         "source": "examtopics",
         "part": 3,
         "question_number": 4
@@ -5576,6 +5938,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "790deaa9-0568-4398-9a6a-9088a8524da8",
         "source": "examtopics",
         "part": 3,
         "question_number": 5
@@ -5591,6 +5954,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "a2335fcb-a39d-4a8e-866b-be63532102b4",
         "source": "examtopics",
         "part": 3,
         "question_number": 6
@@ -5608,6 +5972,7 @@
             "B",
             "D"
         ],
+        "uuid": "a359d59d-eac6-4319-b35a-f510a11dbcf2",
         "source": "examtopics",
         "part": 3,
         "question_number": 7
@@ -5623,6 +5988,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "b602f013-f173-4037-af78-7db6c779c9b0",
         "source": "examtopics",
         "part": 3,
         "question_number": 8
@@ -5640,6 +6006,7 @@
             "A",
             "B"
         ],
+        "uuid": "35474b84-3274-4e57-b64f-744bf4aff434",
         "source": "examtopics",
         "part": 3,
         "question_number": 9
@@ -5657,6 +6024,7 @@
             "B",
             "E"
         ],
+        "uuid": "d147e2f2-5468-448b-9736-122327ad94aa",
         "source": "examtopics",
         "part": 3,
         "question_number": 10
@@ -5674,6 +6042,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "fecff0fb-9f02-4010-8e12-b8522a4fd540",
         "source": "awslagi"
     },
     {
@@ -5691,6 +6060,7 @@
             "B",
             "E"
         ],
+        "uuid": "be15663a-5d38-4302-82cd-0918d1d8ca5d",
         "source": "awslagi"
     },
     {
@@ -5706,6 +6076,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "de46e1e0-6403-47c7-bb86-5e8d0e6b44e7",
         "source": "awslagi"
     },
     {
@@ -5721,6 +6092,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "294ae68b-16fb-4d54-90a5-2beb20749beb",
         "source": "awslagi"
     },
     {
@@ -5736,6 +6108,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "41c95d17-d9d6-4d4f-b524-a67da19c1012",
         "source": "awslagi"
     },
     {
@@ -5751,6 +6124,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "0ddf2970-45e3-4ce3-8aaa-8b878e4f3319",
         "source": "awslagi"
     },
     {
@@ -5766,6 +6140,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "48f82680-e026-44c9-a126-cc90f45936a0",
         "source": "awslagi"
     },
     {
@@ -5781,6 +6156,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "34b2591d-7ab2-4f60-9297-a55b05a9503d",
         "source": "awslagi"
     },
     {
@@ -5796,6 +6172,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "f3becdb0-94bb-449e-a99b-de9a3d0a1c4a",
         "source": "awslagi"
     },
     {
@@ -5813,6 +6190,7 @@
             "B",
             "C"
         ],
+        "uuid": "fb4ea2cd-5e63-4e49-a042-82c924397541",
         "source": "awslagi"
     },
     {
@@ -5828,6 +6206,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "6fd27175-8209-491a-aeac-487172131d86",
         "source": "awslagi"
     },
     {
@@ -5843,6 +6222,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "8758b311-0779-4987-8aa9-4c8701c2d000",
         "source": "awslagi"
     },
     {
@@ -5860,6 +6240,7 @@
             "A",
             "C"
         ],
+        "uuid": "f9fbda92-d0fd-47b0-a1f9-19839f19d6a9",
         "source": "awslagi"
     },
     {
@@ -5875,6 +6256,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "21a57890-afa1-4f01-86d6-2c2822ac6a7a",
         "source": "awslagi"
     },
     {
@@ -5890,6 +6272,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "08bdb8f4-0dd7-4994-a131-c1dd0489a87a",
         "source": "awslagi"
     },
     {
@@ -5905,6 +6288,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "7b6ad497-6fce-482c-af63-78976f0d0595",
         "source": "awslagi"
     },
     {
@@ -5920,6 +6304,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "4c4d005a-ccae-41d3-90b6-0772bb99748b",
         "source": "awslagi"
     },
     {
@@ -5935,6 +6320,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "2e787134-443e-47ba-bd84-8401bcb32032",
         "source": "awslagi"
     },
     {
@@ -5950,6 +6336,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "5e39d5a8-5668-4d57-8aaf-99302f4bbe3e",
         "source": "awslagi"
     },
     {
@@ -5965,6 +6352,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "656ab015-0fe3-408a-8d6b-417876862f94",
         "source": "awslagi"
     },
     {
@@ -5980,6 +6368,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "49b9f7d9-c3dd-44b1-a55e-f2b6c0e14153",
         "source": "awslagi"
     },
     {
@@ -5995,6 +6384,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "49ec61cd-f05a-4ba6-8ebe-433b80fa11dc",
         "source": "awslagi"
     },
     {
@@ -6010,6 +6400,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "552449ba-4123-4479-a7af-09955e07d2fa",
         "source": "awslagi"
     },
     {
@@ -6025,6 +6416,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "997cdc13-db82-45f6-ae71-3bdbe268959c",
         "source": "awslagi"
     },
     {
@@ -6042,6 +6434,7 @@
             "A",
             "E"
         ],
+        "uuid": "3a007280-0d38-4d83-bc0a-0d25bfd5c21b",
         "source": "awslagi"
     },
     {
@@ -6057,6 +6450,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "e4104ec5-88b1-48ec-a7d1-cf46dcaae0b0",
         "source": "awslagi"
     },
     {
@@ -6072,6 +6466,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "f36bd8c5-4ae3-4526-952c-c8560646149f",
         "source": "awslagi"
     },
     {
@@ -6087,6 +6482,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "dde5359e-c8a2-4991-aef5-187e8bb6f846",
         "source": "awslagi"
     },
     {
@@ -6102,6 +6498,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "95b6c0b6-18ae-4315-baf0-ef71b2aee08d",
         "source": "awslagi"
     },
     {
@@ -6117,6 +6514,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "9b4f8037-1bb7-4205-98b5-91762766285d",
         "source": "awslagi"
     },
     {
@@ -6132,6 +6530,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "3a583a2b-2de3-452f-a2bf-4cc7b15aeb2a",
         "source": "awslagi"
     },
     {
@@ -6147,6 +6546,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "55af712b-d226-47c2-b0e6-596aca227ad6",
         "source": "awslagi"
     },
     {
@@ -6162,6 +6562,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "fd60e74d-c78c-4f27-92a9-58b5d5f04e5a",
         "source": "awslagi"
     },
     {
@@ -6177,6 +6578,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "9be5d2d0-8a1c-4245-aa7f-2e2ca94b923f",
         "source": "awslagi"
     },
     {
@@ -6194,6 +6596,7 @@
             "A",
             "D"
         ],
+        "uuid": "f39a1d5f-9193-4356-bc1a-77c943af2e2c",
         "source": "awslagi"
     },
     {
@@ -6209,6 +6612,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "6ef4ec9f-daf8-4c8b-b9a6-4187a252d12b",
         "source": "awslagi"
     },
     {
@@ -6226,6 +6630,7 @@
             "B",
             "C"
         ],
+        "uuid": "cda14896-b264-452c-b4a7-f2d602e0006e",
         "source": "awslagi"
     },
     {
@@ -6243,6 +6648,7 @@
             "A",
             "C"
         ],
+        "uuid": "b72c4134-9a26-4282-892a-03260a9be616",
         "source": "awslagi"
     },
     {
@@ -6260,6 +6666,7 @@
             "B",
             "D"
         ],
+        "uuid": "8b6b411c-b9f0-44a5-b0fb-69424cb353f9",
         "source": "awslagi"
     },
     {
@@ -6275,6 +6682,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "9a06bc0f-64b2-44ba-94ad-2396c464ba71",
         "source": "awslagi"
     },
     {
@@ -6292,6 +6700,7 @@
             "A",
             "B"
         ],
+        "uuid": "aea7a6c4-5038-4e64-ba09-2436e6ac113d",
         "source": "awslagi"
     },
     {
@@ -6309,6 +6718,7 @@
             "B",
             "E"
         ],
+        "uuid": "d3c3bfbb-89e0-4b02-9a6f-cd4f2f39a877",
         "source": "awslagi"
     },
     {
@@ -6324,6 +6734,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "f6ca5c34-9104-402d-934d-42416c3c4030",
         "source": "awslagi"
     },
     {
@@ -6339,6 +6750,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "ad8abda7-b5a8-4ac5-bb94-7f206d8acbfd",
         "source": "awslagi"
     },
     {
@@ -6356,6 +6768,7 @@
             "B",
             "D"
         ],
+        "uuid": "7e427fb1-3e3a-400f-8a13-5de5c82d08bd",
         "source": "awslagi"
     },
     {
@@ -6371,6 +6784,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "75533a67-f0c4-4782-acdd-c7635a4bd76f",
         "source": "awslagi"
     },
     {
@@ -6386,6 +6800,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "f2bca640-8610-4d3e-9dac-ae4dd8c33d26",
         "source": "awslagi"
     },
     {
@@ -6401,6 +6816,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "978660ec-5de8-49a2-877e-b1a27ae8a55d",
         "source": "awslagi"
     },
     {
@@ -6416,6 +6832,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "b5fc98fa-ddb1-4f5a-8c67-524cc85a619d",
         "source": "awslagi"
     },
     {
@@ -6431,6 +6848,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "dd63c174-c077-4886-9f15-8403ab5bde1c",
         "source": "awslagi"
     },
     {
@@ -6446,6 +6864,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "9569bd56-8e65-417e-9fe2-4c8cbffa9a56",
         "source": "awslagi"
     },
     {
@@ -6461,6 +6880,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "2d5fc4aa-d802-4d1b-b0a7-58db42f01151",
         "source": "awslagi"
     },
     {
@@ -6476,6 +6896,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "5dd4e0fd-5d37-4eff-a155-13498a303b34",
         "source": "awslagi"
     },
     {
@@ -6491,6 +6912,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "92a66053-713a-48a5-b988-9b4d06aa2c76",
         "source": "awslagi"
     },
     {
@@ -6506,6 +6928,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "6fc58a24-579e-45eb-8235-86e72be704f2",
         "source": "awslagi"
     },
     {
@@ -6521,6 +6944,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "5e51fb35-fa2e-44b4-bcf2-49ce6fca1608",
         "source": "awslagi"
     },
     {
@@ -6536,6 +6960,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "a0c9bfed-2c55-49e1-96e0-62031a0cec71",
         "source": "awslagi"
     },
     {
@@ -6551,6 +6976,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "d79157c1-4616-45f3-8114-1befa95b769d",
         "source": "awslagi"
     },
     {
@@ -6566,6 +6992,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "d828975e-4257-439e-9de7-7451e09a08d1",
         "source": "awslagi"
     },
     {
@@ -6581,6 +7008,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "8a2b062b-faf7-47f8-b9bc-b8a73d82cc48",
         "source": "awslagi"
     },
     {
@@ -6598,6 +7026,7 @@
             "B",
             "C"
         ],
+        "uuid": "3bf847ec-f82b-494d-ae5c-11123db77a08",
         "source": "awslagi"
     },
     {
@@ -6613,6 +7042,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "05f8cdea-eaa7-4ac6-90df-26f593ccd7c5",
         "source": "awslagi"
     },
     {
@@ -6628,6 +7058,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "e54b98a8-b7fd-4455-a0e3-6381d82fa11a",
         "source": "awslagi"
     },
     {
@@ -6643,6 +7074,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "4862b35f-27e9-43d7-8961-8a9d3e64a66d",
         "source": "awslagi"
     },
     {
@@ -6660,6 +7092,7 @@
             "B",
             "D"
         ],
+        "uuid": "0aa63805-e23d-46e7-8f2b-e62df50c3cb2",
         "source": "awslagi"
     },
     {
@@ -6675,6 +7108,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "af046592-b615-4dfb-b7ce-37d7d1b011a1",
         "source": "awslagi"
     },
     {
@@ -6690,6 +7124,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "7dc7d819-5f02-4c55-a1ee-fb57d4e5eb9e",
         "source": "awslagi"
     },
     {
@@ -6705,6 +7140,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "83a4eb9a-73ea-4a31-9251-ea4673627f28",
         "source": "awslagi"
     },
     {
@@ -6720,6 +7156,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "46c8ee51-5b62-4e1e-8f51-4576c92140cb",
         "source": "awslagi"
     },
     {
@@ -6735,6 +7172,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "221394e9-aa3b-495c-950f-1928ce2bbd42",
         "source": "awslagi"
     },
     {
@@ -6750,6 +7188,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "a46bf8f3-e723-4d59-bcd4-3077cebeeb85",
         "source": "awslagi"
     },
     {
@@ -6767,6 +7206,7 @@
             "C",
             "D"
         ],
+        "uuid": "128c5f93-a41d-4ee7-b0d3-7c71c7d3233e",
         "source": "awslagi"
     },
     {
@@ -6782,6 +7222,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "3946f4bc-e96c-4fc5-a9c7-4b574a559133",
         "source": "awslagi"
     },
     {
@@ -6797,6 +7238,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "425dd562-8d05-4d69-83a3-ac58c60c25e8",
         "source": "awslagi"
     },
     {
@@ -6812,6 +7254,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "d4cfc595-20a7-4365-95bb-2097fd1f7a12",
         "source": "awslagi"
     },
     {
@@ -6827,6 +7270,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "ef1dd9c2-0443-439f-beda-3961c13b1694",
         "source": "awslagi"
     },
     {
@@ -6844,6 +7288,7 @@
             "B",
             "D"
         ],
+        "uuid": "1871e38a-029f-4c57-bee3-26e477481762",
         "source": "awslagi"
     },
     {
@@ -6859,6 +7304,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "f6b931ff-b968-4fbf-b4ed-7450c9dc9732",
         "source": "awslagi"
     },
     {
@@ -6874,6 +7320,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "0c8c774d-aa5c-47b4-a0b9-330e28f9404f",
         "source": "awslagi"
     },
     {
@@ -6889,6 +7336,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "ecac721b-dace-482f-a880-613c94793123",
         "source": "awslagi"
     },
     {
@@ -6904,6 +7352,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "b5285dd2-e9b7-482f-9ee8-1997cb381b96",
         "source": "awslagi"
     },
     {
@@ -6919,6 +7368,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "ea2a0551-3da8-41c2-a73d-1b1eeddb18f2",
         "source": "awslagi"
     },
     {
@@ -6934,6 +7384,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "120516e7-4783-43ae-ae5c-f82966439563",
         "source": "awslagi"
     },
     {
@@ -6949,6 +7400,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "42a940c7-0340-4ab4-961a-58836d65937b",
         "source": "awslagi"
     },
     {
@@ -6966,6 +7418,7 @@
             "C",
             "E"
         ],
+        "uuid": "36fec2f0-8bbe-4530-a7cb-6a08b857e7e6",
         "source": "awslagi"
     },
     {
@@ -6983,6 +7436,7 @@
             "B",
             "E"
         ],
+        "uuid": "fd76ee2f-6f8e-45d0-ae10-ffcd2823f6c9",
         "source": "awslagi"
     },
     {
@@ -6998,6 +7452,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "8e911c8b-c38d-4bdc-b96e-58a5d3b5f17a",
         "source": "awslagi"
     },
     {
@@ -7013,6 +7468,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "e004754f-7d8e-4062-920a-d574038fe2c3",
         "source": "awslagi"
     },
     {
@@ -7030,6 +7486,7 @@
             "B",
             "C"
         ],
+        "uuid": "50de3930-fe78-414d-93f5-c5ddcc8899b2",
         "source": "awslagi"
     },
     {
@@ -7045,6 +7502,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "b78a4d0d-927c-4cf8-b90e-dc3629cdac00",
         "source": "awslagi"
     },
     {
@@ -7060,6 +7518,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "09bc8d6a-ffee-4032-bb04-6de4dac0a30f",
         "source": "awslagi"
     },
     {
@@ -7075,6 +7534,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "553f72e5-d285-4ff6-90a8-d0ab5dc64027",
         "source": "awslagi"
     },
     {
@@ -7090,6 +7550,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "a82c66f0-f73e-4d99-b864-fe42d09806c7",
         "source": "awslagi"
     },
     {
@@ -7107,6 +7568,7 @@
             "B",
             "C"
         ],
+        "uuid": "031031dc-acc3-49ee-9b5c-d1e34ad8601a",
         "source": "awslagi"
     },
     {
@@ -7124,6 +7586,7 @@
             "B",
             "C"
         ],
+        "uuid": "0f3cb569-3d19-4bdb-86e9-779a1c58cd3b",
         "source": "awslagi"
     },
     {
@@ -7139,6 +7602,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "3ab088a7-ce10-4cf6-8d32-51f9d1acca0b",
         "source": "awslagi"
     },
     {
@@ -7154,6 +7618,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "30a661e8-6d59-402a-94a8-775933f8cdb4",
         "source": "awslagi"
     },
     {
@@ -7169,6 +7634,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "584b0f23-edce-48ec-ab20-299c801c6e5f",
         "source": "awslagi"
     },
     {
@@ -7184,6 +7650,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "42ce8b50-52a7-4b75-b813-6d1d038e30a5",
         "source": "awslagi"
     },
     {
@@ -7199,6 +7666,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "419d82a3-0bf8-4fe0-a001-3ac5acc22a39",
         "source": "awslagi"
     },
     {
@@ -7214,6 +7682,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "5a8416fa-d193-4ad1-8af5-e96894f0ec40",
         "source": "awslagi"
     },
     {
@@ -7229,6 +7698,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "5ecb89e1-230e-448c-aeb4-97a133cd9eea",
         "source": "awslagi"
     },
     {
@@ -7244,6 +7714,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "decffc95-d405-4a92-8334-d3e61eabb82b",
         "source": "awslagi"
     },
     {
@@ -7259,6 +7730,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "b4f0da76-46b0-4ae0-9cc7-ee25e215e8a7",
         "source": "awslagi"
     },
     {
@@ -7274,6 +7746,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "b98304f3-827a-4c39-b666-59c382950d71",
         "source": "awslagi"
     },
     {
@@ -7291,6 +7764,7 @@
             "A",
             "C"
         ],
+        "uuid": "b8d3d3ec-3dc8-4079-8f58-247460b3c849",
         "source": "awslagi"
     },
     {
@@ -7306,6 +7780,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "9439d558-e6df-4a23-842f-33edcbf6b7f2",
         "source": "awslagi"
     },
     {
@@ -7323,6 +7798,7 @@
             "A",
             "B"
         ],
+        "uuid": "4e8dba90-9c57-47c9-966a-3f82022e12f1",
         "source": "awslagi"
     },
     {
@@ -7340,6 +7816,7 @@
             "C",
             "D"
         ],
+        "uuid": "4f72024a-17b1-46e7-932b-f2f9dd301a7f",
         "source": "awslagi"
     },
     {
@@ -7355,6 +7832,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "cecb4baf-8221-4db2-8bea-f0cdf34e2f43",
         "source": "awslagi"
     },
     {
@@ -7370,6 +7848,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "5ff72871-b41f-49ae-8f68-a5384df0967f",
         "source": "awslagi"
     },
     {
@@ -7385,6 +7864,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "bd180182-4ef4-43db-8a4e-fac22d05f0d6",
         "source": "awslagi"
     },
     {
@@ -7400,6 +7880,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "77cf42ad-116e-4c62-953e-939d90fda4d3",
         "source": "awslagi"
     },
     {
@@ -7415,6 +7896,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "aca9f396-1c14-4a6b-b34e-1807be5ebcfe",
         "source": "awslagi"
     },
     {
@@ -7430,6 +7912,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "4a6912e2-145e-4f2a-a21c-57478a233abe",
         "source": "awslagi"
     },
     {
@@ -7443,6 +7926,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "a9056b9b-592b-4440-b6fa-6179d1ce51b7",
         "source": "examtopics",
         "part": 8,
         "question_number": 1
@@ -7458,6 +7942,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "18a9056d-a5e3-4b1c-ae87-7615408b0a9f",
         "source": "examtopics",
         "part": 8,
         "question_number": 2
@@ -7473,6 +7958,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "989598ba-b1df-48df-bd96-3a787a8d4131",
         "source": "examtopics",
         "part": 8,
         "question_number": 3
@@ -7488,6 +7974,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "c24fbfd4-cae7-4da3-afb0-0d1e9ed3bc0f",
         "source": "examtopics",
         "part": 8,
         "question_number": 4
@@ -7503,6 +7990,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "82a34a54-4dff-458c-a108-f69d79924fc7",
         "source": "examtopics",
         "part": 8,
         "question_number": 5
@@ -7520,6 +8008,7 @@
             "B",
             "C"
         ],
+        "uuid": "5253206f-b860-40f7-b101-9e86500487ce",
         "source": "examtopics",
         "part": 8,
         "question_number": 6
@@ -7535,6 +8024,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "16ab1798-4086-493c-925a-48ddd8220d8e",
         "source": "examtopics",
         "part": 8,
         "question_number": 7
@@ -7550,6 +8040,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "5af5d936-a67e-4f4f-b5e6-693be3f802c4",
         "source": "examtopics",
         "part": 8,
         "question_number": 8
@@ -7565,6 +8056,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "5b94016a-524f-4d45-a441-b55d88c2721d",
         "source": "examtopics",
         "part": 8,
         "question_number": 9
@@ -7580,6 +8072,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "775e947e-108a-4694-9659-00774dd222e2",
         "source": "examtopics",
         "part": 8,
         "question_number": 10
@@ -7599,6 +8092,7 @@
             "D",
             "E"
         ],
+        "uuid": "56d28c25-bccc-4c0f-8aeb-14aaf66f2a98",
         "source": "awslagi"
     },
     {
@@ -7614,6 +8108,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "36441bce-7654-46f0-b007-c23857a52223",
         "source": "awslagi"
     },
     {
@@ -7629,6 +8124,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "b3b0b351-1c7d-43c1-97e4-01d1c7650be2",
         "source": "awslagi"
     },
     {
@@ -7646,6 +8142,7 @@
             "B",
             "C"
         ],
+        "uuid": "191f6418-c3af-41ef-a419-2232fc7aff66",
         "source": "awslagi"
     },
     {
@@ -7661,6 +8158,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "5ee862dc-d359-4266-97a6-b94f72b7a0c2",
         "source": "awslagi"
     },
     {
@@ -7676,6 +8174,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "57a8fbcb-ee19-4d38-a7ea-c0a8188f958a",
         "source": "awslagi"
     },
     {
@@ -7693,6 +8192,7 @@
             "C",
             "E"
         ],
+        "uuid": "fc1ef099-a7dc-406b-9137-e31378c55439",
         "source": "awslagi"
     },
     {
@@ -7708,6 +8208,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "2fbdefdd-b3c7-4a25-a52d-32eed515c9da",
         "source": "awslagi"
     },
     {
@@ -7723,6 +8224,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "e7525475-44cd-4fa3-b135-b684f134a870",
         "source": "awslagi"
     },
     {
@@ -7738,6 +8240,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "9a4b4802-2d52-423c-8bb3-989db4357d57",
         "source": "awslagi"
     },
     {
@@ -7755,6 +8258,7 @@
             "B",
             "E"
         ],
+        "uuid": "a985d82e-79e5-40f7-9584-ccea6683078e",
         "source": "awslagi"
     },
     {
@@ -7772,6 +8276,7 @@
             "A",
             "B"
         ],
+        "uuid": "c006030b-fc14-4a8e-89cd-038841120470",
         "source": "awslagi"
     },
     {
@@ -7787,6 +8292,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "bfaa71ae-b467-4a28-8aec-e1ddeb89ac3d",
         "source": "awslagi"
     },
     {
@@ -7804,6 +8310,7 @@
             "C",
             "E"
         ],
+        "uuid": "b6ef2d58-b70d-471c-bb08-e4bff00608b1",
         "source": "awslagi"
     },
     {
@@ -7819,6 +8326,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "cd44e717-4b9b-46b5-8bad-070ccafccc39",
         "source": "awslagi"
     },
     {
@@ -7834,6 +8342,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "54e8bb45-2933-4a70-a526-093b311cd60a",
         "source": "awslagi"
     },
     {
@@ -7849,6 +8358,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "752bc183-059f-4e12-9c40-473c1ff50b6c",
         "source": "awslagi"
     },
     {
@@ -7864,6 +8374,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "b76f8f50-756a-4925-8625-3022f0a1f51c",
         "source": "awslagi"
     },
     {
@@ -7879,6 +8390,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "7cd7c8c3-29b1-4c00-b8ce-eb4a97ec20b1",
         "source": "awslagi"
     },
     {
@@ -7894,6 +8406,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "3a16343f-bf57-43f8-801a-b9931d75f1fb",
         "source": "awslagi"
     },
     {
@@ -7909,6 +8422,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "12985a79-5f45-4b3e-bc19-1f18c7e1cc7a",
         "source": "awslagi"
     },
     {
@@ -7924,6 +8438,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "4eb4cc5c-4331-425c-805b-53f16b1e66a9",
         "source": "awslagi"
     },
     {
@@ -7939,6 +8454,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "28f9f3e0-be38-4ce6-8a6a-d9f48fce3546",
         "source": "awslagi"
     },
     {
@@ -7954,6 +8470,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "5bece791-b508-4e13-b777-92b2b8c01817",
         "source": "awslagi"
     },
     {
@@ -7969,6 +8486,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "f3868e3c-e4b5-4770-a437-6528fea6eda2",
         "source": "awslagi"
     },
     {
@@ -7984,6 +8502,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "37e22152-a39e-4438-aa19-73deb9ce736c",
         "source": "awslagi"
     },
     {
@@ -7999,6 +8518,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "1dffb5c0-1820-4a2a-95ca-ea688eb29f4f",
         "source": "awslagi"
     },
     {
@@ -8014,6 +8534,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "21767572-b74d-46f4-90bf-64b86a3955a7",
         "source": "awslagi"
     },
     {
@@ -8029,6 +8550,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "653519d9-4c68-42ec-818c-74032fcd030c",
         "source": "awslagi"
     },
     {
@@ -8044,6 +8566,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "09c8ffe3-6e41-40e7-965d-8c80692754cd",
         "source": "awslagi"
     },
     {
@@ -8061,6 +8584,7 @@
             "A",
             "C"
         ],
+        "uuid": "3827914d-b074-4408-a23b-701d232cf7f8",
         "source": "awslagi"
     },
     {
@@ -8076,6 +8600,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "3b61171b-09d7-4b6f-afde-737f4c5e3fac",
         "source": "awslagi"
     },
     {
@@ -8091,6 +8616,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "5fdae0e9-11ab-472c-b1f6-f68eb1ed5726",
         "source": "awslagi"
     },
     {
@@ -8108,6 +8634,7 @@
             "A",
             "B"
         ],
+        "uuid": "5db2aebd-52c3-485a-bfde-251cfc3812af",
         "source": "awslagi"
     },
     {
@@ -8123,6 +8650,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "34a7c840-87db-4874-9423-e8e60aa27538",
         "source": "awslagi"
     },
     {
@@ -8138,6 +8666,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "513b3bcf-e6c9-47de-8f0f-43051e83c7f5",
         "source": "awslagi"
     },
     {
@@ -8153,6 +8682,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "4cd4191c-548f-452d-addc-895ed569f362",
         "source": "awslagi"
     },
     {
@@ -8170,6 +8700,7 @@
             "A",
             "E"
         ],
+        "uuid": "3ae5b7b6-b610-45bf-a1a1-9574bf3e0700",
         "source": "awslagi"
     },
     {
@@ -8185,6 +8716,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "b3b14f99-0e6b-4e97-8ff6-a75ecccd512e",
         "source": "awslagi"
     },
     {
@@ -8200,6 +8732,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "17fc6dd2-0627-43b3-b584-8c4f4b631685",
         "source": "awslagi"
     },
     {
@@ -8215,6 +8748,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "a18a57c7-4551-4b9a-83d8-db3d7c5fcb13",
         "source": "awslagi"
     },
     {
@@ -8230,6 +8764,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "248f76b1-46aa-4308-94c7-87652ba36536",
         "source": "awslagi"
     },
     {
@@ -8245,6 +8780,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "b068ec7e-5084-4047-8641-f8bffc52ff10",
         "source": "awslagi"
     },
     {
@@ -8262,6 +8798,7 @@
             "C",
             "D"
         ],
+        "uuid": "d7583e2c-9dd5-4ec1-8ac1-3744891e0148",
         "source": "awslagi"
     },
     {
@@ -8279,6 +8816,7 @@
             "A",
             "D"
         ],
+        "uuid": "ea8a060d-668c-4163-b7e0-82c27ca2d163",
         "source": "awslagi"
     },
     {
@@ -8294,6 +8832,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "6647983f-c694-4544-92a1-c6c0a718f36f",
         "source": "awslagi"
     },
     {
@@ -8311,6 +8850,7 @@
             "A",
             "D"
         ],
+        "uuid": "90a8bfa7-cbf0-4ab2-8291-56df11ccb08d",
         "source": "awslagi"
     },
     {
@@ -8326,6 +8866,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "19b179f4-13eb-4822-bf5e-1d7189b209eb",
         "source": "awslagi"
     },
     {
@@ -8341,6 +8882,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "6075600d-6575-4e9c-ab4d-72b33ca56fd7",
         "source": "awslagi"
     },
     {
@@ -8358,6 +8900,7 @@
             "A",
             "C"
         ],
+        "uuid": "1382156b-2126-44a8-adc9-44fcecf7e2ae",
         "source": "awslagi"
     },
     {
@@ -8375,6 +8918,7 @@
             "A",
             "D"
         ],
+        "uuid": "74419daf-841b-4adc-9313-ec432b9d771a",
         "source": "awslagi"
     },
     {
@@ -8392,6 +8936,7 @@
             "B",
             "C"
         ],
+        "uuid": "4d3bbc4e-7747-49fd-a4c6-2c0075825851",
         "source": "awslagi"
     },
     {
@@ -8407,6 +8952,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "4af3cbed-8049-49d0-8f2a-f1d66243f845",
         "source": "awslagi"
     },
     {
@@ -8422,6 +8968,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "4ee461e0-45fc-4576-8605-4ceddb91cbcf",
         "source": "awslagi"
     },
     {
@@ -8437,6 +8984,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "1cce2fe7-b740-4859-8502-641ad6889894",
         "source": "awslagi"
     },
     {
@@ -8454,6 +9002,7 @@
             "D",
             "E"
         ],
+        "uuid": "4f41384b-2d76-4bd3-9823-8341cc197453",
         "source": "awslagi"
     },
     {
@@ -8469,6 +9018,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "4de53086-5b2c-4140-b7af-d4c9952ff17d",
         "source": "awslagi"
     },
     {
@@ -8482,6 +9032,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "272b97eb-5d87-45d0-9af7-2dc7512eb4de",
         "source": "examtopics",
         "part": 4,
         "question_number": 1
@@ -8497,6 +9048,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "68105315-deaf-4c8d-a229-82ca7d985c99",
         "source": "examtopics",
         "part": 4,
         "question_number": 2
@@ -8512,6 +9064,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "0084877f-15bc-4ff6-b0c0-c9f1f904aba9",
         "source": "examtopics",
         "part": 4,
         "question_number": 3
@@ -8529,6 +9082,7 @@
             "A",
             "C"
         ],
+        "uuid": "73a7a742-bf60-48aa-89a6-ebf7599bda97",
         "source": "examtopics",
         "part": 4,
         "question_number": 4
@@ -8544,6 +9098,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "e5eeeff3-cfbf-40a6-bdb5-90da85d84c43",
         "source": "examtopics",
         "part": 4,
         "question_number": 5
@@ -8559,6 +9114,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "5b8a0f1a-7b27-4d56-877d-87b75fee0ecf",
         "source": "examtopics",
         "part": 4,
         "question_number": 6
@@ -8574,6 +9130,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "b1b97d75-db2b-4400-9f42-d9c2684e8b3c",
         "source": "examtopics",
         "part": 4,
         "question_number": 7
@@ -8589,6 +9146,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "eb3878ee-198f-477f-a30e-7206693a57f8",
         "source": "examtopics",
         "part": 4,
         "question_number": 8
@@ -8604,6 +9162,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "7912e5a3-ace1-48b8-857b-25aaffa61395",
         "source": "examtopics",
         "part": 4,
         "question_number": 9
@@ -8621,6 +9180,7 @@
             "B",
             "E"
         ],
+        "uuid": "594f2956-f631-444d-825d-e65de67189e3",
         "source": "examtopics",
         "part": 4,
         "question_number": 10
@@ -8636,6 +9196,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "cc63ccf5-ea52-4d1f-8520-00ee925043e7",
         "source": "examtopics",
         "part": 5,
         "question_number": 1
@@ -8651,6 +9212,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "77d977ac-a99e-4880-b3ea-41a35033c33b",
         "source": "examtopics",
         "part": 5,
         "question_number": 2
@@ -8666,6 +9228,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "a84ad952-8ada-4b36-96f3-fe0d22fb7a4b",
         "source": "examtopics",
         "part": 5,
         "question_number": 3
@@ -8681,6 +9244,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "2e89ba26-6826-49ca-9726-99265c0a4c8d",
         "source": "examtopics",
         "part": 5,
         "question_number": 4
@@ -8696,6 +9260,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "4ec12f40-219f-443e-947b-f35b341fda48",
         "source": "examtopics",
         "part": 5,
         "question_number": 5
@@ -8713,6 +9278,7 @@
             "C",
             "D"
         ],
+        "uuid": "3903e397-d3c5-44fe-ad26-2743c6bb25fa",
         "source": "examtopics",
         "part": 5,
         "question_number": 6
@@ -8728,6 +9294,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "6e577d48-4cc6-46ed-a23d-e3f2da4a57e4",
         "source": "examtopics",
         "part": 5,
         "question_number": 7
@@ -8743,6 +9310,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "ef0476f7-4b46-4348-9642-8f1d2f6482ef",
         "source": "examtopics",
         "part": 5,
         "question_number": 8
@@ -8758,6 +9326,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "2c4e0dc4-8589-4d5d-bdc9-bf9a3269dc49",
         "source": "examtopics",
         "part": 5,
         "question_number": 9
@@ -8773,6 +9342,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "1cb12887-1660-4e44-abaa-9142149ac1e2",
         "source": "examtopics",
         "part": 5,
         "question_number": 10
@@ -8790,6 +9360,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "24438ce8-88b7-4a75-9aec-94bdf09a1ed9",
         "source": "awslagi"
     },
     {
@@ -8805,6 +9376,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "55925f25-9df1-43c9-b9a3-5c6fe6acb184",
         "source": "awslagi"
     },
     {
@@ -8820,6 +9392,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "8ebb3b30-9fb8-4360-b922-b853c6a99ae8",
         "source": "awslagi"
     },
     {
@@ -8835,6 +9408,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "7c87601f-04f9-4b71-8ad5-bc18bf7ae675",
         "source": "awslagi"
     },
     {
@@ -8850,6 +9424,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "325db60d-b978-4ffa-987a-f9369d4795aa",
         "source": "awslagi"
     },
     {
@@ -8867,6 +9442,7 @@
             "A",
             "D"
         ],
+        "uuid": "7b3b39f5-3628-4a01-8cf9-b6998d783a76",
         "source": "awslagi"
     },
     {
@@ -8884,6 +9460,7 @@
             "C",
             "E"
         ],
+        "uuid": "60d97117-af9d-463d-a5b3-93c080ecca01",
         "source": "awslagi"
     },
     {
@@ -8901,6 +9478,7 @@
             "A",
             "D"
         ],
+        "uuid": "5052347c-11ea-442b-90b7-cf7205a4633c",
         "source": "awslagi"
     },
     {
@@ -8916,6 +9494,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "194e34f3-e13d-4115-ac51-aa33a893d5c2",
         "source": "awslagi"
     },
     {
@@ -8931,6 +9510,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "bdceeff1-6798-4574-886f-2fe82ef92dea",
         "source": "awslagi"
     },
     {
@@ -8946,6 +9526,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "c6444fc6-26dd-43ed-b229-4ff20542f75c",
         "source": "awslagi"
     },
     {
@@ -8961,6 +9542,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "27f3bb62-54ee-4520-9575-195d68eedeb1",
         "source": "awslagi"
     },
     {
@@ -8976,6 +9558,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "15bcd3ac-25bd-4080-beea-cb374b0a91c5",
         "source": "awslagi"
     },
     {
@@ -8993,6 +9576,7 @@
             "B",
             "E"
         ],
+        "uuid": "072ce6ef-5293-48ae-8032-39e8721320ce",
         "source": "awslagi"
     },
     {
@@ -9008,6 +9592,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "36f96fba-e009-43ca-8283-17eb3532054a",
         "source": "awslagi"
     },
     {
@@ -9023,6 +9608,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "6c576dde-a1e3-42e3-97d7-d7700b032e91",
         "source": "awslagi"
     },
     {
@@ -9038,6 +9624,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "7a63d7b4-f41e-4ce6-a15e-0ba105a6e483",
         "source": "awslagi"
     },
     {
@@ -9053,6 +9640,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "af06823c-4473-4102-9cd3-a5d577e0cfe5",
         "source": "awslagi"
     },
     {
@@ -9068,6 +9656,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "50555bab-2797-4c67-8a07-b067fc00ddb8",
         "source": "awslagi"
     },
     {
@@ -9083,6 +9672,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "d2b8840a-9971-40db-86a5-c6aa1bb18140",
         "source": "awslagi"
     },
     {
@@ -9098,6 +9688,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "55dfa155-de77-468f-aea6-fe94b3ec840e",
         "source": "awslagi"
     },
     {
@@ -9113,6 +9704,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "abebf856-52ec-4719-8841-1262869166a1",
         "source": "awslagi"
     },
     {
@@ -9128,6 +9720,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "d95e1434-5c6b-44a7-ba9a-7b62537f0815",
         "source": "awslagi"
     },
     {
@@ -9143,6 +9736,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "8aa58af6-3164-45f2-8885-2136083f69cf",
         "source": "awslagi"
     },
     {
@@ -9158,6 +9752,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "f017ec80-f367-4b5e-a23a-7dd9b3d9c117",
         "source": "awslagi"
     },
     {
@@ -9173,6 +9768,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "b742c3ba-053e-4b9a-9718-59483f0cfd90",
         "source": "awslagi"
     },
     {
@@ -9188,6 +9784,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "4c0e71e4-c268-4d33-9704-2f04c9d18908",
         "source": "awslagi"
     },
     {
@@ -9203,6 +9800,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "7be9f07a-3c44-4e15-b0dd-d8b03919f9fe",
         "source": "awslagi"
     },
     {
@@ -9218,6 +9816,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "c6f30f61-66a1-4638-9e77-9d7b8f7c0448",
         "source": "awslagi"
     },
     {
@@ -9233,6 +9832,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "6c51d307-98e0-416a-a100-85a91ccb0be2",
         "source": "awslagi"
     },
     {
@@ -9248,6 +9848,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "f93ee1bd-3edf-410b-a8c1-72803c73b892",
         "source": "awslagi"
     },
     {
@@ -9263,6 +9864,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "2878a823-0e2a-40bc-b68f-7025763da39e",
         "source": "awslagi"
     },
     {
@@ -9278,6 +9880,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "3bc16a95-b7a1-4c90-8604-b5c7443c01b3",
         "source": "awslagi"
     },
     {
@@ -9295,6 +9898,7 @@
             "A",
             "D"
         ],
+        "uuid": "d4593965-531b-43ad-8713-ac7b4bc17590",
         "source": "awslagi"
     },
     {
@@ -9310,6 +9914,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "04a03c3b-85f5-4f2c-86c5-66f79e87d0dc",
         "source": "awslagi"
     },
     {
@@ -9325,6 +9930,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "cc280c0d-1d56-4ac1-b808-8b85e168257a",
         "source": "awslagi"
     },
     {
@@ -9340,6 +9946,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "5f5eae2f-4e40-4bec-9554-cb79379dc0c5",
         "source": "awslagi"
     },
     {
@@ -9355,6 +9962,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "acd33fa0-5311-402d-ae43-c5228a087d45",
         "source": "awslagi"
     },
     {
@@ -9370,6 +9978,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "c734ec5a-628c-4c33-bbc5-9c92c1b761b2",
         "source": "awslagi"
     },
     {
@@ -9385,6 +9994,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "f3ab96f8-2729-49f5-8462-9a39ea9b4674",
         "source": "awslagi"
     },
     {
@@ -9400,6 +10010,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "9375dcde-acdb-467a-9fc2-7c5b07f96ca0",
         "source": "awslagi"
     },
     {
@@ -9415,6 +10026,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "ab0ef616-cd6a-4f02-af7c-db26f869a60a",
         "source": "awslagi"
     },
     {
@@ -9430,6 +10042,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "fc1cd266-6225-4445-9988-4bff6a381f96",
         "source": "awslagi"
     },
     {
@@ -9445,6 +10058,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "82c63552-39f6-47c5-bce0-5c88a88422b3",
         "source": "awslagi"
     },
     {
@@ -9460,6 +10074,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "ec6e5175-e790-4218-99ea-d3e120b9ea9d",
         "source": "awslagi"
     },
     {
@@ -9475,6 +10090,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "9422e338-b229-48b5-b3e1-6fcc1efe3af5",
         "source": "awslagi"
     },
     {
@@ -9492,6 +10108,7 @@
             "A",
             "D"
         ],
+        "uuid": "c6a6fece-3b4e-4c99-aa03-908d9f36221c",
         "source": "awslagi"
     },
     {
@@ -9507,6 +10124,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "27f0f1bd-edc9-4a1f-8ac2-2cc3c25337a3",
         "source": "awslagi"
     },
     {
@@ -9522,6 +10140,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "c00dd478-fc06-465a-ba1a-fbf8685dfd7f",
         "source": "awslagi"
     },
     {
@@ -9537,6 +10156,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "eff47af4-f7aa-4b39-99e0-30a1048cf0c8",
         "source": "awslagi"
     },
     {
@@ -9552,6 +10172,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "3a8d42e2-ad4a-44c2-8277-489488c79b2f",
         "source": "awslagi"
     },
     {
@@ -9567,6 +10188,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "811df00e-844f-4de4-ba58-2dc01f275b46",
         "source": "awslagi"
     },
     {
@@ -9582,6 +10204,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "fc2abaaa-eeea-4ab2-9506-a73dc6e6a778",
         "source": "awslagi"
     },
     {
@@ -9597,6 +10220,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "cc8f88fe-069c-4b88-a542-abaa46fd497f",
         "source": "awslagi"
     },
     {
@@ -9612,6 +10236,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "96f936ed-f02b-44c6-ac00-e6cec7eed7b3",
         "source": "awslagi"
     },
     {
@@ -9627,6 +10252,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "6f90d0e8-1b90-4f9f-945e-ba6827d7a42a",
         "source": "awslagi"
     },
     {
@@ -9642,6 +10268,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "07613cf5-9763-4ad6-86fe-33262cfe73d2",
         "source": "awslagi"
     },
     {
@@ -9657,6 +10284,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "49a85fd4-6f6e-4f85-8404-a435b6f91ee0",
         "source": "awslagi"
     },
     {
@@ -9670,6 +10298,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "9b101d03-e6f9-4dba-afd4-af0617c5ee6b",
         "source": "examtopics",
         "part": 9,
         "question_number": 1
@@ -9687,6 +10316,7 @@
             "A",
             "C"
         ],
+        "uuid": "df656fcc-afe0-4e29-a2a1-65386c375e33",
         "source": "examtopics",
         "part": 9,
         "question_number": 2
@@ -9702,6 +10332,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "aa707c2c-b29b-48fc-8f93-74ba9710c221",
         "source": "examtopics",
         "part": 9,
         "question_number": 3
@@ -9717,6 +10348,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "f5ac3f5a-dd14-41a6-8495-667c40ff2a04",
         "source": "examtopics",
         "part": 9,
         "question_number": 4
@@ -9732,6 +10364,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "847d02dd-b724-468a-892b-fd1c8ac3d6bc",
         "source": "examtopics",
         "part": 9,
         "question_number": 5
@@ -9747,6 +10380,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "a0bda6b5-ab81-4460-8c61-0beaa9f11bfc",
         "source": "examtopics",
         "part": 9,
         "question_number": 6
@@ -9762,6 +10396,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "1002b9b4-7262-4264-912c-a931926753cc",
         "source": "examtopics",
         "part": 9,
         "question_number": 7
@@ -9777,6 +10412,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "32092261-9311-4ab9-bd6c-67a4b7a96f6d",
         "source": "examtopics",
         "part": 9,
         "question_number": 8
@@ -9794,6 +10430,7 @@
             "B",
             "D"
         ],
+        "uuid": "984a1c1b-62ea-4330-85cd-a2f3df42bc98",
         "source": "examtopics",
         "part": 9,
         "question_number": 9
@@ -9809,6 +10446,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "b3d5c04e-d245-4d03-8b90-fabc157d8d06",
         "source": "examtopics",
         "part": 9,
         "question_number": 10
@@ -9826,6 +10464,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "d942d1ec-777f-46fb-a56d-d5d839879ed5",
         "source": "awslagi"
     },
     {
@@ -9843,6 +10482,7 @@
             "B",
             "E"
         ],
+        "uuid": "83f96541-4faa-4892-96ab-64f48c77c9d3",
         "source": "awslagi"
     },
     {
@@ -9858,6 +10498,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "1b261a63-5a06-4402-92fa-8a218f493597",
         "source": "awslagi"
     },
     {
@@ -9875,6 +10516,7 @@
             "A",
             "C"
         ],
+        "uuid": "744c6385-ef83-451a-9460-6c4205a0ab12",
         "source": "awslagi"
     },
     {
@@ -9890,6 +10532,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "f0531aee-75bc-4480-97eb-d7833d4ddd34",
         "source": "awslagi"
     },
     {
@@ -9905,6 +10548,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "1879b771-47f8-436f-be2c-976b9096b00c",
         "source": "awslagi"
     },
     {
@@ -9920,6 +10564,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "a57ec491-b05e-40bb-b038-3c41e75669f0",
         "source": "awslagi"
     },
     {
@@ -9935,6 +10580,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "bbab2207-f89f-4cc0-a5bc-de4c5ecd1c34",
         "source": "awslagi"
     },
     {
@@ -9950,6 +10596,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "789ff505-b674-49f7-92fe-6ca96bb2e52b",
         "source": "awslagi"
     },
     {
@@ -9967,6 +10614,7 @@
             "A",
             "E"
         ],
+        "uuid": "95c944b9-04e6-427d-af6f-186c572160d0",
         "source": "awslagi"
     },
     {
@@ -9982,6 +10630,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "35dbff60-f908-4d67-b34d-c017eb4e2dbe",
         "source": "awslagi"
     },
     {
@@ -9997,6 +10646,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "1cfaa1bb-de45-4552-8dd5-61a073ffd78a",
         "source": "awslagi"
     },
     {
@@ -10012,6 +10662,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "76079b28-5115-48fd-9cf4-77aa7fab7303",
         "source": "awslagi"
     },
     {
@@ -10027,6 +10678,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "bb27b2c4-fd32-4dae-823c-7ce031ba5928",
         "source": "awslagi"
     },
     {
@@ -10042,6 +10694,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "bfbda6e7-f28b-4cb1-a6cb-e211423dc54e",
         "source": "awslagi"
     },
     {
@@ -10057,6 +10710,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "7d9156d6-42ca-4592-97a1-83670ce3762f",
         "source": "awslagi"
     },
     {
@@ -10072,6 +10726,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "d92bc3e6-0058-4ed3-9000-fe841cb13f7c",
         "source": "awslagi"
     },
     {
@@ -10089,6 +10744,7 @@
             "A",
             "D"
         ],
+        "uuid": "5e764bf5-1343-4b4b-8777-2a4c35f3b349",
         "source": "awslagi"
     },
     {
@@ -10104,6 +10760,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "b56de1ef-a540-4f36-8cf1-c9ccd5f676aa",
         "source": "awslagi"
     },
     {
@@ -10119,6 +10776,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "805ce4b1-5b98-4312-a102-e5c4981c420b",
         "source": "awslagi"
     },
     {
@@ -10134,6 +10792,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "6df1cee7-e248-417e-b929-a9ed0a552a04",
         "source": "awslagi"
     },
     {
@@ -10149,6 +10808,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "94e02b73-4157-40a1-a6a3-6a515c6e7a8c",
         "source": "awslagi"
     },
     {
@@ -10164,6 +10824,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "3c30dabc-34a8-40d6-9214-2f18c18226de",
         "source": "awslagi"
     },
     {
@@ -10181,6 +10842,7 @@
             "C",
             "E"
         ],
+        "uuid": "87551590-e25a-4b4b-a177-ca43ae16ea6e",
         "source": "awslagi"
     },
     {
@@ -10196,6 +10858,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "91cf2e67-2e1b-4843-8ac8-009bd434accf",
         "source": "awslagi"
     },
     {
@@ -10211,6 +10874,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "df4b7f2c-495e-4638-97f6-bb41e1ac226f",
         "source": "awslagi"
     },
     {
@@ -10226,6 +10890,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "cc2db72f-a621-4004-8f33-46a98b5fc1ab",
         "source": "awslagi"
     },
     {
@@ -10241,6 +10906,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "96eabe64-69ac-45fa-88ad-5ad8122a03d8",
         "source": "awslagi"
     },
     {
@@ -10256,6 +10922,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "d0c9d083-03da-458b-837a-efdafffd1866",
         "source": "awslagi"
     },
     {
@@ -10271,6 +10938,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "a520cdad-8389-4852-ac6c-b7a1317728a4",
         "source": "awslagi"
     },
     {
@@ -10286,6 +10954,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "c9fda959-98a8-4a0e-998d-4b0b2b6616ed",
         "source": "awslagi"
     },
     {
@@ -10301,6 +10970,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "127bfa92-c1d5-4182-ab8e-53367b060516",
         "source": "awslagi"
     },
     {
@@ -10316,6 +10986,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "df004184-7598-4d29-bb1e-fff39742b1ae",
         "source": "awslagi"
     },
     {
@@ -10331,6 +11002,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "2ae8f38b-e81a-4bfd-a18b-090855219e00",
         "source": "awslagi"
     },
     {
@@ -10346,6 +11018,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "1cc89620-0de5-42f9-9238-9889878f8cce",
         "source": "awslagi"
     },
     {
@@ -10363,6 +11036,7 @@
             "A",
             "D"
         ],
+        "uuid": "69cf14b0-2ac3-4616-a1e4-a5c426e2eb86",
         "source": "awslagi"
     },
     {
@@ -10378,6 +11052,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "d2f980a4-841c-417e-9083-c202691187a5",
         "source": "awslagi"
     },
     {
@@ -10393,6 +11068,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "bcdfbd8d-e9b1-47df-b911-05e21903936c",
         "source": "awslagi"
     },
     {
@@ -10408,6 +11084,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "0acf38c4-f7c5-469c-a96e-c47377f02ce1",
         "source": "awslagi"
     },
     {
@@ -10423,6 +11100,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "1a2a13fc-c811-4317-bad8-e41e7b68c313",
         "source": "awslagi"
     },
     {
@@ -10440,6 +11118,7 @@
             "C",
             "E"
         ],
+        "uuid": "aa75b6f2-7e56-4eae-aeb9-5425ff19ff0c",
         "source": "awslagi"
     },
     {
@@ -10455,6 +11134,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "299d37d6-0eb2-42b9-93a8-a1572f275e17",
         "source": "awslagi"
     },
     {
@@ -10470,6 +11150,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "0748e603-9fd3-401a-a962-650299f114c8",
         "source": "awslagi"
     },
     {
@@ -10485,6 +11166,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "5544a709-d3f2-487a-8f7f-d4dbc78e5b8d",
         "source": "awslagi"
     },
     {
@@ -10500,6 +11182,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "c847e85d-8e19-4f2d-b7af-e2c0cedd7ad7",
         "source": "awslagi"
     },
     {
@@ -10517,6 +11200,7 @@
             "C",
             "D"
         ],
+        "uuid": "7a746208-f041-4e06-b5f0-3721699ff182",
         "source": "awslagi"
     },
     {
@@ -10532,6 +11216,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "9d07e407-dff8-4fed-8a12-4a097438e505",
         "source": "awslagi"
     },
     {
@@ -10547,6 +11232,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "77547289-8a3e-4803-b5d4-2b5dfb0343fe",
         "source": "awslagi"
     },
     {
@@ -10562,6 +11248,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "ce6d337b-0745-45a6-b1fc-30366416ac42",
         "source": "awslagi"
     },
     {
@@ -10579,6 +11266,7 @@
             "B",
             "C"
         ],
+        "uuid": "cfe11610-cb20-45eb-80ae-92d4d68555a8",
         "source": "awslagi"
     },
     {
@@ -10594,6 +11282,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "3e2105e1-b10d-40a8-96ae-3f596900c058",
         "source": "awslagi"
     },
     {
@@ -10609,6 +11298,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "a3ccbb0f-7057-4e2d-879b-7148d9d1cbfa",
         "source": "awslagi"
     },
     {
@@ -10624,6 +11314,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "9ffb8eb9-cb1e-4903-bbba-a7736233db54",
         "source": "awslagi"
     },
     {
@@ -10639,6 +11330,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "d8ce26cc-924e-46bb-9606-0479231a92a3",
         "source": "awslagi"
     },
     {
@@ -10656,6 +11348,7 @@
             "C",
             "D"
         ],
+        "uuid": "306802fa-1684-4013-be59-2f792cd537e3",
         "source": "awslagi"
     },
     {
@@ -10671,6 +11364,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "deef34ed-243a-4a2b-865a-3c9a04bf4275",
         "source": "awslagi"
     },
     {
@@ -10686,6 +11380,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "10b8b97d-2d13-41da-986d-e19a7d4c253c",
         "source": "awslagi"
     },
     {
@@ -10701,6 +11396,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "58e14d6e-c87f-4a5b-a5e5-7c90d41f6699",
         "source": "awslagi"
     },
     {
@@ -10716,6 +11412,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "921f58ea-bc95-409b-aaec-1af2dd319661",
         "source": "awslagi"
     },
     {
@@ -10731,6 +11428,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "339c5783-1bd2-444e-83af-b5d5c6c3840f",
         "source": "awslagi"
     },
     {
@@ -10746,6 +11444,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "f81766ff-0b94-49a3-a9af-6f8b299cc9f2",
         "source": "awslagi"
     },
     {
@@ -10761,6 +11460,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "e8fdc58b-a3a1-4a8d-b16a-3f3e0b7c7784",
         "source": "awslagi"
     },
     {
@@ -10776,6 +11476,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "86360627-e12d-4209-b2f9-ac4913103208",
         "source": "awslagi"
     },
     {
@@ -10791,6 +11492,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "f7951f8c-2531-40c5-98d0-8605e8d57ffb",
         "source": "awslagi"
     },
     {
@@ -10806,6 +11508,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "7405134f-b95f-4775-a371-2c82494f0697",
         "source": "awslagi"
     },
     {
@@ -10823,6 +11526,7 @@
             "A",
             "C"
         ],
+        "uuid": "c412b1c9-2bc9-4c46-9665-9ace1eb318af",
         "source": "awslagi"
     },
     {
@@ -10838,6 +11542,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "77ddf4c6-89d0-487f-b2d1-7a708c310ba0",
         "source": "awslagi"
     },
     {
@@ -10853,6 +11558,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "258ba30c-3dac-48ad-ae6b-a6dbe2e73ba1",
         "source": "awslagi"
     },
     {
@@ -10868,6 +11574,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "9b8c19d4-717e-49ce-9732-f40e35d1d245",
         "source": "awslagi"
     },
     {
@@ -10883,6 +11590,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "caa60598-a79d-4cf5-8f0f-088943f6cf42",
         "source": "awslagi"
     },
     {
@@ -10898,6 +11606,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "f4daab45-77d5-4aa8-b47f-d4f5e8952ea2",
         "source": "awslagi"
     },
     {
@@ -10913,6 +11622,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "24fcc79a-a37a-4416-8562-284af2fa28ac",
         "source": "awslagi"
     },
     {
@@ -10928,6 +11638,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "8f198f25-05db-41db-bff4-104a37854f30",
         "source": "awslagi"
     },
     {
@@ -10943,6 +11654,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "e9790b87-f17c-4eca-a2ae-64a194d2fe80",
         "source": "awslagi"
     },
     {
@@ -10960,6 +11672,7 @@
             "A",
             "D"
         ],
+        "uuid": "0352874a-e7b7-401d-829a-525906932a2f",
         "source": "awslagi"
     },
     {
@@ -10975,6 +11688,7 @@
         "correct_answers": [
             "A"
         ],
+        "uuid": "f1b757a9-9a13-4852-8098-21507d923de5",
         "source": "awslagi"
     },
     {
@@ -10990,6 +11704,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "e794c390-9dd5-4dba-8a17-be3fcfce2e84",
         "source": "awslagi"
     },
     {
@@ -11005,6 +11720,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "285633b6-f766-44e3-8ca9-0f9752d87354",
         "source": "awslagi"
     },
     {
@@ -11020,6 +11736,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "e66c72e9-369f-42d0-8b95-c1103b4b0573",
         "source": "awslagi"
     },
     {
@@ -11037,6 +11754,7 @@
             "A",
             "C"
         ],
+        "uuid": "340eb23e-bb8c-4021-b87c-554279d402ef",
         "source": "awslagi"
     },
     {
@@ -11054,6 +11772,7 @@
             "A",
             "D"
         ],
+        "uuid": "79ff8ec6-400f-4124-b252-55cd96409a9b",
         "source": "awslagi"
     },
     {
@@ -11069,6 +11788,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "b2ee64da-b2cf-4bfc-8229-fc2c737144cc",
         "source": "awslagi"
     },
     {
@@ -11084,6 +11804,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "2fbfb5bf-808d-4d63-986c-d5ef3a3c2456",
         "source": "awslagi"
     },
     {
@@ -11099,6 +11820,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "e8ef9ab8-d345-4a5d-9b8c-8d3d2e3276b1",
         "source": "awslagi"
     },
     {
@@ -11116,6 +11838,7 @@
             "B",
             "C"
         ],
+        "uuid": "61517964-ec5d-4267-8a85-4add17d48870",
         "source": "awslagi"
     },
     {
@@ -11133,6 +11856,7 @@
             "A",
             "C"
         ],
+        "uuid": "420632f5-00ee-493b-8b5f-316297a86079",
         "source": "awslagi"
     },
     {
@@ -11148,6 +11872,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "9e41df02-9f18-40ee-bd6b-16081209946b",
         "source": "awslagi"
     },
     {
@@ -11163,6 +11888,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "1010f124-0484-44ee-8018-17cd7ac9740c",
         "source": "awslagi"
     },
     {
@@ -11179,6 +11905,7 @@
             "A",
             "C"
         ],
+        "uuid": "b8c62dbb-99bf-41ca-9934-8b6b72b88fd0",
         "source": "awslagi"
     },
     {
@@ -11194,6 +11921,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "1ec7fa8d-b448-41f9-9657-ec62ae46aa00",
         "source": "awslagi"
     },
     {
@@ -11209,6 +11937,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "4a42637c-5bbe-4cb1-8eff-029afcafbb10",
         "source": "awslagi"
     },
     {
@@ -11224,6 +11953,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "b3e383fe-8a28-4047-9405-13fb1817d70f",
         "source": "awslagi"
     },
     {
@@ -11239,6 +11969,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "779bba8e-3e63-4138-9504-33b5035ecf42",
         "source": "awslagi"
     },
     {
@@ -11256,6 +11987,7 @@
             "A",
             "E"
         ],
+        "uuid": "b68f6f84-d18a-4a88-8d17-22e55aac90d9",
         "source": "awslagi"
     },
     {
@@ -11271,6 +12003,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "850b1957-7092-4dca-a1a5-027d1ebdb636",
         "source": "awslagi"
     },
     {
@@ -11286,6 +12019,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "71065fc1-2f3b-4d4d-b9c0-0bcb21ba64a3",
         "source": "awslagi"
     },
     {
@@ -11301,6 +12035,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "2d73abe7-5952-4c03-ad5a-5dea67481616",
         "source": "awslagi"
     },
     {
@@ -11316,6 +12051,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "0c0cde81-1eaf-4a51-ace9-28ff3a8f9244",
         "source": "awslagi"
     },
     {
@@ -11331,6 +12067,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "9e7e98e5-16f2-46ad-9a2d-f01877354249",
         "source": "awslagi"
     },
     {
@@ -11346,6 +12083,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "ebd3cfb0-f702-495e-8a78-70dbabcc7fa3",
         "source": "awslagi"
     },
     {
@@ -11361,6 +12099,7 @@
         "correct_answers": [
             "D"
         ],
+        "uuid": "9c3d15cc-75ef-4248-8044-4f0758000a11",
         "source": "awslagi"
     },
     {
@@ -11376,6 +12115,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "d5fe0fdd-13d3-4d1a-9a62-3671a0d554a6",
         "source": "awslagi"
     },
     {
@@ -11391,6 +12131,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "d1ab9021-ec8f-4acd-ab9c-6f4540434502",
         "source": "awslagi"
     },
     {
@@ -11406,6 +12147,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "d52bd0ed-439e-4969-a362-7a76f114eba0",
         "source": "awslagi"
     },
     {
@@ -11421,6 +12163,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "d7b38750-cd7b-428c-a45e-0276f1ea794c",
         "source": "awslagi"
     },
     {
@@ -11436,6 +12179,7 @@
         "correct_answers": [
             "C"
         ],
+        "uuid": "0b39a1e9-65ec-4e85-b7b3-afe18b90d069",
         "source": "awslagi"
     },
     {
@@ -11451,6 +12195,7 @@
         "correct_answers": [
             "B"
         ],
+        "uuid": "63f0ee91-c9ac-4b65-b0dd-0c21ad5e0daa",
         "source": "awslagi"
     }
 ]
