@@ -217,9 +217,13 @@ fn main() {
                 );
                 // center the text
                 let str3maxlen = str3.len();
-                let cols_ = cols as usize - str3maxlen;
-                let half = cols_ / 2;
-                println!("{}{}", " ".repeat(half), str3);
+                if str3maxlen > cols as usize {
+                    println!("{}", str3);
+                } else {
+                    let cols_ = cols as usize - str3maxlen;
+                    let half = cols_ / 2;
+                    println!("{}{}", " ".repeat(half), str3);
+                }
             }
 
             print!("\n\n");
