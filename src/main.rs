@@ -5,14 +5,79 @@ use std::{
     process::exit,
 };
 
-#[derive(serde::Deserialize, Debug)]
+#[derive(serde::Deserialize, Debug, Clone)]
 struct Question {
     question: String,           // i.e. 'What is the answer to this question?'
     answers: Vec<String>,       // i.e. ['A. Answer 1', 'B. Answer 2']
     correct_answers: Vec<char>, // i.e. ['A', 'B']
     source: String,
     part: usize,
+    uuid: String,
     question_number: usize,
+}
+
+impl PartialEq for Question {
+    fn eq(&self, other: &Self) -> bool {
+        self.uuid == other.uuid
+    }
+}
+
+#[derive(serde::Deserialize, serde::Serialize, Debug)]
+struct ProgressState {
+    already_answered_uuids: Vec<String>,
+    correct_count: usize,
+    total_count: usize,
+    times: Vec<f64>,
+}
+
+fn save_progress(
+    already_answered: Vec<Question>,
+    correct_count: usize,
+    total_count: usize,
+    times: Vec<f64>,
+) {
+    // save the already answered questions to a file
+    let home_path = dirs::home_dir().expect("Error getting home directory");
+    let home_path = home_path.to_str().unwrap();
+    let dir_path = home_path.to_string() + "/.aws-clf-c02-quiz";
+    // create the directory if it doesn't exist
+    std::fs::create_dir_all(dir_path).expect("Error creating directory");
+    let file_path = home_path.to_string() + "/.aws-clf-c02-quiz/progress.json";
+    let file = std::fs::File::create(file_path).expect("Error creating file");
+
+    let progress_state = ProgressState {
+        already_answered_uuids: already_answered.iter().map(|q| q.uuid.clone()).collect(),
+        correct_count,
+        total_count,
+        times,
+    };
+
+    serde_json::to_writer(file, &progress_state).expect("Error writing file");
+}
+
+fn load_progress() -> Result<(Vec<Question>, usize, usize, Vec<f64>), Box<dyn std::error::Error>> {
+    // load the already answered questions from a file
+    let home_path = dirs::home_dir().expect("Error getting home directory");
+    let home_path = home_path.to_str().unwrap();
+    let file_path = home_path.to_string() + "/.aws-clf-c02-quiz/progress.json";
+    let file = std::fs::File::open(file_path)?;
+    let reader = BufReader::new(file);
+
+    let progress_state: ProgressState = serde_json::from_reader(reader)?;
+
+    let questions = load_questions();
+    let already_answered: Vec<Question> = questions
+        .iter()
+        .filter(|q| progress_state.already_answered_uuids.contains(&q.uuid))
+        .cloned()
+        .collect();
+
+    Ok((
+        already_answered,
+        progress_state.correct_count,
+        progress_state.total_count,
+        progress_state.times,
+    ))
 }
 
 fn load_questions() -> Vec<Question> {
@@ -29,8 +94,8 @@ fn load_questions() -> Vec<Question> {
 }
 
 fn main() {
-    let mut correct_count;
-    let mut total_count;
+    let mut correct_count: usize;
+    let mut total_count: usize;
     let mut questions = load_questions();
     // Do something with the questions
     // print first question
@@ -52,12 +117,38 @@ fn main() {
         questions = load_questions();
     }
 
+    let (already_answered, cc, tc, times) = match load_progress() {
+        Ok((already_answered, correct_count, total_count, times)) => {
+            if already_answered.len() > 0 {
+                (already_answered, correct_count, total_count, times)
+            } else {
+                (Vec::new(), 0, 0, Vec::new())
+            }
+        }
+        Err(error) => (Vec::new(), 0, 0, Vec::new()),
+    };
+
+    let mut index = already_answered.len();
+    // questions should contain all questions that have been answered in the beginning,
+    // followed by the rest of the questions, with the index pointing to the first unanswered question
+    questions = questions
+        .iter()
+        .filter(|q| !already_answered.contains(q))
+        .cloned()
+        .collect();
+    questions = already_answered
+        .iter()
+        .chain(questions.iter())
+        .cloned()
+        .collect();
+    correct_count = cc;
+    total_count = tc;
+
     loop {
         let mut start_timestamp: std::time::Instant;
-        let mut times: Vec<f64> = Vec::new();
-        total_count = 0;
-        correct_count = 0;
-        'outer: for random_question in questions.iter() {
+        let mut times: Vec<f64> = times.clone();
+        'outer: while index < questions.len() {
+            let random_question = &questions[index];
             // clear the screen
             print!("\x1B[2J\x1B[1;1H");
             let termsize::Size { rows: _, cols } = termsize::get().unwrap();
@@ -209,6 +300,11 @@ fn main() {
                         .join(",")
                 );
             }
+            // save the progress
+            // only the already answered questions are saved
+            let already_answered: Vec<Question> =
+                questions.iter().take(index + 1).cloned().collect();
+            save_progress(already_answered, correct_count, total_count, times.clone());
             // press any key to continue
             println!("Press {} to continue...", "⏎ enter".purple());
             let mut user_input = String::new();
@@ -219,6 +315,7 @@ fn main() {
             if user_input == ":r\n" {
                 break 'outer;
             }
+            index += 1;
         }
         questions = load_questions();
     }

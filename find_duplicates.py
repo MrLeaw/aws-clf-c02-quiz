@@ -2,8 +2,9 @@ import os
 from tqdm import tqdm
 import json
 from difflib import SequenceMatcher
-from main import clean
+from main import clean, add_missing_uuids
 
+add_missing_uuids()
 clean()
 
 all = []
@@ -21,7 +22,6 @@ items = []
 total = len(all)
 
 duplicates = 0
-
 for item in tqdm(all):
     contains = [x for x in items if x['question'] == item['question'] and x['answers'] == item['answers']
                 #and x['correct_answers'] == item['correct_answers']
@@ -45,7 +45,7 @@ for index, item in tqdm(enumerate(items), total=len(items)):
     for item2 in items[index+1:]:
         string2 = item2['question'] + "".join(item2['answers'])
         similarity = similar(string, string2) 
-        if similarity > 0.98 and item['correct_answers'] == item2['correct_answers']:
+        if similarity > 0.9:# and item['correct_answers'] == item2['correct_answers']:
             print(f"Similar questions found:\n{item['question']}\n{item2['question']}")
             print(similarity)
             print("".join(item['answers']))

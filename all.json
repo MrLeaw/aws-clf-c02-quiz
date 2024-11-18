@@ -923,8 +923,8 @@
             "E. AWS Config"
         ],
         "correct_answers": [
-            "B",
-            "C"
+            "A",
+            "D"
         ],
         "uuid": "5f24cf06-67dd-4fff-9120-fef9c1b803d0",
         "source": "awslagi"
