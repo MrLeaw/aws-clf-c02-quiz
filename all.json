@@ -9843,6 +9843,814 @@
         "source": "awslagi"
     },
     {
+        "question": "Which action is the customer's responsibility under the AWS shared responsibility model?",
+        "answers": [
+            "A. Patching the underlying infrastructure",
+            "B. Securing the physical infrastructure",
+            "C. Patching the network infrastructure",
+            "D. Patching Amazon EC2 instances"
+        ],
+        "correct_answers": [
+            "D"
+        ],
+        "uuid": "fd38ebd4-e45e-41b3-92c1-b7f5cac7dfc2",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 1
+    },
+    {
+        "question": "What are advantages of cloud computing? (Select TWO.)",
+        "answers": [
+            "A. Trade variable expense for fixed expense.",
+            "B. Go global in weeks.",
+            "C. Trade fixed expense for variable expense.",
+            "D. Stop guessing capacity.",
+            "E. Provision resources up front."
+        ],
+        "correct_answers": [
+            "D",
+            "C"
+        ],
+        "uuid": "f99a8404-667a-412f-9455-4b8f168fe719",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 2
+    },
+    {
+        "question": "What are characteristics of the security principle to prepare for security events? (Select TWO.)",
+        "answers": [
+            "A. Use subnets in only one Availability Zone.",
+            "B. Routinely practice incident response through game days.",
+            "C. Create processes to isolate incidents and restore operations.",
+            "D. Use different AWS services.",
+            "E. Use hard-coded credentials."
+        ],
+        "correct_answers": [
+            "C",
+            "B"
+        ],
+        "uuid": "f4a125fb-e505-42bb-a409-4547339de084",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 3
+    },
+    {
+        "question": "Which statement about multi-factor authentication (MFA) is true?",
+        "answers": [
+            "A. MFA requires two or more factors to achieve authentication.",
+            "B. MFA is used in place of your user name and password.",
+            "C. MFA requires the use of a hardware device.",
+            "D. MFA is enabled by default."
+        ],
+        "correct_answers": [
+            "A"
+        ],
+        "uuid": "408fdf9e-3ad2-496d-ad56-f9014c4893c7",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 4
+    },
+    {
+        "question": "The administrator of a company's AWS resources creates a standalone policy and attaches it to a principal entity to define their permissions. Which type of policy has the administrator created?",
+        "answers": [
+            "A. AWS managed policy",
+            "B. Service-linked policy",
+            "C. Customer managed policy",
+            "D. Permissions boundary"
+        ],
+        "correct_answers": [
+            "C"
+        ],
+        "uuid": "d0d8909d-82f9-40cc-8f69-0ba069f06fa3",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 5
+    },
+    {
+        "question": "A company wants to improve their security and compliance tracking without creating additional work or needing additional employees. Which AWS service would help meet the company's needs?",
+        "answers": [
+            "A. Elastic Load Balancing (ELB)",
+            "B. AWS Shield",
+            "C. Amazon Inspector",
+            "D. AWS Identity and Access Management (IAM)"
+        ],
+        "correct_answers": [
+            "C"
+        ],
+        "uuid": "af5ad9ae-0e09-46d4-87bd-918d4eb3ecd9",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 6
+    },
+    {
+        "question": "A company wants to outsource their IT network. However, they want to maintain control over their networking resources, to include selecting IP address ranges, creating subnets, and configuring route tables and network gateways. Which AWS service would provide these abilities?",
+        "answers": [
+            "A. Amazon Cognito",
+            "B. Amazon S3",
+            "C. AWS CloudTrail",
+            "D. Amazon VPC"
+        ],
+        "correct_answers": [
+            "D"
+        ],
+        "uuid": "9cb8fe01-05ce-4ec3-be47-3ff2cb8bc2dd",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 7
+    },
+    {
+        "question": "An administrator wants to increase security by creating an environment where traffic to and from Amazon EC2 instances can be controlled in a stateful manner. Which security feature would meet their needs?",
+        "answers": [
+            "A. Security groups",
+            "B. Elastic Load Balancing (ELB)",
+            "C. Network access control lists (ACLs)",
+            "D. Subnets"
+        ],
+        "correct_answers": [
+            "A"
+        ],
+        "uuid": "a938cee9-d29c-4115-827d-5e746fcc7e4d",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 8
+    },
+    {
+        "question": "A company has experienced significant attrition in the last year and is concerned about inconsistencies in protecting their network. An administrator has created best practices to help create consistency in protecting their network. Which option is NOT a best practice for protecting a network?",
+        "answers": [
+            "A. Automate network protection.",
+            "B. Use subnets in one Availability Zone.",
+            "C. Control traffic at all layers.",
+            "D. Implement inspection and filter traffic at the application level."
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "3592c900-2fd8-4bfc-a42a-933dd8d1fb6e",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 9
+    },
+    {
+        "question": "A company wants to use an automated security assessment tool to improve the security and compliance of applications that they deploy on AWS. Which AWS service would meet their need?",
+        "answers": [
+            "A. AWS Identity and Access Management (IAM)",
+            "B. Amazon Inspector",
+            "C. Amazon GuardDuty",
+            "D. Elastic Load Balancing (ELB)"
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "06fce04e-d153-47d5-8a44-29e44dca1921",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 10
+    },
+    {
+        "question": "A cloud security administrator wants to protect data in transit. Which practice would best accomplish this?",
+        "answers": [
+            "A. Automate identification and classification of the data.",
+            "B. Identify the data within your workload.",
+            "C. Use Secure Sockets Layer (SSL) endpoints over Transport Layer Security (TLS). This method is known as HTTPS.",
+            "D. Separate workloads by using separate accounts."
+        ],
+        "correct_answers": [
+            "C"
+        ],
+        "uuid": "2140ecf3-5df2-4957-8966-7a7d8e938e5c",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 11
+    },
+    {
+        "question": "A company requires that data stored in AWS be encrypted at rest. Which approach would achieve this requirement?",
+        "answers": [
+            "A. Encrypt the volume by using AWS Key Management Service (AWS KMS) when storing data in Amazon EBS.",
+            "B. Use S3 Versioning and multi-factor authentication (MFA) delete when storing data in Amazon S3.",
+            "C. Use only Amazon EBS-optimized EC2 instances when storing data in Amazon EBS.",
+            "D. Use an EC2 instance store."
+        ],
+        "correct_answers": [
+            "A"
+        ],
+        "uuid": "a9b3c4c0-a76c-4a8a-b52b-53d59389e299",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 12
+    },
+    {
+        "question": "Which statement about Amazon S3 Block Public Access is true?",
+        "answers": [
+            "A. The feature provides two ways to manage object retention: retention periods and legal holds.",
+            "B. The feature stores objects by using a write-once-read-many (WORM) model.",
+            "C. The feature provides protection for a fixed amount of time or indefinitely.",
+            "D. The feature provides settings for access points, buckets, and accounts to help with the management of public access to Amazon S3 resources."
+        ],
+        "correct_answers": [
+            "D"
+        ],
+        "uuid": "b09e7855-9c11-4b75-bf82-2243240b3ec7",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 13
+    },
+    {
+        "question": "What is a characteristic of Amazon S3 server-side encryption with AWS Key Management Service (AWS KMS) keys (SSE-KMS)?",
+        "answers": [
+            "A. The application encrypts data before sending it to AWS.",
+            "B. The keys and algorithms are known only to the customer.",
+            "C. The customer manages the keys.",
+            "D. The customer can audit usage of the key."
+        ],
+        "correct_answers": [
+            "D"
+        ],
+        "uuid": "13f69710-cb80-4e34-b0b3-0ce33af0d50f",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 14
+    },
+    {
+        "question": "Which statement regarding client-side encryption is NOT true?",
+        "answers": [
+            "A. The keys and algorithms are known only to you.",
+            "B. Your application encrypts data before sending it to AWS.",
+            "C. Data is stored in its encrypted state.",
+            "D. Data is encrypted at its destination by the application or service that receives the data."
+        ],
+        "correct_answers": [
+            "D"
+        ],
+        "uuid": "afe572e9-1964-4c7f-bc4a-6c1bffa90ab4",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 15
+    },
+    {
+        "question": "An auditor is reviewing logs during a security audit. What is NOT a common log element that would be available to them?",
+        "answers": [
+            "A. Origin or source of the event",
+            "B. Identity of the resources that were accessed",
+            "C. Name of the resource owner",
+            "D. Date and time of the event"
+        ],
+        "correct_answers": [
+            "C"
+        ],
+        "uuid": "b2a69177-981b-42e4-8410-3f55db0bce0f",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 16
+    },
+    {
+        "question": "Which statement about AWS CloudTrail is true?",
+        "answers": [
+            "A. Events can be viewed in the CloudTrail console.",
+            "B. CloudTrail stores application-level logs.",
+            "C. CloudTrail is not enabled by default.",
+            "D. Actions taken by a user, role, or AWS service are not recorded."
+        ],
+        "correct_answers": [
+            "A"
+        ],
+        "uuid": "035d50da-c544-487f-8cbf-83f0071d7bcd",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 17
+    },
+    {
+        "question": "Which statement about the benefits of server access logs is true?",
+        "answers": [
+            "A. Server access logs can provide insights regarding the contents of an Amazon S3 bucket.",
+            "B. Server access logs can provide insights into a customer base.",
+            "C. Server access logs are always reported in real time.",
+            "D. Server access logs remove the need for security and access audits."
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "2a1eae2b-c3ea-4c61-b31f-2da562beaa5b",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 18
+    },
+    {
+        "question": "Elastic Load Balancing (ELB) captures and compresses logs. Where does ELB store these logs?",
+        "answers": [
+            "A. Amazon EC2 instance",
+            "B. Virtual private cloud (VPC)",
+            "C. Amazon DynamoDB database",
+            "D. Amazon S3 bucket"
+        ],
+        "correct_answers": [
+            "D"
+        ],
+        "uuid": "650cff2e-350a-4628-b412-2a9e7edeaac6",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 19
+    },
+    {
+        "question": "A cloud administrator wants to be able to rapidly launch as many copies of a function as needed to scale to the rate of incoming events. Which AWS service can provide this capability?",
+        "answers": [
+            "A. AWS Config",
+            "B. Amazon CloudWatch",
+            "C. Amazon EC2 Auto Scaling",
+            "D. AWS Lambda"
+        ],
+        "correct_answers": [
+            "D"
+        ],
+        "uuid": "9b252e88-178c-4153-822d-3d4a365172a7",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 20
+    },
+    {
+        "question": "Which statement about Amazon CloudWatch is true?",
+        "answers": [
+            "A. It automatically protects an enterprise network from a distributed denial of service (DDoS) attack.",
+            "B. It is a vulnerability management service that continuously scans your AWS workloads for vulnerabilities.",
+            "C. It provides the ability to create alarms that watch metrics and send notifications.",
+            "D. It uses threat intelligence feeds to identify malicious activity."
+        ],
+        "correct_answers": [
+            "C"
+        ],
+        "uuid": "3700752c-bbf6-4db7-b6b4-7ada6e64cc5c",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 21
+    },
+    {
+        "question": "What is an industry best practice for handling incidents?",
+        "answers": [
+            "A. Avoid using automated containment capabilities.",
+            "B. Limit incident response rehearsals to avoid complacency.",
+            "C. Pre-provision access and tools.",
+            "D. Identify key personnel, external resources, and tools only after the incident has occurred."
+        ],
+        "correct_answers": [
+            "C"
+        ],
+        "uuid": "e81a1fbb-5329-44d3-99cf-ae775923f0cf",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 22
+    },
+    {
+        "question": "Which part of the resolution and recovery phase of incident response involves isolating the incident and performing a deep dive to discover the issue?",
+        "answers": [
+            "A. Forensic isolation",
+            "B. Staging a fix",
+            "C. Incident closure",
+            "D. Deploying the fix"
+        ],
+        "correct_answers": [
+            "A"
+        ],
+        "uuid": "c4f0c415-936c-4179-9fc4-1273a9978eb9",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 23
+    },
+    {
+        "question": "Which AWS service could an administrator use to securely control access to AWS resources for users?",
+        "answers": [
+            "A. AWS Config",
+            "B. AWS CloudFormation",
+            "C. AWS Identity and Access Management (IAM)",
+            "D. AWS CloudTrail"
+        ],
+        "correct_answers": [
+            "C"
+        ],
+        "uuid": "4dc17ae9-d562-4869-99f8-234c01f6f434",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 24
+    },
+    {
+        "question": "What is the triad that was originally developed to highlight the important aspects of information security within an organization?",
+        "answers": [
+            "A. Visibility, agility, and automation (VAA)",
+            "B. Controllability, auditability, and agility (CAA)",
+            "C. Confidentiality, integrity, and availability (CIA)",
+            "D. Confidentiality, integrity, and agility (CIA)"
+        ],
+        "correct_answers": [
+            "C"
+        ],
+        "uuid": "4d9e06df-2748-4d72-acd4-f1f01b683e5b",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 25
+    },
+    {
+        "question": "An AWS Identity and Access Management (IAM) administrator determines what users need to do, determines the correct set of permissions, and then crafts policies that allow the users to perform only those tasks. Which principle is the administrator adhering to?",
+        "answers": [
+            "A. Principle of least privilege",
+            "B. Principle of authentication",
+            "C. Principle of availability",
+            "D. Principle of managed policy"
+        ],
+        "correct_answers": [
+            "A"
+        ],
+        "uuid": "0644036e-b495-484b-84c7-716f8a541b0f",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 26
+    },
+    {
+        "question": "What is a feature of the AWS Identity and Access Management (IAM) service?",
+        "answers": [
+            "A. Information assurance obfuscation",
+            "B. Decentralized management of users and access",
+            "C. Protection against standards-based identity providers",
+            "D. Temporary access through the use of roles"
+        ],
+        "correct_answers": [
+            "D"
+        ],
+        "uuid": "fea859e8-b0d6-406d-a177-2fb1e00e3ed6",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 27
+    },
+    {
+        "question": "Which statement about service control policies (SCPs) is true?",
+        "answers": [
+            "A. SCPs cannot restrict access to member accounts.",
+            "B. Restrictions from an SCP will be overridden if allowed elsewhere.",
+            "C. SCPs can restrict access to services, resources, or API actions.",
+            "D. SCPs can be used to grant permissions."
+        ],
+        "correct_answers": [
+            "C"
+        ],
+        "uuid": "e9af3561-0859-4c87-86bb-d505f88945cd",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 28
+    },
+    {
+        "question": "An AWS Identity and Access Management (IAM) user requests access to a specific Amazon DynamoDB table within an account. The AWS account administrator wants to use a policy to grant access to the user. Which type of policy would best accomplish this?",
+        "answers": [
+            "A. Identity-based policy",
+            "B. Permissions boundary",
+            "C. Service control policy (SCP)",
+            "D. Session policy"
+        ],
+        "correct_answers": [
+            "A"
+        ],
+        "uuid": "2ee82c5b-08b8-4ba5-82b2-9ce4ec75dcbc",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 29
+    },
+    {
+        "question": "An administrator set up a virtual private cloud (VPC). They want to increase security and create a virtual firewall for their Amazon EC2 instances to control inbound and outbound traffic. Which security feature would meet their needs?",
+        "answers": [
+            "A. Security groups",
+            "B. Elastic Load Balancing (ELB)",
+            "C. Subnets",
+            "D. Internet gateway"
+        ],
+        "correct_answers": [
+            "A"
+        ],
+        "uuid": "3e217a7a-ec57-4b62-81fe-b7e353d77bb5",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 30
+    },
+    {
+        "question": "A three-tier web application environment is a modular client-server architecture. Which tiers does this type of application consist of?",
+        "answers": [
+            "A. Presentation, AWS, data",
+            "B. Presentation, application, data",
+            "C. Data, application, internet",
+            "D. Application, data, security"
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "564ef91d-0623-4d2a-81ca-32f03d2fac7e",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 31
+    },
+    {
+        "question": "A company wants to automate management tasks such as collecting system inventory, applying operating system patches, maintaining up-to-date antivirus definitions, and configuring operating systems and applications at scale. Which AWS service would provide these abilities?",
+        "answers": [
+            "A. Amazon Simple Notification Service (Amazon SNS)",
+            "B. AWS Systems Manager",
+            "C. AWS Lambda",
+            "D. Elastic Load Balancing (ELB)"
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "f2b97a02-a727-4b69-970d-6a4108e0a8bf",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 32
+    },
+    {
+        "question": "Which service uses machine learning to automatically discover, classify, and protect sensitive data in AWS?",
+        "answers": [
+            "A. AWS Secrets Manager",
+            "B. AWS Key Management Service (AWS KMS)",
+            "C. Amazon Macie",
+            "D. AWS Certificate Manager (ACM)"
+        ],
+        "correct_answers": [
+            "C"
+        ],
+        "uuid": "2c48f6a4-a277-4841-ae6f-c278c5b7daa1",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 33
+    },
+    {
+        "question": "A company wants to establish a secure solution for its workforce and machine identities that require secrets, such as passwords to third-party applications, with automatic rotation. Which AWS service is the best solution for the company to store and use secrets securely?",
+        "answers": [
+            "A. Amazon Macie",
+            "B. AWS Certificate Manager Private Certificate Authority",
+            "C. AWS Key Management Service (AWS KMS)",
+            "D. AWS Secrets Manager"
+        ],
+        "correct_answers": [
+            "D"
+        ],
+        "uuid": "8347a9e6-513e-400f-b2c8-eae76335442d",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 34
+    },
+    {
+        "question": "Which statement is true about using AWS CloudTrail and Amazon CloudWatch together?",
+        "answers": [
+            "A. Resource and application performance can be monitored, but user, group, or role actions cannot be monitored.",
+            "B. Custom CloudWatch alarms can be configured for specific CloudTrail events.",
+            "C. These services cannot log the identity of a user, group, or role that has performed an action.",
+            "D. Custom CloudTrail alarms can be configured for specific CloudWatch events."
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "cfe7e679-ccc3-43ea-ba28-0aa9c8873b4c",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 35
+    },
+    {
+        "question": "Monitoring is the continuous verification of the security and performance of resources, applications, and data. The security administrator for an AWS account wants to activate monitoring in their environment to enhance their security posture. Which AWS service could help to accomplish this?",
+        "answers": [
+            "A. Amazon Cognito",
+            "B. Amazon CloudWatch",
+            "C. Amazon Lightsail",
+            "D. Amazon S3"
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "7fcbb68e-a0c1-41fb-9cf0-906015fc2917",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 36
+    },
+    {
+        "question": "An administrator wants to run continuous assessment checks on their resources. The purpose is to verify that these resources comply with their own security policies, industry best practices, and compliance standards. Which AWS service would meet their need?",
+        "answers": [
+            "A. AWS CloudFormation",
+            "B. AWS CloudTrail",
+            "C. Amazon CloudWatch",
+            "D. AWS Config"
+        ],
+        "correct_answers": [
+            "D"
+        ],
+        "uuid": "3da8b281-5e72-4959-b567-fb526d7600a2",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 37
+    },
+    {
+        "question": "A cloud administrator wants the ability to automatically discover and scan Amazon EC2 instances for vulnerabilities. Which service would provide that capability?",
+        "answers": [
+            "A. Amazon GuardDuty",
+            "B. Amazon Inspector",
+            "C. AWS Config",
+            "D. Amazon CloudWatch"
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "fe7f005b-79ec-44d0-9ccf-12a6ca2b2868",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 38
+    },
+    {
+        "question": "What is a characteristic of the security principle to protect data in transit?",
+        "answers": [
+            "A. Be ready to scale and absorb the attack.",
+            "B. Enforce separation of duties.",
+            "C. Use Transport Layer Security (TLS) connections.",
+            "D. Use a defense in depth approach."
+        ],
+        "correct_answers": [
+            "C"
+        ],
+        "uuid": "160b2a6d-c07d-4fc8-aae1-f88db064b7a2",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 39
+    },
+    {
+        "question": "What are the components of an AWS access key?",
+        "answers": [
+            "A. User name and password",
+            "B. Access key ID and secret access key",
+            "C. User name, password, and token",
+            "D. Access key ID and public access key"
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "2e0dcbf4-f03e-40c5-85f5-e1bbcaab996b",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 40
+    },
+    {
+        "question": "A company set up a virtual private cloud (VPC) with public subnets and route tables. The company wants to be able to use the internet to access information from Amazon EC2 instances in the VPC. Which VPC component would allow communication between instances in their VPC and the internet?",
+        "answers": [
+            "A. Virtual private network (VPN)",
+            "B. AWS Direct Connect",
+            "C. Internet gateway",
+            "D. Subnet route table"
+        ],
+        "correct_answers": [
+            "C"
+        ],
+        "uuid": "d579449e-3a45-4cb4-b0a4-379f41d68489",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 41
+    },
+    {
+        "question": "An IT administrator needs to ensure that data stored in Amazon S3 is encrypted but does not want to manage the encryption keys. Which encryption mechanism meets these requirements?",
+        "answers": [
+            "A. SSE-S3",
+            "B. SSE-AES",
+            "C. SSE-C",
+            "D. SSE-SSL"
+        ],
+        "correct_answers": [
+            "A"
+        ],
+        "uuid": "664b898d-73ac-44dd-92e8-5eaebaf0fd5d",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 42
+    },
+    {
+        "question": "Which types of information does Amazon CloudWatch collect monitoring and operational data as? (Select THREE.)",
+        "answers": [
+            "A. Logs",
+            "B. Events",
+            "C. Authentications",
+            "D. Incidents",
+            "E. Metrics",
+            "F. Objects"
+        ],
+        "correct_answers": [
+            "A",
+            "B",
+            "E"
+        ],
+        "uuid": "2fab3c31-a4d9-4616-87c3-bf1fb0b7af82",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 43
+    },
+    {
+        "question": "Which AWS service is an option that can be used to store and retrieve secrets within an AWS Lambda function?",
+        "answers": [
+            "A. AWS Step Functions",
+            "B. AWS Config",
+            "C. AWS Key Management Service (AWS KMS)",
+            "D. AWS Systems Manager"
+        ],
+        "correct_answers": [
+            "C"
+        ],
+        "uuid": "0dedbc61-ceda-4b8f-bcab-ccbd8c960c18",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 44
+    },
+    {
+        "question": "A company wants to establish an identity federation solution for their AWS account. They want to use a single centralized directory for identity management. Which AWS identity federation solution is the best option for the company to employ?",
+        "answers": [
+            "A. AWS CloudFormation",
+            "B. AWS CloudTrail",
+            "C. AWS Single Sign-On",
+            "D. AWS Config"
+        ],
+        "correct_answers": [
+            "C"
+        ],
+        "uuid": "8dae2f83-7867-4a2c-a0eb-822c0f43f453",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 45
+    },
+    {
+        "question": "A cloud administrator needs to store images that are uploaded by users through a mobile application. The solution needs to include security measures to avoid data loss. Which step or steps should they take to protect against unintended user actions?",
+        "answers": [
+            "A. Store data in two Amazon S3 buckets in different AWS Regions.",
+            "B. Store data in an S3 bucket, and enable S3 Block Public Access.",
+            "C. Store data in an Amazon Elastic Block Store (Amazon EBS) volume, and use AWS Certificate Manager to encrypt the data.",
+            "D. Upload the images to Amazon S3 by using presigned URLs. Employ strict bucket polices, and enable S3 Versioning."
+        ],
+        "correct_answers": [
+            "D"
+        ],
+        "uuid": "f74ba34b-4644-4126-bae1-4fdeb5cdc713",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 46
+    },
+    {
+        "question": "Which service can be configured to provide logging about storage use?",
+        "answers": [
+            "A. Amazon VPC",
+            "B. Amazon S3",
+            "C. AWS CloudTrail",
+            "D. Elastic Load Balancing (ELB)"
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "aac5a135-1d80-4f55-a405-3e6983440cb6",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 47
+    },
+    {
+        "question": "Which phase of incident response involves investigation and diagnosis?",
+        "answers": [
+            "A. Categorization and notification phase",
+            "B. Planning and implementation phase",
+            "C. Resolution and recovery phase",
+            "D. Discovery and recognition phase"
+        ],
+        "correct_answers": [
+            "D"
+        ],
+        "uuid": "b1029913-19e3-4577-b0a9-b4da32755770",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 48
+    },
+    {
+        "question": "Most AWS Identity and Access Management (IAM) policies are defined and stored in a specific document format. Which document format is most commonly used?",
+        "answers": [
+            "A. Security Assertion Markup Language (SAML)",
+            "B. Hypertext Markup Language (HTML)",
+            "C. JavaScript Object Notation (JSON)",
+            "D. Extensible Markup Language (XML)"
+        ],
+        "correct_answers": [
+            "C"
+        ],
+        "uuid": "1eb970fb-2d45-415d-8d11-18db197651d4",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 49
+    },
+    {
+        "question": "Which security principle involves monitoring, alerting, and auditing actions and changes to the environment in real time?",
+        "answers": [
+            "A. Protect data in transit and at rest.",
+            "B. Enable traceability.",
+            "C. Secure all layers.",
+            "D. Apply the principle of least privilege."
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "8387dc2f-7bd7-4dd9-ab41-58025670a781",
+        "source": "awssecurity",
+        "part": 0,
+        "question_number": 50
+    },
+    {
         "question_number": 1,
         "part": 7,
         "question": "When using Amazon RDS, what is the customer responsible for?",
