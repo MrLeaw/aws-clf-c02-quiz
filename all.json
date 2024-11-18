@@ -2246,6 +2246,174 @@
         "source": "awslagi"
     },
     {
+        "question": "A three-tier web application environment is a modular client-server architecture. What are the three tiers?",
+        "answers": [
+            "A. Application, data, and security",
+            "B. Presentation, application, and data",
+            "C. Data, application, and internet",
+            "D. Presentation, AWS, and data"
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "72e434dc-4205-4e4f-9c9e-24f7b00bd238",
+        "source": "awssecurity",
+        "part": 4,
+        "question_number": 1
+    },
+    {
+        "question": "What is the difference between a security group and network access control list (ACL)?",
+        "answers": [
+            "A. A security group is a load-balancing service for AWS deployments. A network ACL acts as a firewall to control traffic in and out of one or more subnets.",
+            "B. A security group acts as a firewall to control traffic in and out of one or more subnets. A network ACL acts as a virtual firewall for EC2 instances.",
+            "C. A security group acts as a virtual firewall for EC2 instances. A network ACL acts as a firewall to control traffic in and out of one or more subnets.",
+            "D. A security group makes networks more efficient. A network ACL distributes incoming application traffic and scales resources to meet traffic demands."
+        ],
+        "correct_answers": [
+            "C"
+        ],
+        "uuid": "bc3e9738-556d-4703-9233-bf633db89e12",
+        "source": "awssecurity",
+        "part": 4,
+        "question_number": 2
+    },
+    {
+        "question": "What is the purpose of an internet gateway? (Select TWO.)",
+        "answers": [
+            "A. Control the routing for all subnets.",
+            "B. Perform network address translation (NAT) for instances that have been assigned public IPv4 addresses.",
+            "C. Control where network traffic is directed.",
+            "D. Provision a logically isolated section of the AWS Cloud where you can launch resources in a virtual network.",
+            "E. Provide a target within a route table to enable internet-routable traffic."
+        ],
+        "correct_answers": [
+            "B",
+            "E"
+        ],
+        "uuid": "8b22d0e0-0719-4e14-a1ac-0409fad3bf29",
+        "source": "awssecurity",
+        "part": 4,
+        "question_number": 3
+    },
+    {
+        "question": "Which statements are true for a virtual private cloud (VPC)? (Select THREE.)",
+        "answers": [
+            "A. Acts as a firewall to control traffic in and out of one or more subnets",
+            "B. Gives you control over your virtual networking resources including selecting the IP address range, creating subnets, and configuring route tables and network gateways",
+            "C. Uses network access control lists (ACLs) as the only layer of security",
+            "D. Belongs to multiple AWS Regions and only one Availability Zone",
+            "E. Provides the ability to customize your network including creating a public subnet for your web servers that can access the public internet",
+            "F. Is a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network"
+        ],
+        "correct_answers": [
+            "B",
+            "E",
+            "F"
+        ],
+        "uuid": "bd13286a-01b7-4afd-858a-eced98eb33a4",
+        "source": "awssecurity",
+        "part": 4,
+        "question_number": 4
+    },
+    {
+        "question": "Security groups are stateful, and network access control lists (ACLs) are stateless. What is the difference between stateful and stateless?",
+        "answers": [
+            "A. Stateful means that return traffic must be explicitly allowed by rules. Stateless means that return traffic is automatically allowed.",
+            "B. Stateful means that return traffic is automatically allowed. Stateless means that return traffic must be explicitly allowed by rules.",
+            "C. Stateful means that return traffic must be explicitly allowed by rules. Stateless means that return traffic is never allowed.",
+            "D. Stateful means that return traffic is never allowed. Stateless means that return traffic must be explicitly allowed by rules."
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "fa29b894-3b68-4ae2-9389-cf1ab064eb71",
+        "source": "awssecurity",
+        "part": 4,
+        "question_number": 5
+    },
+    {
+        "question": "What are best practices to protect your network? (Select TWO.)",
+        "answers": [
+            "A. Create all subnets in the same Availability Zone.",
+            "B. Use security groups to control access to resources.",
+            "C. Place Amazon EC2 instances in private subnets when they will not regularly need direct access to the internet.",
+            "D. Enable high availability to increase the security stance.",
+            "E. Set up AWS Organizations."
+        ],
+        "correct_answers": [
+            "B",
+            "C"
+        ],
+        "uuid": "2015a3da-97d9-4c4c-9510-bd4b7cb76898",
+        "source": "awssecurity",
+        "part": 4,
+        "question_number": 6
+    },
+    {
+        "question": "Which service provides an automated security assessment that helps users to improve the security and compliance of applications that they deploy on AWS?",
+        "answers": [
+            "A. Amazon GuardDuty",
+            "B. Elastic Load Balancing (ELB)",
+            "C. AWS Identity and Access Management (IAM)",
+            "D. Amazon Inspector"
+        ],
+        "correct_answers": [
+            "D"
+        ],
+        "uuid": "c2a0f460-7091-4cc6-8daf-7319f8ef2736",
+        "source": "awssecurity",
+        "part": 4,
+        "question_number": 7
+    },
+    {
+        "question": "A company wants to create a multi-tier website. What is the best practice for creating a load balancer and subnet architecture?",
+        "answers": [
+            "A. Place the web server and database in a private subnet. Have users directly access the web server in the private subnet without using a load balancer.",
+            "B. Place the web server and database in a private subnet, and the load balancer ina public subnet.",
+            "C. Place the web server in a public subnet and the database in a private subnet. Have users directly access the web server in the public subnet without using a load balancer.",
+            "D. Place the web server and database in a public subnet, and the load balancer in a public subnet."
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "b27b41c7-4cc6-4c12-8fb1-264cc2f707c1",
+        "source": "awssecurity",
+        "part": 4,
+        "question_number": 8
+    },
+    {
+        "question": "What is NOT a best practice to protect compute resources?",
+        "answers": [
+            "A. Use Amazon Machine Images (AMIs) to create compliant instances.",
+            "B. Automate configuration management and protection.",
+            "C. Enable VPC Flow Logs down to the subnet level.",
+            "D. Scan for vulnerabilities and patch them."
+        ],
+        "correct_answers": [
+            "C"
+        ],
+        "uuid": "3145c38b-7d72-411d-9f92-0ac27dcd8d1e",
+        "source": "awssecurity",
+        "part": 4,
+        "question_number": 9
+    },
+    {
+        "question": "Which service can help users to automate management tasks such as collecting system inventory, applying operating system patches, maintaining up-to-date antivirus definitions, and configuring operating systems and applications at scale?",
+        "answers": [
+            "A. Elastic Load Balancing (ELB)",
+            "B. AWS Config",
+            "C. AWS Systems Manager",
+            "D. Amazon Simple Notification Service (Amazon SNS)"
+        ],
+        "correct_answers": [
+            "C"
+        ],
+        "uuid": "cd66b9a8-fe05-45d6-b4a5-1d0bb88918da",
+        "source": "awssecurity",
+        "part": 4,
+        "question_number": 10
+    },
+    {
         "question_number": 1,
         "part": 8,
         "question": "Which of the following are ways to improve security on AWS? (Choose two.)",
