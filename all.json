@@ -10111,6 +10111,168 @@
         "source": "awslagi"
     },
     {
+        "question": "Which AWS service is a continuous monitoring and assessment service that provides an inventory of AWS resources and records changes to their configuration?",
+        "answers": [
+            "A. AWS Shield",
+            "B. Amazon Inspector",
+            "C. Amazon Simple Notification Service (Amazon SNS)",
+            "D. AWS Config"
+        ],
+        "correct_answers": [
+            "D"
+        ],
+        "uuid": "4834ba41-17ba-4906-a14d-3cfc4afb240a",
+        "source": "awssecurity",
+        "part": 7,
+        "question_number": 1
+    },
+    {
+        "question": "An administrator would like help managing complex and time-consuming operations, such as patching software and routing support tickets. Which AWS service would meet their need?",
+        "answers": [
+            "A. AWS Step Functions",
+            "B. Amazon Detective",
+            "C. AWS Config",
+            "D. Amazon Simple Notification Service (Amazon SNS)"
+        ],
+        "correct_answers": [
+            "A"
+        ],
+        "uuid": "8e32f61f-f800-4db8-a0b2-5c5ee209ad50",
+        "source": "awssecurity",
+        "part": 7,
+        "question_number": 2
+    },
+    {
+        "question": "An administrator wants to ensure that they optimize their AWS infrastructure and also improve security performance. Which option would meet their need?",
+        "answers": [
+            "A. AWS Systems Manager",
+            "B. AWS Trusted Advisor",
+            "C. Amazon Macie",
+            "D. AWS Shield"
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "bc8d481a-80dc-415c-84ca-afa7faa2735a",
+        "source": "awssecurity",
+        "part": 7,
+        "question_number": 3
+    },
+    {
+        "question": "An administrator would like to have additional insight into their applications, and collect operational data in the form of logs, metrics, and events. Which AWS service would meet their need?",
+        "answers": [
+            "A. Amazon Detective",
+            "B. Amazon CloudWatch",
+            "C. AWS CloudFormation",
+            "D. Amazon Inspector"
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "c2540cb7-a74e-491e-b8f7-24a8840d92a3",
+        "source": "awssecurity",
+        "part": 7,
+        "question_number": 4
+    },
+    {
+        "question": "An administrator wants to improve their vulnerability management. They would like to use a service that continuously scans Amazon EC2 instances for software vulnerabilities and unintended network exposure. Which AWS service would meet their need?",
+        "answers": [
+            "A. AWS Shield",
+            "B. Amazon Inspector",
+            "C. Amazon Macie",
+            "D. Amazon Detective"
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "0cff95c5-4a83-4c61-80be-7e773b95986c",
+        "source": "awssecurity",
+        "part": 7,
+        "question_number": 5
+    },
+    {
+        "question": "An administrator wants to run continuous assessment checks on their resources. The purpose is to verify that these resources comply with their own security policies, industry best practices, and compliance standards. Which AWS service would meet their need?",
+        "answers": [
+            "A. AWS CloudFormation",
+            "B. Amazon CloudWatch",
+            "C. AWS CloudTrail",
+            "D. AWS Config"
+        ],
+        "correct_answers": [
+            "D"
+        ],
+        "uuid": "5145093a-3cff-4819-a3aa-874db28b9356",
+        "source": "awssecurity",
+        "part": 7,
+        "question_number": 6
+    },
+    {
+        "question": "An administrator would like to increase their network protection, and eliminate any potentially unauthorized or malicious activity in their AWS environment. Which AWS service would meet their need?",
+        "answers": [
+            "A. Network access control list (ACL)",
+            "B. Amazon GuardDuty",
+            "C. AWS CloudTrail",
+            "D. Amazon Macie"
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "3bf9c7a7-c64a-4f90-9618-1a3d5b150130",
+        "source": "awssecurity",
+        "part": 7,
+        "question_number": 7
+    },
+    {
+        "question": "What are best practices for handling an incident? (Select TWO.)",
+        "answers": [
+            "A. Create a template that describes all the AWS resources that you would like to use.",
+            "B. Run code on demand.",
+            "C. Automate containment capabilities.",
+            "D. Continuously monitor and assess services that provide an inventory of AWS resources.",
+            "E. Identify key personnel, external resources, and tooling."
+        ],
+        "correct_answers": [
+            "C",
+            "E"
+        ],
+        "uuid": "08650845-4216-438a-9d60-8b8348f16fc4",
+        "source": "awssecurity",
+        "part": 7,
+        "question_number": 8
+    },
+    {
+        "question": "An administrator wants to implement a level of protection against distributed denial of service (DDoS) attacks. Which AWS service would meet their need?",
+        "answers": [
+            "A. AWS Firewall Manager",
+            "B. Amazon Inspector",
+            "C. Amazon Detective",
+            "D. AWS Shield"
+        ],
+        "correct_answers": [
+            "D"
+        ],
+        "uuid": "c96250c9-44bc-411d-9636-2398de0d9b63",
+        "source": "awssecurity",
+        "part": 7,
+        "question_number": 9
+    },
+    {
+        "question": "Which definition best describes an incident response?",
+        "answers": [
+            "A. Any event that triggers an alarm in Amazon CloudWatch",
+            "B. Set of reliable, scalable, and flexible monitoring solutions",
+            "C. Capturing the disk image or as-is configuration of an operating system",
+            "D. Set of information security policies and procedures that can be used to identify, contain, and eliminate cyberattacks"
+        ],
+        "correct_answers": [
+            "D"
+        ],
+        "uuid": "ed27fe54-0179-4934-b38c-70677304475f",
+        "source": "awssecurity",
+        "part": 7,
+        "question_number": 10
+    },
+    {
         "question": "A company wants to assess its operational readiness. It also wants to identify and mitigate any operational risks ahead of a new product launch. Which AWS Support plan offers guidance and support for this kind of event at no additional charge?",
         "answers": [
             "A. AWS Business Support",
@@ -10596,6 +10758,166 @@
         "uuid": "1cb12887-1660-4e44-abaa-9142149ac1e2",
         "source": "examtopics",
         "part": 5,
+        "question_number": 10
+    },
+    {
+        "question": "Which statement about logging and log files is true?",
+        "answers": [
+            "A. Log files can be used to demonstrate compliance with regulations.",
+            "B. Log files are a requirement for incident response and remediation.",
+            "C. Log files are a violation of the European Union General Data Protection Regulation (GDPR).",
+            "D. Log files should not be used for auditing due to their unreliable nature."
+        ],
+        "correct_answers": [
+            "A"
+        ],
+        "uuid": "ef9e7ef7-873e-4e2c-841d-515e0ceeda05",
+        "source": "awssecurity",
+        "part": 6,
+        "question_number": 1
+    },
+    {
+        "question": "Which statement about AWS CloudTrail is true?",
+        "answers": [
+            "A. CloudTrail records actions taken by a user, role, or AWS service as trails.",
+            "B. CloudTrail does not record actions taken in the AWS Management Console.",
+            "C. CloudTrail helps you enable governance and manage compliance by disabling operational and risk auditing of your AWS account.",
+            "D. CloudTrail can be integrated into applications by using the API."
+        ],
+        "correct_answers": [
+            "D"
+        ],
+        "uuid": "24ec2f6d-cc99-454f-81ad-f5a07f20e3bd",
+        "source": "awssecurity",
+        "part": 6,
+        "question_number": 2
+    },
+    {
+        "question": "Which statement about AWS monitoring is true?",
+        "answers": [
+            "A. AWS CloudTrail provides the ability to monitor your resources and applications in real time.",
+            "B. Amazon CloudWatch is the sole provider of monitoring capabilities.",
+            "C. Amazon CloudWatch provides the ability to record who is doing what and when they are doing it.",
+            "D. Monitoring is a continuous process."
+        ],
+        "correct_answers": [
+            "D"
+        ],
+        "uuid": "49ac84be-5a1e-4f14-9c53-f1d6b468cb8b",
+        "source": "awssecurity",
+        "part": 6,
+        "question_number": 3
+    },
+    {
+        "question": "Which information does AWS CloudTrail NOT capture?",
+        "answers": [
+            "A. Originating location of the request",
+            "B. Time of the origin of the request in your local time",
+            "C. Name of the API called",
+            "D. Time of the API call"
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "f2374044-63cc-443f-81ba-cc3acaa14ab2",
+        "source": "awssecurity",
+        "part": 6,
+        "question_number": 4
+    },
+    {
+        "question": "A web application uses a fleet of Amazon EC2 instances for both dynamic and static assets. The EC2 instances are in a private subnet, behind a load balancer that is in a public subnet inside the VPC. Which service logs would provide the MOST insight into how users are using the web application?",
+        "answers": [
+            "A. Amazon S3 access logs",
+            "B. Elastic Load Balancing (ELB) access logs",
+            "C. AWS Trusted Advisor logs",
+            "D. Amazon VPC flow logs"
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "2cb9c0dc-7941-47a2-80ee-7d80c5846aad",
+        "source": "awssecurity",
+        "part": 6,
+        "question_number": 5
+    },
+    {
+        "question": "Which statement about Amazon CloudWatch is true?",
+        "answers": [
+            "A. CloudWatch is used to create data silos to protect against system-wide visibility and issue resolution.",
+            "B. CloudWatch can only be used to collect metrics in the AWS Cloud environment.",
+            "C. CloudWatch continually scans AWS workloads for software vulnerabilities and unintended network exposure.",
+            "D. CloudWatch can be used to detect anomalous behavior and invoke other services to take further action."
+        ],
+        "correct_answers": [
+            "D"
+        ],
+        "uuid": "d9fdab47-fba1-4f28-aa6a-919148a356d1",
+        "source": "awssecurity",
+        "part": 6,
+        "question_number": 6
+    },
+    {
+        "question": "AWS CloudTrail and Amazon CloudWatch serve specific functions. Which function is indicative of CloudWatch?",
+        "answers": [
+            "A. Is useful for compliance auditing, security analysis, and troubleshooting",
+            "B. Is useful to detect anomalous behavior, set alarms, and discover insights",
+            "C. Continuously monitors user activities",
+            "D. Helps you determine who performed an unauthorized action"
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "e09d7117-4d2c-4e06-9941-4372bac9a721",
+        "source": "awssecurity",
+        "part": 6,
+        "question_number": 7
+    },
+    {
+        "question": "What is the first step to use the detective controls that AWS provides?",
+        "answers": [
+            "A. Define your requirements for logs, alerts, and metrics.",
+            "B. Configure service and application logging.",
+            "C. Determine what AWS provided detective services will cost.",
+            "D. Centrally analyze logs."
+        ],
+        "correct_answers": [
+            "A"
+        ],
+        "uuid": "e13d5caa-c841-470d-a880-a6b958cf475c",
+        "source": "awssecurity",
+        "part": 6,
+        "question_number": 8
+    },
+    {
+        "question": "Which AWS service evaluates your account by using checks that identify ways to optimize your AWS infrastructure, improve security and performance, reduce costs, and monitor service quotas?",
+        "answers": [
+            "A. Amazon EventBridge",
+            "B. AWS Security Hub",
+            "C. AWS Trusted Advisor",
+            "D. AWS Config"
+        ],
+        "correct_answers": [
+            "C"
+        ],
+        "uuid": "7a0c6901-7e0c-4f21-9ee7-ed38e4771469",
+        "source": "awssecurity",
+        "part": 6,
+        "question_number": 9
+    },
+    {
+        "question": "Which AWS logging and monitoring service is a serverless event bus service that can connect your applications with data from a variety of sources?",
+        "answers": [
+            "A. Amazon EventBridge",
+            "B. AWS Security Hub",
+            "C. AWS Config",
+            "D. AWS Trusted Advisor"
+        ],
+        "correct_answers": [
+            "A"
+        ],
+        "uuid": "3a312361-e9fb-4edf-80eb-96dfcf91b3d8",
+        "source": "awssecurity",
+        "part": 6,
         "question_number": 10
     },
     {
