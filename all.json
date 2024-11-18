@@ -1,5 +1,173 @@
 [
     {
+        "question": "What can be used to control access to an Amazon S3 bucket? (Select THREE.)",
+        "answers": [
+            "A. IAM tags",
+            "B. S3 bucket policies",
+            "C. AWS Identity and Access Management (IAM) policies",
+            "D. Virtual private cloud (VPC) endpoint policies",
+            "E. Host-based access",
+            "F. Attribute-based access control (ABAC)"
+        ],
+        "correct_answers": [
+            "B",
+            "C",
+            "D"
+        ],
+        "uuid": "04b0737d-0bbb-43be-9137-ab514fdca587",
+        "source": "awssecurity",
+        "part": 5,
+        "question_number": 1
+    },
+    {
+        "question": "Which control mechanism is recommended to protect data in transit to Amazon S3 to reduce the risk of unauthorized access or loss?",
+        "answers": [
+            "A. Configure a security group and add the S3 bucket to it.",
+            "B. Use Amazon Virtual Private Cloud (Amazon VPC) endpoints to limit access to the bucket.",
+            "C. Use network access control lists (ACLs) on the bucket.",
+            "D. Enforce access control."
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "2ee7c1e7-27a5-4baa-87d9-5db5a393ada7",
+        "source": "awssecurity",
+        "part": 5,
+        "question_number": 2
+    },
+    {
+        "question": "Amazon S3 Object Lock is a feature that provides protection for scenarios where it's imperative that data is not changed or deleted. What are the two ways to manage object retention with Object Lock?",
+        "answers": [
+            "A. Retention periods and VPC Flow Logs",
+            "B. Legal holds and S3 Intelligent-Tiering",
+            "C. Retention periods and legal holds",
+            "D. RestrictPublicBuckets and BlockPublicPolicy"
+        ],
+        "correct_answers": [
+            "C"
+        ],
+        "uuid": "46e3dc9a-1789-443e-8973-9c3cbcd13fdb",
+        "source": "awssecurity",
+        "part": 5,
+        "question_number": 3
+    },
+    {
+        "question": "Which Amazon S3 feature stores objects by using the write-once-read-many (WORM) model?",
+        "answers": [
+            "A. S3 Object Lock",
+            "B. S3 BlockPublicAcls",
+            "C. S3 Block Public Access",
+            "D. S3 Versioning"
+        ],
+        "correct_answers": [
+            "A"
+        ],
+        "uuid": "9781c5b2-5e9e-4950-a664-ce4ee739c2d4",
+        "source": "awssecurity",
+        "part": 5,
+        "question_number": 4
+    },
+    {
+        "question": "Which AWS service can be used to generate encryption keys that are protected by  FIPS 140-2 validated hardware security modules (HSMs)",
+        "answers": [
+            "A. AWS Certificate Manager (ACM)",
+            "B. AWS Secrets Manager",
+            "C. AWS Key Management Service (AWS KMS)",
+            "D. AWS Certificate Manager Private Certificate Authority"
+        ],
+        "correct_answers": [
+            "C"
+        ],
+        "uuid": "ba472e4b-f383-4a35-9927-c92a29d111be",
+        "source": "awssecurity",
+        "part": 5,
+        "question_number": 5
+    },
+    {
+        "question": "Which types of server-side encryption (SSE) are available for Amazon S3? (Select THREE.)",
+        "answers": [
+            "A. SSE with Amazon S3 managed keys (SSE-S3)",
+            "B. SSE with SSL-managed keys (SSE-SSL)",
+            "C. SSE with AWS Key Management Service (AWS KMS) keys (SSE-KMS)",
+            "D. SSE with 256-bit Advanced Encryption Standard keys (SSE-AES)",
+            "E. SSE with customer-provided keys (SSE-C)",
+            "F. SSE with AWS hardware security module keys (SSE-HSM)"
+        ],
+        "correct_answers": [
+            "A",
+            "C",
+            "E"
+        ],
+        "uuid": "d3d687de-bbeb-450f-9e4a-4ebfa4c0affa",
+        "source": "awssecurity",
+        "part": 5,
+        "question_number": 6
+    },
+    {
+        "question": "Which statement regarding client-side encryption is true?",
+        "answers": [
+            "A. The keys and algorithms are known only to the customer.",
+            "B. Data is encrypted at its destination by the application or service that receives it.",
+            "C. The application encrypts data after sending it to AWS.",
+            "D. Data is stored in its encrypted state, but keys and algorithms are known by the customer and AWS."
+        ],
+        "correct_answers": [
+            "A"
+        ],
+        "uuid": "b78848b6-c483-4c28-b55f-d13daab2252c",
+        "source": "awssecurity",
+        "part": 5,
+        "question_number": 7
+    },
+    {
+        "question": "Which statement is true about server-side encryption in Amazon S3 with customer-provided keys (SSE-C)?",
+        "answers": [
+            "A. SSE-C provides an audit trail that shows when the key was used and by whom.",
+            "B. An envelope key is used for added protection.",
+            "C. The encrypted data and keys are stored in separate hosts.",
+            "D. The customer retains control of the keys."
+        ],
+        "correct_answers": [
+            "D"
+        ],
+        "uuid": "7fe0dc08-ff4c-4f1a-a4a9-cc0beacbae6c",
+        "source": "awssecurity",
+        "part": 5,
+        "question_number": 8
+    },
+    {
+        "question": "Which AWS service can be used to store items, such as database credentials, securely without having to hard code them into the source code or a configuration file?",
+        "answers": [
+            "A. AWS Certificate Manager Private Certificate Authority",
+            "B. AWS Key Management Service (AWS KMS)",
+            "C. AWS Secrets Manager",
+            "D. Amazon Macie"
+        ],
+        "correct_answers": [
+            "C"
+        ],
+        "uuid": "7f282a68-0417-4534-a6e9-2e84e6ee6fe7",
+        "source": "awssecurity",
+        "part": 5,
+        "question_number": 9
+    },
+    {
+        "question": "A machine learning engineer wants a solution that will discover sensitive information that is stored in AWS. The solution should also use natural language processing (NLP) to classify the data and provide business-related insights. Which AWS service would meet their need?",
+        "answers": [
+            "A. AWS Systems Manager",
+            "B. Amazon Macie",
+            "C. AWS Lambda",
+            "D. Amazon Inspector"
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "ffdce3c8-3067-4a36-a165-bfc3d0be9264",
+        "source": "awssecurity",
+        "part": 5,
+        "question_number": 10
+    },
+    {
         "part": 2,
         "question_number": 1,
         "question": "A company has multiple AWS accounts and wants to simplify and consolidate its billing process.\nWhich AWS service will achieve this?",
@@ -5216,7 +5384,7 @@
             "D. Overprovisioning of resources"
         ],
         "correct_answers": [
-            "A"
+            "C"
         ],
         "uuid": "b4f0da76-46b0-4ae0-9cc7-ee25e215e8a7",
         "source": "awslagi"
@@ -6300,7 +6468,7 @@
             "D. The company has not configured AWS Budgets to monitor the budget for the EC2 instances."
         ],
         "correct_answers": [
-            "A"
+            "B"
         ],
         "uuid": "c847e85d-8e19-4f2d-b7af-e2c0cedd7ad7",
         "source": "awslagi"
