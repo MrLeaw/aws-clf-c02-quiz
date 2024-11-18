@@ -6122,6 +6122,174 @@
         "source": "awslagi"
     },
     {
+        "question": "What is the benefit of elasticity in the cloud?",
+        "answers": [
+            "A. Minimize storage requirements by reducing logging and auditing activities.",
+            "B. Reduce the time that it takes to make new IT resources available to developers from weeks to minutes.",
+            "C. Create systems that scale to the required capacity based on changes in demand.",
+            "D. Trade fixed expense for variable expense."
+        ],
+        "correct_answers": [
+            "C"
+        ],
+        "uuid": "40150598-a10c-4ba3-bfeb-ab6e6f5fc37c",
+        "source": "awssecurity",
+        "part": 2,
+        "question_number": 1
+    },
+    {
+        "question": "Which security principle addresses monitoring, alerting, and auditing actions and changes to the environment in real time?",
+        "answers": [
+            "A. Protect data in transit and at rest.",
+            "B. Secure all layers.",
+            "C. Apply the principle of least privilege.",
+            "D. Enable traceability."
+        ],
+        "correct_answers": [
+            "D"
+        ],
+        "uuid": "e56bd1e5-0595-472e-a00c-0a18e29ff3bf",
+        "source": "awssecurity",
+        "part": 2,
+        "question_number": 2
+    },
+    {
+        "question": "What is one method that a company could use to ensure high availability during a security attack?",
+        "answers": [
+            "A. Regular audits",
+            "B. Access control",
+            "C. Resource monitoring",
+            "D. Automatic scaling"
+        ],
+        "correct_answers": [
+            "D"
+        ],
+        "uuid": "29cfc17c-0e34-4451-b36a-865ad3a1553e",
+        "source": "awssecurity",
+        "part": 2,
+        "question_number": 3
+    },
+    {
+        "question": "What is a best practice for automation that can assist with providing a reliable and repeatable secure infrastructure?",
+        "answers": [
+            "A. Use detective controls.",
+            "B. Implement infrastructure as code.",
+            "C. Implement a log management solution.",
+            "D. Use encryption and access controls."
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "d7e4c179-293f-45a8-980b-4ad097e132dc",
+        "source": "awssecurity",
+        "part": 2,
+        "question_number": 4
+    },
+    {
+        "question": "What is the pricing model that AWS customers can use to pay for resources on an as-needed basis?",
+        "answers": [
+            "A. Pay as you buy",
+            "B. Pay as you go",
+            "C. Pay as you reserve",
+            "D. Pay as you decommission"
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "83d474c7-1ba7-4b47-829e-0aedf8b444cc",
+        "source": "awssecurity",
+        "part": 2,
+        "question_number": 5
+    },
+    {
+        "question": "Which options are security principles that are based on the security pillar of the AWS Well-Architected Framework? (Select THREE.)",
+        "answers": [
+            "A. Prepare for security events.",
+            "B. Use automatic scaling.",
+            "C. Design your systems for high availability.",
+            "D. Protect data in transit and data at rest.",
+            "E. Democratize advanced technologies.",
+            "F. Automate security best practices."
+        ],
+        "correct_answers": [
+            "A",
+            "D",
+            "F"
+        ],
+        "uuid": "43e448f7-5230-40bc-9048-bec369ff773f",
+        "source": "awssecurity",
+        "part": 2,
+        "question_number": 6
+    },
+    {
+        "question": "Which options are characteristics of the principle of least privilege? (Select TWO.)",
+        "answers": [
+            "A. Use encryption and access controls.",
+            "B. Grant access only as needed.",
+            "C. Use different AWS services.",
+            "D. Enforce separation of duties.",
+            "E. Monitor actions and changes."
+        ],
+        "correct_answers": [
+            "B",
+            "D"
+        ],
+        "uuid": "88ac6fac-d9e5-4bcc-b8b6-1b0e7e8936fc",
+        "source": "awssecurity",
+        "part": 2,
+        "question_number": 7
+    },
+    {
+        "question": "Security and compliance are shared responsibilities between AWS and the customer. What is an AWS responsibility?",
+        "answers": [
+            "A. Managing customer data",
+            "B. Patching network infrastructure",
+            "C. Configuring security groups",
+            "D. Managing application software"
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "b164132e-bfbc-460e-af93-56e53aee916a",
+        "source": "awssecurity",
+        "part": 2,
+        "question_number": 8
+    },
+    {
+        "question": "What are customer security responsibilities according to the AWS shared responsibility model? (Select TWO.)",
+        "answers": [
+            "A. Managing customer data",
+            "B. Maintaining any hypervisor used on instances",
+            "C. Managing account credentials and policies",
+            "D. Maintaining the network infrastructure and virtualization of the infrastructure",
+            "E. Maintaining the physical hardware"
+        ],
+        "correct_answers": [
+            "A",
+            "C"
+        ],
+        "uuid": "5e1efc6f-9778-4298-b0e1-2eb12f37ae25",
+        "source": "awssecurity",
+        "part": 2,
+        "question_number": 9
+    },
+    {
+        "question": "Who is responsible to operate, manage, and control security OF the cloud, according to the AWS shared responsibility model?",
+        "answers": [
+            "A. AWS",
+            "B. Managed service provider (MSP)",
+            "C. Customer",
+            "D. Managed services organization (MSO)"
+        ],
+        "correct_answers": [
+            "A"
+        ],
+        "uuid": "16a78f02-5e28-4d07-b3e7-afc7bb10e361",
+        "source": "awssecurity",
+        "part": 2,
+        "question_number": 10
+    },
+    {
         "question_number": 1,
         "part": 13,
         "question": "A company has infrastructure in one AWS Region and is expanding operations to a second AWS Region. The company is using the same AWS CloudFormation template in the second Region that the company uses in the original Region. The company attempts to launch Amazon EC2 OnDemand Instances in the second Region and receives error messages. What could cause these error messages?",
@@ -12465,7 +12633,7 @@
     {
         "question_number": 125,
         "part": 1,
-        "question": "A customer would like to design and build a new workload on AWS Cloud but does not have the AWS-related software technical expertise in-house. Which of the following AWS programs can a customer take advantage of to  chieve that outcome?",
+        "question": "A customer would like to design and build a new workload on AWS Cloud but does not have the AWS-related software technical expertise in-house. Which of the following AWS programs can a customer take advantage of to achieve that outcome?",
         "answers": [
             "A. AWS Partner Network Technology Partners",
             "B. AWS Marketplace",
