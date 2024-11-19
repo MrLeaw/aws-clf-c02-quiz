@@ -2209,7 +2209,7 @@
             "E. Users have control over the physical infrastructure."
         ],
         "correct_answers": [
-            "B",
+            "A",
             "C"
         ],
         "uuid": "cc55ba13-648e-4df0-95bb-a879ced926c1",
@@ -4842,7 +4842,7 @@
             "D. In AWS Config, create a custom rule that invokes an AWS Lambda function to review rules for inbound access."
         ],
         "correct_answers": [
-            "A"
+            "B"
         ],
         "uuid": "a46bf8f3-e723-4d59-bcd4-3077cebeeb85",
         "source": "awslagi"
@@ -9632,9 +9632,8 @@
     {
         "question_number": 50,
         "part": 6,
-        "question": "A company is launching an e-commerce site that will store and process credit card data. The company requires information about AWS compliance reports and",
+        "question": "A company is launching an e-commerce site that will store and process credit card data. The company requires information about AWS compliance reports and AWS agreements. Which AWS service provides on-demand access to these items?",
         "answers": [
-            "AWS agreements. Which AWS service provides on-demand access to these items?",
             "A. AWS Certificate Manager",
             "B. AWS Config",
             "C. AWS Artifact",
@@ -12412,7 +12411,7 @@
             "D. Implement vertical scaling"
         ],
         "correct_answers": [
-            "D"
+            "B"
         ],
         "uuid": "e7facad5-0ba1-4eca-989c-fe7bb6fb9384",
         "source": "awslagi"
@@ -12589,8 +12588,7 @@
         "question": "Which of the following steps should be taken by a customer when conducting penetration testing on AWS?",
         "answers": [
             "A. Conduct penetration testing using Amazon Inspector, and then notify AWS support.",
-            "B. Request and wait for approval from the customer’s internal security team, and then conduct",
-            "testing.",
+            "B. Request and wait for approval from the customer’s internal security team, and then conduct testing.",
             "C. Notify AWS support, and then conduct testing immediately.",
             "D. Request and wait for approval from AWS support, and then conduct testing."
         ],
