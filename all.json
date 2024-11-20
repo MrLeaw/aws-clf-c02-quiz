@@ -2012,7 +2012,7 @@
         ],
         "correct_answers": [
             "A",
-            "C"
+            "E"
         ],
         "uuid": "0e03f921-3302-420c-b013-1cb14f7551ad",
         "source": "awslagi"
@@ -3716,7 +3716,7 @@
             "D. AWS Global Accelerator"
         ],
         "correct_answers": [
-            "A"
+            "B"
         ],
         "uuid": "8758b311-0779-4987-8aa9-4c8701c2d000",
         "source": "awslagi"
@@ -5288,7 +5288,7 @@
             "D. Using edge locations to put content closer to all users"
         ],
         "correct_answers": [
-            "A"
+            "D"
         ],
         "uuid": "584b0f23-edce-48ec-ab20-299c801c6e5f",
         "source": "awslagi"
@@ -6762,7 +6762,7 @@
             "D. Cost Explorer"
         ],
         "correct_answers": [
-            "D"
+            "A"
         ],
         "uuid": "86360627-e12d-4209-b2f9-ac4913103208",
         "source": "awslagi"
@@ -8421,7 +8421,7 @@
             "D. Global footprint"
         ],
         "correct_answers": [
-            "B"
+            "D"
         ],
         "uuid": "49a85fd4-6f6e-4f85-8404-a435b6f91ee0",
         "source": "awslagi"
@@ -13921,7 +13921,7 @@
             "D. Implement elasticity."
         ],
         "correct_answers": [
-            "D"
+            "C"
         ],
         "uuid": "a72c23b5-febf-4a9c-ad9e-581a41f44ae7",
         "source": "awslagi"

@@ -5,6 +5,29 @@ use std::{
     process::exit,
 };
 
+const LOGO: &str = r#"                                                                      
+  .---.   ___  ___  ___     .--.    
+ / .-, \ (   )(   )(   )  /  _  \   
+(__) ; |  | |  | |  | |  . .' `. ;  
+  .'`  |  | |  | |  | |  | '   | |  
+ / .'| |  | |  | |  | |  _\_`.(___) 
+| /  | |  | |  | |  | | (   ). '.   
+; |  ; |  | |  ; '  | |  | |  `\ |  
+' `-'  |  ' `-'   `-' '  ; '._,' '  
+`.__.'_.   '.__.'.__.'    '.___.'   
+"#;
+const SUBLOGO: &str = r#"                                    
+  ____ _                 _   ____                 _   _ _   _                       
+ / ___| | ___  _   _  __| | |  _ \ _ __ __ _  ___| |_(_) |_(_) ___  _ __   ___ _ __ 
+| |   | |/ _ \| | | |/ _` | | |_) | '__/ _` |/ __| __| | __| |/ _ \| '_ \ / _ \ '__|
+| |___| | (_) | |_| | (_| | |  __/| | | (_| | (__| |_| | |_| | (_) | | | |  __/ |   
+ \____|_|\___/ \__,_|\__,_| |_|   |_|  \__,_|\___|\__|_|\__|_|\___/|_| |_|\___|_|   
+ / _ \ _   _(_)____                                                                 
+| | | | | | | |_  /                                                                 
+| |_| | |_| | |/ /                                                                  
+ \__\_\\__,_|_/___|                                                                                               
+"#;
+
 #[derive(serde::Deserialize, Debug, Clone)]
 struct Question {
     question: String,           // i.e. 'What is the answer to this question?'
@@ -94,13 +117,24 @@ fn load_questions() -> Vec<Question> {
 }
 
 fn main() {
+    println!("\x1B[2J\x1B[1;1H");
+    println!("{}", LOGO.bright_yellow());
+    println!("{}", SUBLOGO.bright_cyan());
+
+    println!(
+        "{}",
+        "Loading questions from the internet...\nPlease wait...".bright_yellow()
+    );
+
     let mut correct_count: usize;
     let mut total_count: usize;
     let mut questions = load_questions();
     // Do something with the questions
     // print first question
     println!("\x1B[2J\x1B[1;1H");
-    println!("Welcome to the quiz!");
+
+    println!("{}", LOGO.bright_yellow());
+    println!("{}", SUBLOGO.bright_cyan());
     println!("Initialized: {} questions", questions.len());
 
     println!(
@@ -125,7 +159,7 @@ fn main() {
                 (Vec::new(), 0, 0, Vec::new())
             }
         }
-        Err(error) => (Vec::new(), 0, 0, Vec::new()),
+        Err(_) => (Vec::new(), 0, 0, Vec::new()),
     };
 
     let mut index = already_answered.len();
