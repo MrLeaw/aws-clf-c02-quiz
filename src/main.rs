@@ -136,8 +136,6 @@ fn main() {
         "Loading questions from the internet...\nPlease wait...".bright_yellow()
     );
 
-    let mut correct_count: usize;
-    let mut total_count: usize;
     let mut all_questions = load_questions();
     println!("\x1B[2J\x1B[1;1H");
 
@@ -159,28 +157,26 @@ fn main() {
         all_questions = load_questions();
     }
 
-    let (already_answered, wrong_answered, cc, tc, times) = match load_progress() {
-        Ok((already_answered, wrong_answered, correct_count, total_count, times)) => {
-            if already_answered.len() > 0 {
-                (
-                    already_answered,
-                    wrong_answered,
-                    correct_count,
-                    total_count,
-                    times,
-                )
-            } else {
+    let (mut already_answered, mut wrong_answered, mut correct_count, mut total_count, mut times) =
+        match load_progress() {
+            Ok((already_answered, wrong_answered, correct_count, total_count, times)) => {
+                if already_answered.len() > 0 {
+                    (
+                        already_answered,
+                        wrong_answered,
+                        correct_count,
+                        total_count,
+                        times,
+                    )
+                } else {
+                    (Vec::new(), Vec::new(), 0, 0, Vec::new())
+                }
+            }
+            Err(error) => {
+                println!("Error loading progress: {}", error);
                 (Vec::new(), Vec::new(), 0, 0, Vec::new())
             }
-        }
-        Err(error) => {
-            println!("Error loading progress: {}", error);
-            exit(1);
-            (Vec::new(), Vec::new(), 0, 0, Vec::new())
-        }
-    };
-    let mut wrong_answered = wrong_answered;
-    let mut already_answered = already_answered;
+        };
 
     // questions should contain all questions that have been answered in the beginning,
     // followed by the rest of the questions, with the index pointing to the first unanswered question
@@ -189,12 +185,9 @@ fn main() {
         .filter(|q| !already_answered.contains(q))
         .cloned()
         .collect();
-    correct_count = cc;
-    total_count = tc;
 
     loop {
         let mut start_timestamp: std::time::Instant;
-        let mut times: Vec<f64> = times.clone();
         'outer: while questions.len() > 0 {
             let random_question = questions.remove(0);
             // clear the screen
@@ -375,6 +368,16 @@ fn main() {
                 break 'outer;
             }
         }
-        all_questions = load_questions();
+        println!(
+            "All questions have been answered! Press {} to restart or {} to quit.",
+            ":r⏎".purple(),
+            ":q⏎".bright_red()
+        );
+        let mut user_input = String::new();
+        std::io::stdin().read_line(&mut user_input).unwrap();
+        if user_input == ":q\n" {
+            exit(0);
+        }
+        exit(0)
     }
 }

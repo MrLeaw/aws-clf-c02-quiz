@@ -812,7 +812,7 @@
             "D. Access to a Solutions Architect"
         ],
         "correct_answers": [
-            "C"
+            "B"
         ],
         "uuid": "37b6625e-5f37-4d9e-8314-000902ff9675",
         "source": "awslagi"
@@ -3618,7 +3618,7 @@
             "D. AWS Lambda"
         ],
         "correct_answers": [
-            "C"
+            "B"
         ],
         "uuid": "0ddf2970-45e3-4ce3-8aaa-8b878e4f3319",
         "source": "awslagi"
@@ -5572,6 +5572,312 @@
         "source": "awslagi"
     },
     {
+        "question": "A company is moving an on-premises data center to the AWS Cloud. The company must migrate 50 petabytes of file storage data to AWS with the least possible operational overhead.\n\nWhich AWS service or resource should the company use to meet these requirements?",
+        "answers": [
+            "A. AWS Snowmobile",
+            "B. AWS Snowball Edge",
+            "C. AWS Data Exchange",
+            "D. AWS Database Migration Service (AWS DMS)"
+        ],
+        "correct_answers": [
+            "A"
+        ],
+        "uuid": "45d6377b-6c9d-477a-8014-88cc5d0bfad2",
+        "source": "examtopics",
+        "part": 16,
+        "question_number": 1
+    },
+    {
+        "question": "A company has an application with robust hardware requirements. The application must be accessed by students who are using lightweight, low-cost laptops.\n\nWhich AWS service will help the company deploy the application without investing in backend infrastructure or high-end client hardware?",
+        "answers": [
+            "A. Amazon AppStream 2.0",
+            "B. AWS AppSync",
+            "C. Amazon WorkLink",
+            "D. AWS Elastic Beanstalk"
+        ],
+        "correct_answers": [
+            "A"
+        ],
+        "uuid": "6f61506a-2a12-4d7f-832f-f665cc140456",
+        "source": "examtopics",
+        "part": 16,
+        "question_number": 2
+    },
+    {
+        "question": "A company wants to query its server logs to gain insights about its customers’ experiences.\n\nWhich AWS service will store this data MOST cost-effectively?",
+        "answers": [
+            "A. Amazon Aurora",
+            "B. Amazon Elastic File System (Amazon EFS)",
+            "C. Amazon Elastic Block Store (Amazon EBS)",
+            "D. Amazon S3"
+        ],
+        "correct_answers": [
+            "D"
+        ],
+        "uuid": "4bf679a8-67f9-4f08-b1cf-3c8e64f12eb3",
+        "source": "examtopics",
+        "part": 16,
+        "question_number": 3
+    },
+    {
+        "question": "Which of the following is a recommended design principle for AWS Cloud architecture?",
+        "answers": [
+            "A. Design tightly coupled components.",
+            "B. Build a single application component that can handle all the application functionality.",
+            "C. Make large changes on fewer iterations to reduce chances of failure.",
+            "D. Avoid monolithic architecture by segmenting workloads."
+        ],
+        "correct_answers": [
+            "D"
+        ],
+        "uuid": "c784ed69-9c15-4ca4-948d-e3b0f48d234a",
+        "source": "examtopics",
+        "part": 16,
+        "question_number": 4
+    },
+    {
+        "question": "Which AWS service helps users audit API activity across their AWS account?",
+        "answers": [
+            "A. AWS CloudTrail",
+            "B. Amazon Inspector",
+            "C. AWS WAF",
+            "D. AWS Config"
+        ],
+        "correct_answers": [
+            "A"
+        ],
+        "uuid": "e8c33984-5db6-4c93-9d0d-ed3099753cc1",
+        "source": "examtopics",
+        "part": 16,
+        "question_number": 5
+    },
+    {
+        "question": "Which task is a customer’s responsibility, according to the AWS shared responsibility model?",
+        "answers": [
+            "A. Management of the guest operating systems",
+            "B. Maintenance of the configuration of infrastructure devices",
+            "C. Management of the host operating systems and virtualization",
+            "D. Maintenance of the software that powers Availability Zones"
+        ],
+        "correct_answers": [
+            "A"
+        ],
+        "uuid": "03efd3fa-2ae5-4973-b003-7ce56ed1a0bc",
+        "source": "examtopics",
+        "part": 16,
+        "question_number": 6
+    },
+    {
+        "question": "A company wants to automatically add and remove Amazon EC2 instances. The company wants the EC2 instances to adjust to varying workloads dynamically.\n\nWhich service or feature will meet these requirements?",
+        "answers": [
+            "A. Amazon DynamoDB",
+            "B. Amazon EC2 Spot Instances",
+            "C. AWS Snow Family",
+            "D. Amazon EC2 Auto Scaling"
+        ],
+        "correct_answers": [
+            "D"
+        ],
+        "uuid": "d7c56ca0-a04f-4c4c-85dc-1ce421117c78",
+        "source": "examtopics",
+        "part": 16,
+        "question_number": 7
+    },
+    {
+        "question": "A user wants to securely automate the management and rotation of credentials that are shared between applications, while spending the least amount of time on managing tasks.\n\nWhich AWS service or feature can be used to accomplish this?",
+        "answers": [
+            "A. AWS CloudHSM",
+            "B. AWS Key Management Service (AWS KMS)",
+            "C. AWS Secrets Manager",
+            "D. Server-side encryption"
+        ],
+        "correct_answers": [
+            "C"
+        ],
+        "uuid": "ad3c0fcb-eca8-4094-add2-18cf62d8eeed",
+        "source": "examtopics",
+        "part": 16,
+        "question_number": 8
+    },
+    {
+        "question": "Which actions are best practices for an AWS account root user? (Choose two.)",
+        "answers": [
+            "A. Share root user credentials with team members.",
+            "B. Create multiple root users for the account, separated by environment.",
+            "C. Enable multi-factor authentication (MFA) on the root user.",
+            "D. Create an IAM user with administrator privileges for daily administrative tasks, instead of using the root user.",
+            "E. Use programmatic access instead of the root user and password."
+        ],
+        "correct_answers": [
+            "C",
+            "D"
+        ],
+        "uuid": "19d14c68-66c8-40f4-b6a8-fa27f5241bea",
+        "source": "examtopics",
+        "part": 16,
+        "question_number": 9
+    },
+    {
+        "question": "A company is running a critical workload on an Amazon RDS DB instance. The company needs the DB instance to be highly available with a recovery time of less than 5 minutes.\n\nWhich solution will meet these requirements?",
+        "answers": [
+            "A. Create a read replica of the DB instance.",
+            "B. Create a template of the DB instance by using AWS CloudFormation.",
+            "C. Take frequent snapshots of the DB instance. Store the snapshots in Amazon S3.",
+            "D. Modify the DB instance to be a Multi-AZ deployment."
+        ],
+        "correct_answers": [
+            "D"
+        ],
+        "uuid": "6ade3b3a-7c0e-478f-82d0-54a469b19ced",
+        "source": "examtopics",
+        "part": 17,
+        "question_number": 1
+    },
+    {
+        "question": "A company plans to migrate its application to AWS and run the application on Amazon EC2 instances. The application will have continuous usage for 1 year.\n\nWhich EC2 instance purchasing option will meet these requirements MOST cost-effectively?",
+        "answers": [
+            "A. Reserved Instances",
+            "B. Spot Instances",
+            "C. On-Demand Instances",
+            "D. Dedicated Hosts"
+        ],
+        "correct_answers": [
+            "A"
+        ],
+        "uuid": "1718f412-d177-432d-9a64-2ec7b37508a6",
+        "source": "examtopics",
+        "part": 17,
+        "question_number": 2
+    },
+    {
+        "question": "A company needs to transfer data between an Amazon S3 bucket and an on-premises application.\n\nWho is responsible for the security of this data, according to the AWS shared responsibility model?",
+        "answers": [
+            "A. The company",
+            "B. AWS",
+            "C. Firewall vendor",
+            "D. AWS Marketplace partner"
+        ],
+        "correct_answers": [
+            "A"
+        ],
+        "uuid": "6f62c581-9573-43d4-8c49-5840ccec6897",
+        "source": "examtopics",
+        "part": 17,
+        "question_number": 3
+    },
+    {
+        "question": "Which pillar of the AWS Well-Architected Framework refers to the ability of a system to recover from infrastructure or service disruptions and dynamically acquire computing resources to meet demand?",
+        "answers": [
+            "A. Security",
+            "B. Reliability",
+            "C. Performance efficiency",
+            "D. Cost optimization"
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "13e5e0db-def1-45e5-b990-0d853b7d5ed5",
+        "source": "examtopics",
+        "part": 17,
+        "question_number": 4
+    },
+    {
+        "question": "A company wants to identify Amazon S3 buckets that are shared with another AWS account.\n\nWhich AWS service or feature will meet these requirements?",
+        "answers": [
+            "A. AWS Lake Formation",
+            "B. IAM credential report",
+            "C. Amazon CloudWatch",
+            "D. IAM Access Analyzer"
+        ],
+        "correct_answers": [
+            "D"
+        ],
+        "uuid": "2a72ae0d-a64a-4c93-9d00-ac9f96e56778",
+        "source": "examtopics",
+        "part": 17,
+        "question_number": 5
+    },
+    {
+        "question": "Which AWS service gives users the ability to build interactive business intelligence dashboards that include machine learning insights?",
+        "answers": [
+            "A. Amazon Athena",
+            "B. Amazon Kendra",
+            "C. Amazon QuickSight",
+            "D. Amazon Redshift"
+        ],
+        "correct_answers": [
+            "C"
+        ],
+        "uuid": "81d2f91f-2c1e-4f45-91d0-4fc62152a037",
+        "source": "examtopics",
+        "part": 17,
+        "question_number": 6
+    },
+    {
+        "question": "Which of the following is an AWS value proposition that describes a user’s ability to scale infrastructure based on demand?",
+        "answers": [
+            "A. Speed of innovation",
+            "B. Resource elasticity",
+            "C. Decoupled architecture",
+            "D. Global deployment"
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "f32cf292-af85-4d06-b6a3-ee0bc08cfa2b",
+        "source": "examtopics",
+        "part": 17,
+        "question_number": 7
+    },
+    {
+        "question": "Which action is a security best practice for access to sensitive data that is stored in an Amazon S3 bucket?",
+        "answers": [
+            "A. Enable S3 Cross-Region Replication (CRR) on the S3 bucket.",
+            "B. Use IAM roles for applications that require access to the S3 bucket.",
+            "C. Configure AWS WAF to prevent unauthorized access to the S3 bucket.",
+            "D. Configure Amazon GuardDuty to prevent unauthorized access to the S3 bucket."
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "3d4a75af-7e2f-4f27-b944-53a0935c37d5",
+        "source": "examtopics",
+        "part": 17,
+        "question_number": 8
+    },
+    {
+        "question": "A company wants to know more about the benefits offered by cloud computing. The company wants to understand the operational advantage of agility. How does AWS provide agility for users?",
+        "answers": [
+            "A. The ability the ensure high availability by deploying workloads to multiple regions",
+            "B. A pay-as-you-go model for many services and resources",
+            "C. The ability to transfer infrastructure management to the AWS Cloud",
+            "D. The ability to provision and deprovision resources quickly with minimal effort"
+        ],
+        "correct_answers": [
+            "D"
+        ],
+        "uuid": "e7f90419-7b0b-491a-a7b4-d9a0b3c0bc7e",
+        "source": "examtopics",
+        "part": 17,
+        "question_number": 9
+    },
+    {
+        "question": "A company needs a central user portal so that users can log in to third-party business applications that support Security Assertion Markup Language (SAML) 2.0.\n\nWhich AWS service will meet this requirement?",
+        "answers": [
+            "A. AWS Identity and Access Management (IAM)",
+            "B. Amazon Cognito",
+            "C. AWS IAM Identity Center (AWS Single Sign-On)",
+            "D. AWS CLI"
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "06480ef1-0752-4bb4-802d-1b1b790ee11f",
+        "source": "examtopics",
+        "part": 17,
+        "question_number": 10
+    },
+    {
         "question_number": 1,
         "part": 5,
         "question": "A company has a compliance requirement to record and evaluate configuration changes, as well as perform remediation actions on AWS resources. Which AWS service should the company use?",
@@ -6166,7 +6472,7 @@
         "answers": [
             "A. Amazon CloudWatch",
             "B. Amazon Inspector",
-            "C. AWS Cloud Trail",
+            "C. AWS CloudTrail",
             "D. AWS IAM"
         ],
         "correct_answers": [
@@ -6306,22 +6612,6 @@
         "question_number": 1
     },
     {
-        "question": "Which security principle addresses monitoring, alerting, and auditing actions and changes to the environment in real time?",
-        "answers": [
-            "A. Protect data in transit and at rest.",
-            "B. Secure all layers.",
-            "C. Apply the principle of least privilege.",
-            "D. Enable traceability."
-        ],
-        "correct_answers": [
-            "D"
-        ],
-        "uuid": "e56bd1e5-0595-472e-a00c-0a18e29ff3bf",
-        "source": "awssecurity",
-        "part": 2,
-        "question_number": 2
-    },
-    {
         "question": "What is one method that a company could use to ensure high availability during a security attack?",
         "answers": [
             "A. Regular audits",
@@ -6335,7 +6625,7 @@
         "uuid": "29cfc17c-0e34-4451-b36a-865ad3a1553e",
         "source": "awssecurity",
         "part": 2,
-        "question_number": 3
+        "question_number": 2
     },
     {
         "question": "What is a best practice for automation that can assist with providing a reliable and repeatable secure infrastructure?",
@@ -6351,7 +6641,7 @@
         "uuid": "d7e4c179-293f-45a8-980b-4ad097e132dc",
         "source": "awssecurity",
         "part": 2,
-        "question_number": 4
+        "question_number": 3
     },
     {
         "question": "What is the pricing model that AWS customers can use to pay for resources on an as-needed basis?",
@@ -6367,7 +6657,7 @@
         "uuid": "83d474c7-1ba7-4b47-829e-0aedf8b444cc",
         "source": "awssecurity",
         "part": 2,
-        "question_number": 5
+        "question_number": 4
     },
     {
         "question": "Which options are security principles that are based on the security pillar of the AWS Well-Architected Framework? (Select THREE.)",
@@ -6387,7 +6677,7 @@
         "uuid": "43e448f7-5230-40bc-9048-bec369ff773f",
         "source": "awssecurity",
         "part": 2,
-        "question_number": 6
+        "question_number": 5
     },
     {
         "question": "Which options are characteristics of the principle of least privilege? (Select TWO.)",
@@ -6405,7 +6695,7 @@
         "uuid": "88ac6fac-d9e5-4bcc-b8b6-1b0e7e8936fc",
         "source": "awssecurity",
         "part": 2,
-        "question_number": 7
+        "question_number": 6
     },
     {
         "question": "Security and compliance are shared responsibilities between AWS and the customer. What is an AWS responsibility?",
@@ -6421,7 +6711,7 @@
         "uuid": "b164132e-bfbc-460e-af93-56e53aee916a",
         "source": "awssecurity",
         "part": 2,
-        "question_number": 8
+        "question_number": 7
     },
     {
         "question": "What are customer security responsibilities according to the AWS shared responsibility model? (Select TWO.)",
@@ -6439,7 +6729,7 @@
         "uuid": "5e1efc6f-9778-4298-b0e1-2eb12f37ae25",
         "source": "awssecurity",
         "part": 2,
-        "question_number": 9
+        "question_number": 8
     },
     {
         "question": "Who is responsible to operate, manage, and control security OF the cloud, according to the AWS shared responsibility model?",
@@ -6455,7 +6745,7 @@
         "uuid": "16a78f02-5e28-4d07-b3e7-afc7bb10e361",
         "source": "awssecurity",
         "part": 2,
-        "question_number": 10
+        "question_number": 9
     },
     {
         "question_number": 1,
@@ -7166,22 +7456,6 @@
     {
         "question_number": 44,
         "part": 13,
-        "question": "A company is running and managing its own Docker environment on Amazon EC2 instances. The company wants to alternate to help manage cluster size, scheduling, and environment maintenance. Which AWS service meets these requirements?",
-        "answers": [
-            "A. AWS Lambda",
-            "B. Amazon RDS",
-            "C. AWS Fargate",
-            "D. Amazon Athena"
-        ],
-        "correct_answers": [
-            "C"
-        ],
-        "uuid": "1010f124-0484-44ee-8018-17cd7ac9740c",
-        "source": "awslagi"
-    },
-    {
-        "question_number": 45,
-        "part": 13,
         "question": "A company hosts an application on an Amazon EC2 instance. The EC2 instance needs to access several AWS resources, including Amazon S3 and Amazon DynamoDB. What is the MOST operationally efficient solution to delegate permissions?",
         "answers": [
             "A. Create an IAM role with the required permissions. Attach the role to the EC2 instance.",
@@ -7196,7 +7470,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 46,
+        "question_number": 45,
         "part": 13,
         "question": "Who is responsible for managing IAM user access and secret keys according to the AWS shared responsibility model?",
         "answers": [
@@ -7212,7 +7486,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 47,
+        "question_number": 46,
         "part": 13,
         "question": "A company is running a Microsoft SQL Server instance on-premises and is migrating its application to AWS. The company lacks the resources needed to refactor the application, but management wants to reduce operational overhead as part of the migration. Which database service would MOST effectively support these requirements?",
         "answers": [
@@ -7228,7 +7502,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 48,
+        "question_number": 47,
         "part": 13,
         "question": "A company wants to increase its ability to recover its infrastructure in the case of a natural disaster. Which pillar of the AWS Well-Architected Framework does this ability represent?",
         "answers": [
@@ -7244,7 +7518,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 49,
+        "question_number": 48,
         "part": 13,
         "question": "Which AWS service provides the capability to view end-to-end performance metrics and troubleshoot distributed applications?",
         "answers": [
@@ -7260,7 +7534,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 50,
+        "question_number": 49,
         "part": 13,
         "question": "Which tasks require use of the AWS account root user? (Choose two.)",
         "answers": [
@@ -7278,7 +7552,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 51,
+        "question_number": 50,
         "part": 13,
         "question": "Which of the following describes AWS Local Zones?",
         "answers": [
@@ -7294,7 +7568,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 52,
+        "question_number": 51,
         "part": 13,
         "question": "Which AWS service or feature is highly available by default?",
         "answers": [
@@ -7310,7 +7584,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 53,
+        "question_number": 52,
         "part": 13,
         "question": "A company wants to improve its security and audit posture by limiting Amazon EC2 inbound access. What should the company use to access instances remotely instead of opening inbound SSH ports and managing SSH keys?",
         "answers": [
@@ -7326,7 +7600,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 54,
+        "question_number": 53,
         "part": 13,
         "question": "A user needs the ability to access as many resources as are needed. The user also needs the ability to scale up and scale down with only a few minutes of notice. Which benefit of the AWS Cloud describes these abilities?",
         "answers": [
@@ -7342,7 +7616,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 55,
+        "question_number": 54,
         "part": 13,
         "question": "Which task is an AWS responsibility when a workload is running in Amazon RDS?",
         "answers": [
@@ -7358,7 +7632,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 56,
+        "question_number": 55,
         "part": 13,
         "question": "A company is building a mobile app to provide shopping recommendations to its customers. The company wants to use a graph database as part of the shopping recommendation engine. Which AWS database service should the company choose?",
         "answers": [
@@ -7374,7 +7648,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 57,
+        "question_number": 56,
         "part": 13,
         "question": "Which duty is a responsibility of AWS under the AWS shared responsibility model?",
         "answers": [
@@ -7390,7 +7664,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 58,
+        "question_number": 57,
         "part": 13,
         "question": "Which AWS service allows users to provision resources using a consistent and repeatable process?",
         "answers": [
@@ -7406,7 +7680,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 59,
+        "question_number": 58,
         "part": 13,
         "question": "A company has an application workload that is stateless be design and can sustain occasional downtime. The application performs massively parallel computations. Which Amazon EC2 pricing model should the company choose for its application to reduce cost?",
         "answers": [
@@ -7422,7 +7696,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 60,
+        "question_number": 59,
         "part": 13,
         "question": "A company wants to establish a private network connection between AWS and its corporate network. Which AWS service or feature will meet this requirement?",
         "answers": [
@@ -7438,7 +7712,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 61,
+        "question_number": 60,
         "part": 13,
         "question": "According to the AWS shared responsibility model, the customer is responsible for applying the latest security updates and patches for which of the following?",
         "answers": [
@@ -7454,7 +7728,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 62,
+        "question_number": 61,
         "part": 13,
         "question": "Which AWS service is a relational database compatible with MySQL and PostgreSQL?",
         "answers": [
@@ -7470,7 +7744,7 @@
         "source": "awslagi"
     },
     {
-        "question_number": 63,
+        "question_number": 62,
         "part": 13,
         "question": "Which AWS service should a company use to continuously monitor the compliance of AWS resource configurations?",
         "answers": [
@@ -8833,6 +9107,140 @@
         "source": "examtopics",
         "part": 2,
         "question_number": 10
+    },
+    {
+        "question": "A company wants to migrate its on-premises workloads to the AWS Cloud. The company wants to separate workloads for chargeback to different departments.\nWhich AWS services or features will meet these requirements? (Choose two.)",
+        "answers": [
+            "A. Placement groups",
+            "B. Consolidated billing",
+            "C. Edge locations",
+            "D. AWS Config",
+            "E. Multiple AWS accounts"
+        ],
+        "correct_answers": [
+            "B",
+            "E"
+        ],
+        "uuid": "0dde668a-814a-48c5-84ec-f66b04f5a75f",
+        "source": "examtopics",
+        "part": 14,
+        "question_number": 1
+    },
+    {
+        "question": "Which task is a responsibility of AWS, according to the AWS shared responsibility model?",
+        "answers": [
+            "A. Enable client-side encryption for objects that are stored in Amazon S3.",
+            "B. Configure IAM security policies to comply with the principle of least privilege.",
+            "C. Patch the guest operating system on an Amazon EC2 instance.",
+            "D. Apply updates to the Nitro Hypervisor."
+        ],
+        "correct_answers": [
+            "D"
+        ],
+        "uuid": "23b701bc-9eb1-447a-aaca-0749a535ea4a",
+        "source": "examtopics",
+        "part": 14,
+        "question_number": 2
+    },
+    {
+        "question": "Which option is a benefit of using AWS for cloud computing?",
+        "answers": [
+            "A. Trade variable expense for fixed expense",
+            "B. Pay-as-you-go pricing",
+            "C. Decreased speed and agility",
+            "D. Spending money running and maintaining data centers"
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "d528788b-7810-46de-9c3a-e1c7f6c7d449",
+        "source": "examtopics",
+        "part": 14,
+        "question_number": 3
+    },
+    {
+        "question": "Which option is an AWS Cloud Adoption Framework (AWS CAF) business perspective capability?",
+        "answers": [
+            "A. Culture evolution",
+            "B. Event management",
+            "C. Data monetization",
+            "D. Platform architecture"
+        ],
+        "correct_answers": [
+            "C"
+        ],
+        "uuid": "0ea8c551-271e-4721-a543-142b252ecbc4",
+        "source": "examtopics",
+        "part": 14,
+        "question_number": 4
+    },
+    {
+        "question": "A company is assessing its AWS Business Support plan to determine if the plan still meets the company’s needs. The company is considering switching to AWS Enterprise Support.\nWhich additional benefit will the company receive with AWS Enterprise Support?",
+        "answers": [
+            "A. A full set of AWS Trusted Advisor checks",
+            "B. Phone, email, and chat access to cloud support engineers 24 hours a day, 7 days a week",
+            "C. A designated technical account manager (TAM) to assist in monitoring and optimization",
+            "D. A consultative review and architecture guidance for the company’s applications"
+        ],
+        "correct_answers": [
+            "C"
+        ],
+        "uuid": "a09aface-8b77-4906-b863-e456d83a8c1c",
+        "source": "examtopics",
+        "part": 14,
+        "question_number": 5
+    },
+    {
+        "question": "Which options are AWS Cloud Adoption Framework (AWS CAF) security perspective capabilities? (Choose two.)",
+        "answers": [
+            "A. Observability",
+            "B. Incident and problem management",
+            "C. Incident response",
+            "D. Infrastructure protection",
+            "E. Availability and continuity"
+        ],
+        "correct_answers": [
+            "C",
+            "D"
+        ],
+        "uuid": "fef43b9d-404d-4ac6-894d-5d46119c1737",
+        "source": "examtopics",
+        "part": 14,
+        "question_number": 6
+    },
+    {
+        "question": "A company wants to run its workload on Amazon EC2 instances for more than 1 year. This workload will run continuously.\n\nWhich option offers a discounted hourly rate compared to the hourly rate of On-Demand Instances?",
+        "answers": [
+            "A. AWS Graviton processor",
+            "B. Dedicated Hosts",
+            "C. EC2 Instance Savings Plans",
+            "D. Amazon EC2 Auto Scaling instances"
+        ],
+        "correct_answers": [
+            "C"
+        ],
+        "uuid": "5fb221eb-82c8-41a5-b48a-5dd522a3cc49",
+        "source": "examtopics",
+        "part": 14,
+        "question_number": 7
+    },
+    {
+        "question": "Which AWS services can a company use to achieve a loosely coupled architecture? (Choose two.)",
+        "answers": [
+            "A. Amazon WorkSpaces",
+            "B. Amazon Simple Queue Service (Amazon SQS)",
+            "C. Amazon Connect",
+            "D. AWS Trusted Advisor",
+            "E. AWS Step Functions"
+        ],
+        "correct_answers": [
+            "B",
+            "E"
+        ],
+        "uuid": "ae87bd1e-3bff-4b39-9900-b00ae0f5e83f",
+        "source": "examtopics",
+        "part": 14,
+        "question_number": 8
     },
     {
         "question_number": 1,
@@ -10681,6 +11089,150 @@
         "source": "awslagi"
     },
     {
+        "question": "A company plans to migrate to the AWS Cloud. The company wants to use the AWS Cloud Adoption Framework (AWS CAF) to define and track business outcomes as part of its cloud transformation journey.\n\nWhich AWS CAF governance perspective capability will meet these requirements?",
+        "answers": [
+            "A. Benefits management",
+            "B. Risk management",
+            "C. Application portfolio management",
+            "D. Cloud financial management"
+        ],
+        "correct_answers": [
+            "A"
+        ],
+        "uuid": "4073abd9-0c3b-4783-b607-ed433cb2abaa",
+        "source": "examtopics",
+        "part": 15,
+        "question_number": 1
+    },
+    {
+        "question": "A company needs to quickly and securely move files over long distances between its client and an Amazon S3 bucket.\n\nWhich S3 feature will meet this requirement?",
+        "answers": [
+            "A. S3 Versioning",
+            "B. S3 Transfer Acceleration",
+            "C. S3ACLs",
+            "D. S3 Intelligent-Tiering"
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "3cc49b8b-bcf0-4042-a31e-aacba3940a83",
+        "source": "examtopics",
+        "part": 15,
+        "question_number": 2
+    },
+    {
+        "question": "A company needs to continuously run an experimental workload on an Amazon EC2 instance and stop the instance after 12 hours.\n\nWhich instance purchasing option will meet this requirement MOST cost-effectively?",
+        "answers": [
+            "A. On-Demand Instances",
+            "B. Reserved Instances",
+            "C. Spot Instances",
+            "D. Dedicated Instances"
+        ],
+        "correct_answers": [
+            "A"
+        ],
+        "uuid": "4b9fd377-02da-4b47-b080-067ca41853ff",
+        "source": "examtopics",
+        "part": 15,
+        "question_number": 3
+    },
+    {
+        "question": "Which cloud transformation journey phase of the AWS Cloud Adoption Framework (AWS CAF) focuses on demonstrating how the cloud helps accelerate business outcomes?",
+        "answers": [
+            "A. Scale",
+            "B. Envision",
+            "C. Align",
+            "D. Launch"
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "e0f7991f-13e7-4c62-8dc9-7cdc995f0ad4",
+        "source": "examtopics",
+        "part": 15,
+        "question_number": 4
+    },
+    {
+        "question": "Which option is a customer responsibility under the AWS shared responsibility model?",
+        "answers": [
+            "A. Maintenance of underlying hardware of Amazon EC2 instances",
+            "B. Application data security",
+            "C. Physical security of data centers",
+            "D. Maintenance of VPC components"
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "fd1d34c0-e025-4d70-a5ae-f2d1297c444a",
+        "source": "examtopics",
+        "part": 15,
+        "question_number": 5
+    },
+    {
+        "question": "A company wants its Amazon EC2 instances to operate in a highly available environment, even if there is a natural disaster in a particular geographic area.\n\nWhich approach will achieve this goal?",
+        "answers": [
+            "A. Use EC2 instances in multiple AWS Regions.",
+            "B. Use EC2 instances in multiple Amazon CloudFront locations.",
+            "C. Use EC2 instances in multiple edge locations.",
+            "D. Use EC2 instances in AWS Local Zones."
+        ],
+        "correct_answers": [
+            "A"
+        ],
+        "uuid": "9eacfd1e-5c13-4953-bd24-6be4be3e2a63",
+        "source": "examtopics",
+        "part": 15,
+        "question_number": 6
+    },
+    {
+        "question": "A company wants to modernize and convert a monolithic application into microservices. The company wants to move the application to AWS.\n\nWhich migration strategy should the company use?",
+        "answers": [
+            "A. Rehost",
+            "B. Replatform",
+            "C. Repurchase",
+            "D. Refactor"
+        ],
+        "correct_answers": [
+            "D"
+        ],
+        "uuid": "06da50fa-4d57-49e6-b9fc-7afb69e3ccf6",
+        "source": "examtopics",
+        "part": 15,
+        "question_number": 7
+    },
+    {
+        "question": "A systems administrator created a new IAM user for a developer and assigned the user an access key instead of a user name and password. What is the access key used for?",
+        "answers": [
+            "A. To access the AWS account as the AWS account root user",
+            "B. To access the AWS account through the AWS Management Console",
+            "C. To access the AWS account through a CLI",
+            "D. To access all of a company’s AWS accounts"
+        ],
+        "correct_answers": [
+            "C"
+        ],
+        "uuid": "7f0c46f4-923c-49c7-979e-938c83389c7c",
+        "source": "examtopics",
+        "part": 15,
+        "question_number": 8
+    },
+    {
+        "question": "Which option is an environment that consists of one or more data centers?",
+        "answers": [
+            "A. Amazon CloudFront",
+            "B. Availability Zone",
+            "C. VPC",
+            "D. AWS Outposts"
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "620d0b33-ff40-47ff-812d-82f264010852",
+        "source": "examtopics",
+        "part": 15,
+        "question_number": 9
+    },
+    {
         "question": "Which AWS service or feature allows a user to establish a dedicated network connection between a company’s on-premises data center and the AWS Cloud?",
         "answers": [
             "A. AWS Direct Connect",
@@ -10917,6 +11469,150 @@
         "source": "awslagi"
     },
     {
+        "question": "A company has an uninterruptible application that runs on Amazon EC2 instances. The application constantly processes a backlog of files in an Amazon Simple Queue Service (Amazon SQS) queue. This usage is expected to continue to grow for years. What is the MOST cost-effective EC2 instance purchasing model to meet these requirements?",
+        "answers": [
+            "A. Spot Instances",
+            "B. On-Demand Instances",
+            "C. Savings Plans",
+            "D. Dedicated Hosts"
+        ],
+        "correct_answers": [
+            "C"
+        ],
+        "uuid": "260e14d1-72db-407e-9192-f88c1c64c6be",
+        "source": "examtopics",
+        "part": 12,
+        "question_number": 1
+    },
+    {
+        "question": "A company wants an AWS service to provide product recommendations based on its customer data. Which AWS service will meet this requirement?",
+        "answers": [
+            "A. Amazon Polly",
+            "B. Amazon Personalize",
+            "C. Amazon Comprehend",
+            "D. Amazon Rekognition"
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "bf770041-9aa8-4339-8e67-d90e929b9005",
+        "source": "examtopics",
+        "part": 12,
+        "question_number": 2
+    },
+    {
+        "question": "A company is planning its migration to the AWS Cloud. The company is identifying its capability gaps by using the AWS Cloud Adoption Framework (AWS CAF) perspectives. Which phase of the cloud transformation journey includes these identification activities?",
+        "answers": [
+            "A. Envision",
+            "B. Align",
+            "C. Scale",
+            "D. Launch"
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "92782a4f-e2a4-4767-8626-5121a32e9017",
+        "source": "examtopics",
+        "part": 12,
+        "question_number": 3
+    },
+    {
+        "question": "A social media company wants to protect its web application from common web exploits such as SQL injections and cross-site scripting. Which AWS service will meet these requirements?",
+        "answers": [
+            "A. Amazon Inspector",
+            "B. AWS WAF",
+            "C. Amazon GuardDuty",
+            "D. Amazon CloudWatch"
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "8c857794-c0d6-481d-be6c-b3bff272d01d",
+        "source": "examtopics",
+        "part": 12,
+        "question_number": 4
+    },
+    {
+        "question": "Which fully managed AWS service assists with the creation, testing, and management of custom Amazon EC2 images?",
+        "answers": [
+            "A. EC2 Image Builder",
+            "B. Amazon Machine Image (AMI)",
+            "C. AWS Launch Wizard",
+            "D. AWS Elastic Beanstalk"
+        ],
+        "correct_answers": [
+            "A"
+        ],
+        "uuid": "4d2d4b48-08f3-4793-ad99-b93f603fa9ed",
+        "source": "examtopics",
+        "part": 12,
+        "question_number": 5
+    },
+    {
+        "question": "A company wants an automated process to continuously scan its Amazon EC2 instances for software vulnerabilities. Which AWS service will meet these requirements?",
+        "answers": [
+            "A. Amazon GuardDuty",
+            "B. Amazon Inspector",
+            "C. Amazon Detective",
+            "D. Amazon Cognito"
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "e18790c8-6b1e-4626-bc75-81914acb2291",
+        "source": "examtopics",
+        "part": 12,
+        "question_number": 6
+    },
+    {
+        "question": "A company needs to perform data processing once a week that typically takes about 5 hours to complete. Which AWS service should the company use for this workload?",
+        "answers": [
+            "A. AWS Lambda",
+            "B. Amazon EC2",
+            "C. AWS CodeDeploy",
+            "D. AWS Wavelength"
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "c1413d77-2622-430b-b9c9-fbbf8c6a1a49",
+        "source": "examtopics",
+        "part": 12,
+        "question_number": 7
+    },
+    {
+        "question": "Which AWS service or feature provides log information of the inbound and outbound traffic on network interfaces in a VPC?",
+        "answers": [
+            "A. Amazon CloudWatch Logs",
+            "B. AWS CloudTrail",
+            "C. VPC Flow Logs",
+            "D. AWS Identity and Access Management (IAM)"
+        ],
+        "correct_answers": [
+            "C"
+        ],
+        "uuid": "1fd624e2-3949-4f6d-ae98-2127765b7d5e",
+        "source": "examtopics",
+        "part": 12,
+        "question_number": 8
+    },
+    {
+        "question": "A company wants to design a centralized storage system to manage the configuration data and passwords for its critical business applications. Which AWS service or capability will meet these requirements MOST cost-effectively?",
+        "answers": [
+            "A. AWS Systems Manager Parameter Store",
+            "B. AWS Secrets Manager",
+            "C. AWS Config",
+            "D. Amazon S3"
+        ],
+        "correct_answers": [
+            "A"
+        ],
+        "uuid": "1ffad193-d0a3-41ed-bd88-e3c567e43093",
+        "source": "examtopics",
+        "part": 12,
+        "question_number": 9
+    },
+    {
         "question": "Which AWS service is a continuous monitoring and assessment service that provides an inventory of AWS resources and records changes to their configuration?",
         "answers": [
             "A. AWS Shield",
@@ -10997,22 +11693,6 @@
         "question_number": 5
     },
     {
-        "question": "An administrator wants to run continuous assessment checks on their resources. The purpose is to verify that these resources comply with their own security policies, industry best practices, and compliance standards. Which AWS service would meet their need?",
-        "answers": [
-            "A. AWS CloudFormation",
-            "B. Amazon CloudWatch",
-            "C. AWS CloudTrail",
-            "D. AWS Config"
-        ],
-        "correct_answers": [
-            "D"
-        ],
-        "uuid": "5145093a-3cff-4819-a3aa-874db28b9356",
-        "source": "awssecurity",
-        "part": 7,
-        "question_number": 6
-    },
-    {
         "question": "An administrator would like to increase their network protection, and eliminate any potentially unauthorized or malicious activity in their AWS environment. Which AWS service would meet their need?",
         "answers": [
             "A. Network access control list (ACL)",
@@ -11026,7 +11706,7 @@
         "uuid": "3bf9c7a7-c64a-4f90-9618-1a3d5b150130",
         "source": "awssecurity",
         "part": 7,
-        "question_number": 7
+        "question_number": 6
     },
     {
         "question": "What are best practices for handling an incident? (Select TWO.)",
@@ -11044,7 +11724,7 @@
         "uuid": "08650845-4216-438a-9d60-8b8348f16fc4",
         "source": "awssecurity",
         "part": 7,
-        "question_number": 8
+        "question_number": 7
     },
     {
         "question": "An administrator wants to implement a level of protection against distributed denial of service (DDoS) attacks. Which AWS service would meet their need?",
@@ -11060,7 +11740,7 @@
         "uuid": "c96250c9-44bc-411d-9636-2398de0d9b63",
         "source": "awssecurity",
         "part": 7,
-        "question_number": 9
+        "question_number": 8
     },
     {
         "question": "Which definition best describes an incident response?",
@@ -11076,7 +11756,7 @@
         "uuid": "ed27fe54-0179-4934-b38c-70677304475f",
         "source": "awssecurity",
         "part": 7,
-        "question_number": 10
+        "question_number": 9
     },
     {
         "question": "A company wants to assess its operational readiness. It also wants to identify and mitigate any operational risks ahead of a new product launch. Which AWS Support plan offers guidance and support for this kind of event at no additional charge?",
@@ -13986,5 +14666,151 @@
         ],
         "uuid": "3940ecbe-b396-48fc-a865-44759d9f76ce",
         "source": "awslagi"
+    },
+    {
+        "question": "A company plans to deploy containers on AWS. The company wants full control of the compute resources that host the containers. Which AWS service will meet these requirements?",
+        "answers": [
+            "A. Amazon Elastic Kubernetes Service (Amazon EKS)",
+            "B. AWS Fargate",
+            "C. Amazon EC2",
+            "D. Amazon Elastic Container Service (Amazon ECS)"
+        ],
+        "correct_answers": [
+            "C"
+        ],
+        "uuid": "8f689ff3-4158-4626-af72-098dd14ae30e",
+        "source": "examtopics",
+        "part": 13,
+        "question_number": 1
+    },
+    {
+        "question": "Which AWS service or feature allows users to create new AWS accounts, group multiple accounts to organize workflows, and apply policies to groups of accounts?",
+        "answers": [
+            "A. AWS Identity and Access Management (IAM)",
+            "B. AWS Trusted Advisor",
+            "C. AWS CloudFormation",
+            "D. AWS Organizations"
+        ],
+        "correct_answers": [
+            "D"
+        ],
+        "uuid": "2a57362d-7e7f-424f-8502-d75d4aac361a",
+        "source": "examtopics",
+        "part": 13,
+        "question_number": 2
+    },
+    {
+        "question": "A company wants to store and retrieve files in Amazon S3 for its existing on-premises applications by using industry-standard file system protocols.\nWhich AWS service will meet these requirements?",
+        "answers": [
+            "A. AWS DataSync",
+            "B. AWS Snowball Edge",
+            "C. Amazon S3 File Gateway",
+            "D. AWS Transfer Family"
+        ],
+        "correct_answers": [
+            "C"
+        ],
+        "uuid": "adfadffd-b772-4f2c-a961-e135dff9acd3",
+        "source": "examtopics",
+        "part": 13,
+        "question_number": 3
+    },
+    {
+        "question": "A company wants to block SQL injection attacks.\nWhich AWS service or feature should the company use to meet this requirement?",
+        "answers": [
+            "A. AWS WAF",
+            "B. Network ACLs",
+            "C. Security groups",
+            "D. AWS Certificate Manager (ACM)"
+        ],
+        "correct_answers": [
+            "A"
+        ],
+        "uuid": "68b26712-ac47-4947-97e2-0fa1b5571b36",
+        "source": "examtopics",
+        "part": 13,
+        "question_number": 4
+    },
+    {
+        "question": "A company wants a unified tool to provide a consistent method to interact with AWS services.\nWhich AWS service or tool will meet this requirement?",
+        "answers": [
+            "A. AWS CLI",
+            "B. Amazon Elastic Container Service (Amazon ECS)",
+            "C. AWS Cloud9",
+            "D. AWS Virtual Private Network (AWS VPN)"
+        ],
+        "correct_answers": [
+            "A"
+        ],
+        "uuid": "2fbde949-c476-4e67-8b9c-1dbf39679acb",
+        "source": "examtopics",
+        "part": 13,
+        "question_number": 5
+    },
+    {
+        "question": "A company needs to evaluate its AWS environment and provide best practice recommendations in five categories: cost, performance, service limits, fault tolerance and security.\nWhich AWS service can the company use to meet these requirements?",
+        "answers": [
+            "A. AWS Shield",
+            "B. AWS WAF",
+            "C. AWS Trusted Advisor",
+            "D. AWS Service Catalog"
+        ],
+        "correct_answers": [
+            "C"
+        ],
+        "uuid": "031a8f36-e036-432d-9d7d-62e3903b923d",
+        "source": "examtopics",
+        "part": 13,
+        "question_number": 6
+    },
+    {
+        "question": "Which perspective in the AWS Cloud Adoption Framework (AWS CAF) includes capabilities for configuration management and patch management?",
+        "answers": [
+            "A. Platform",
+            "B. Operations",
+            "C. Security",
+            "D. Governance"
+        ],
+        "correct_answers": [
+            "B"
+        ],
+        "uuid": "a460f8a1-5c7a-4b59-9a6d-a8751a986443",
+        "source": "examtopics",
+        "part": 13,
+        "question_number": 7
+    },
+    {
+        "question": "A company has a compute workload that is steady, predictable, and uninterruptible.\nWhich Amazon EC2 instance purchasing options meet these requirements MOST cost-effectively? (Choose two.)",
+        "answers": [
+            "A. On-Demand Instances",
+            "B. Reserved Instances",
+            "C. Spot Instances",
+            "D. Saving Plans",
+            "E. Dedicated Hosts"
+        ],
+        "correct_answers": [
+            "B",
+            "D"
+        ],
+        "uuid": "9be07d83-d578-4de0-baaa-022a4d895b15",
+        "source": "examtopics",
+        "part": 13,
+        "question_number": 8
+    },
+    {
+        "question": "Which option is a shared responsibility between AWS and its customers under the AWS shared responsibility model?",
+        "answers": [
+            "A. Configuration of Amazon EC2 instance operating systems",
+            "B. Application file system server-side encryption",
+            "C. Patch management",
+            "D. Security of the physical infrastructure"
+        ],
+        "correct_answers": [
+            "C"
+        ],
+        "uuid": "f923d234-0622-4a2d-8260-bcb394e89fe0",
+        "source": "examtopics",
+        "part": 13,
+        "question_number": 9
     }
 ]
