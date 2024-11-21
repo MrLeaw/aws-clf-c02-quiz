@@ -456,7 +456,7 @@
         ],
         "correct_answers": [
             "B",
-            "C"
+            "D"
         ],
         "uuid": "f4cddc54-bec1-4d11-8a82-df568e5cbbc5",
         "source": "awslagi"
@@ -4294,7 +4294,7 @@
             "D. AWS Budgets"
         ],
         "correct_answers": [
-            "C"
+            "B"
         ],
         "uuid": "f2bca640-8610-4d3e-9dac-ae4dd8c33d26",
         "source": "awslagi"
@@ -5072,7 +5072,7 @@
         ],
         "correct_answers": [
             "C",
-            "E"
+            "A"
         ],
         "uuid": "36fec2f0-8bbe-4530-a7cb-6a08b857e7e6",
         "source": "awslagi"
