@@ -3928,7 +3928,7 @@
         ],
         "correct_answers": [
             "A",
-            "E"
+            "C"
         ],
         "uuid": "3a007280-0d38-4d83-bc0a-0d25bfd5c21b",
         "source": "awslagi"
@@ -7190,8 +7190,7 @@
             "D. Create an IAM role with the required permissions. Attach the role to the administrative IAM user."
         ],
         "correct_answers": [
-            "A",
-            "C"
+            "A"
         ],
         "uuid": "b8c62dbb-99bf-41ca-9934-8b6b72b88fd0",
         "source": "awslagi"
@@ -12225,8 +12224,7 @@
             "A. Use AWS Budgets on each account to pay only to budget.",
             "B. Contact AWS Support for a monthly bill.",
             "C. Create an AWS Organization from the payer account and invite the other accounts to join.",
-            "D. Put all invoices into one Amazon Simple Storage Service (Amazon S3) bucket, load data into",
-            "Amazon Redshift, and then run a billing report."
+            "D. Put all invoices into one Amazon Simple Storage Service (Amazon S3) bucket, load data into Amazon Redshift, and then run a billing report."
         ],
         "correct_answers": [
             "C"
