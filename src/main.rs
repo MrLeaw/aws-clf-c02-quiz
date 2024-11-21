@@ -48,6 +48,7 @@ impl PartialEq for Question {
 #[derive(serde::Deserialize, serde::Serialize, Debug)]
 struct ProgressState {
     already_answered_uuids: Vec<String>,
+    wrong_answered_uuids: Vec<String>,
     correct_count: usize,
     total_count: usize,
     times: Vec<f64>,
@@ -55,6 +56,7 @@ struct ProgressState {
 
 fn save_progress(
     already_answered: Vec<Question>,
+    wrong_answered: Vec<Question>,
     correct_count: usize,
     total_count: usize,
     times: Vec<f64>,
@@ -70,6 +72,7 @@ fn save_progress(
 
     let progress_state = ProgressState {
         already_answered_uuids: already_answered.iter().map(|q| q.uuid.clone()).collect(),
+        wrong_answered_uuids: wrong_answered.iter().map(|q| q.uuid.clone()).collect(),
         correct_count,
         total_count,
         times,
@@ -78,7 +81,8 @@ fn save_progress(
     serde_json::to_writer(file, &progress_state).expect("Error writing file");
 }
 
-fn load_progress() -> Result<(Vec<Question>, usize, usize, Vec<f64>), Box<dyn std::error::Error>> {
+fn load_progress(
+) -> Result<(Vec<Question>, Vec<Question>, usize, usize, Vec<f64>), Box<dyn std::error::Error>> {
     // load the already answered questions from a file
     let home_path = dirs::home_dir().expect("Error getting home directory");
     let home_path = home_path.to_str().unwrap();
@@ -94,9 +98,15 @@ fn load_progress() -> Result<(Vec<Question>, usize, usize, Vec<f64>), Box<dyn st
         .filter(|q| progress_state.already_answered_uuids.contains(&q.uuid))
         .cloned()
         .collect();
+    let wrong_answered: Vec<Question> = questions
+        .iter()
+        .filter(|q| progress_state.wrong_answered_uuids.contains(&q.uuid))
+        .cloned()
+        .collect();
 
     Ok((
         already_answered,
+        wrong_answered,
         progress_state.correct_count,
         progress_state.total_count,
         progress_state.times,
@@ -128,14 +138,12 @@ fn main() {
 
     let mut correct_count: usize;
     let mut total_count: usize;
-    let mut questions = load_questions();
-    // Do something with the questions
-    // print first question
+    let mut all_questions = load_questions();
     println!("\x1B[2J\x1B[1;1H");
 
     println!("{}", LOGO.bright_yellow());
     println!("{}", SUBLOGO.bright_cyan());
-    println!("Initialized: {} questions", questions.len());
+    println!("Initialized: {} questions", all_questions.len());
 
     println!(
         "Press {} to start or type {} to quit.",
@@ -148,31 +156,37 @@ fn main() {
         exit(0);
     }
     if user_input == ":r\n" {
-        questions = load_questions();
+        all_questions = load_questions();
     }
 
-    let (already_answered, cc, tc, times) = match load_progress() {
-        Ok((already_answered, correct_count, total_count, times)) => {
+    let (already_answered, wrong_answered, cc, tc, times) = match load_progress() {
+        Ok((already_answered, wrong_answered, correct_count, total_count, times)) => {
             if already_answered.len() > 0 {
-                (already_answered, correct_count, total_count, times)
+                (
+                    already_answered,
+                    wrong_answered,
+                    correct_count,
+                    total_count,
+                    times,
+                )
             } else {
-                (Vec::new(), 0, 0, Vec::new())
+                (Vec::new(), Vec::new(), 0, 0, Vec::new())
             }
         }
-        Err(_) => (Vec::new(), 0, 0, Vec::new()),
+        Err(error) => {
+            println!("Error loading progress: {}", error);
+            exit(1);
+            (Vec::new(), Vec::new(), 0, 0, Vec::new())
+        }
     };
+    let mut wrong_answered = wrong_answered;
+    let mut already_answered = already_answered;
 
-    let mut index = already_answered.len();
     // questions should contain all questions that have been answered in the beginning,
     // followed by the rest of the questions, with the index pointing to the first unanswered question
-    questions = questions
+    let mut questions: Vec<Question> = all_questions
         .iter()
         .filter(|q| !already_answered.contains(q))
-        .cloned()
-        .collect();
-    questions = already_answered
-        .iter()
-        .chain(questions.iter())
         .cloned()
         .collect();
     correct_count = cc;
@@ -181,17 +195,17 @@ fn main() {
     loop {
         let mut start_timestamp: std::time::Instant;
         let mut times: Vec<f64> = times.clone();
-        'outer: while index < questions.len() {
-            let random_question = &questions[index];
+        'outer: while questions.len() > 0 {
+            let random_question = questions.remove(0);
             // clear the screen
             print!("\x1B[2J\x1B[1;1H");
             let termsize::Size { rows: _, cols } = termsize::get().unwrap();
             // print progress out of total questions
-            let total_rate = total_count as f32 / questions.len() as f32;
+            let total_rate = total_count as f32 / all_questions.len() as f32;
             let str = format!(
                 "{}/{} ({}%)",
                 total_count,
-                questions.len(),
+                all_questions.len(),
                 (total_rate * 100.0).round()
             );
             let str2: String;
@@ -326,6 +340,7 @@ fn main() {
                 println!("{}", "Correct!".green());
                 correct_count += 1;
             } else {
+                wrong_answered.push(random_question.clone());
                 println!("{}", "Incorrect!".red());
                 // print correct answer(s) split by comma
                 println!(
@@ -340,9 +355,15 @@ fn main() {
             }
             // save the progress
             // only the already answered questions are saved
-            let already_answered: Vec<Question> =
-                questions.iter().take(index + 1).cloned().collect();
-            save_progress(already_answered, correct_count, total_count, times.clone());
+            already_answered.push(random_question);
+
+            save_progress(
+                already_answered.clone(),
+                wrong_answered.clone(),
+                correct_count,
+                total_count,
+                times.clone(),
+            );
             // press any key to continue
             println!("Press {} to continue...", "⏎ enter".purple());
             let mut user_input = String::new();
@@ -353,8 +374,7 @@ fn main() {
             if user_input == ":r\n" {
                 break 'outer;
             }
-            index += 1;
         }
-        questions = load_questions();
+        all_questions = load_questions();
     }
 }

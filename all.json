@@ -674,8 +674,8 @@
         "question_number": 32,
         "question": "A company is considering migrating its applications to AWS. The company wants to compare the cost of running the workload on-premises to running the equivalent workload on the AWS platform. Which tool can be used to perform this comparison?",
         "answers": [
-            "A. AWS Simple Monthly Calculator",
-            "B. AWS Total Cost of Ownership (TCO) Calculator",
+            "A. AWS Pricing Calculator",
+            "B. AWS Migration Evaluator",
             "C. AWS Billing and Cost Management console",
             "D. Cost Explorer"
         ],
@@ -876,7 +876,7 @@
             "D. Enterprise and Business Support"
         ],
         "correct_answers": [
-            "B"
+            "D"
         ],
         "uuid": "d03c88de-07dd-4b4b-b565-dc9ed835ee05",
         "source": "awslagi"
@@ -972,8 +972,8 @@
         "question_number": 50,
         "question": "Which service should be used to estimate the costs of running a new project on AWS?",
         "answers": [
-            "A. AWS TCO Calculator",
-            "B. AWS Simple Monthly Calculator",
+            "A. AWS Migration Evaluator",
+            "B. AWS Pricing Calculator",
             "C. AWS Cost Explorer API",
             "D. AWS Budgets"
         ],
@@ -1104,7 +1104,7 @@
         "answers": [
             "A. AWS Budgets",
             "B. Cost Explorer",
-            "C. AWS Total Cost of Ownership (TCO) Calculator",
+            "C. AWS Migration Evaluator",
             "D. AWS Well-Architected Tool"
         ],
         "correct_answers": [
@@ -2041,7 +2041,7 @@
             "A. AWS Cost Explorer",
             "B. AWS Budgets",
             "C. AWS Cost and Usage report",
-            "D. AWS Total Cost of Ownership (TCO) Calculator"
+            "D. AWS Migration Evaluator"
         ],
         "correct_answers": [
             "D"
@@ -3683,8 +3683,8 @@
             "E. AWS AppSync"
         ],
         "correct_answers": [
-            "B",
-            "C"
+            "C",
+            "D"
         ],
         "uuid": "fb4ea2cd-5e63-4e49-a042-82c924397541",
         "source": "awslagi"
@@ -4438,7 +4438,7 @@
             "D. AWS Systems Manager"
         ],
         "correct_answers": [
-            "A"
+            "B"
         ],
         "uuid": "5e51fb35-fa2e-44b4-bcf2-49ce6fca1608",
         "source": "awslagi"
@@ -4723,7 +4723,7 @@
         "question": "A Cloud Practitioner is asked how to estimate the cost of using a new application on AWS. What is the MOST appropriate response?",
         "answers": [
             "A. Inform the user that AWS pricing allows for on-demand pricing.",
-            "B. Direct the user to the AWS Simple Monthly Calculator for an estimate.",
+            "B. Direct the user to the AWS Pricing Calculator for an estimate.",
             "C. Use Amazon QuickSight to analyze current spending on-premises.",
             "D. Use Amazon AppStream 2.0 for real-time pricing analytics."
         ],
@@ -5529,8 +5529,8 @@
         "question": "Which AWS tool is used to compare the cost of running an application on-premises to running the application in the AWS Cloud?",
         "answers": [
             "A. AWS Trusted Advisor",
-            "B. AWS Simple Monthly Calculator",
-            "C. AWS Total Cost of Ownership (TCO) Calculator",
+            "B. AWS Pricing Calculator",
+            "C. AWS Migration Evaluator",
             "D. Cost Explorer"
         ],
         "correct_answers": [
@@ -8663,9 +8663,9 @@
         "question": "What tool enables customers without an AWS account to estimate costs for almost all AWS services?",
         "answers": [
             "A. Cost Explorer",
-            "B. TCO Calculator",
+            "B. Migration Evaluator",
             "C. AWS Budgets",
-            "D. Simple Monthly Calculator"
+            "D. AWS Pricing Calculator"
         ],
         "correct_answers": [
             "D"
@@ -9147,8 +9147,8 @@
         "question": "Which AWS tools automatically forecast future AWS costs?",
         "answers": [
             "A. AWS Support Center",
-            "B. AWS Total Cost of Ownership (TCO) Calculator",
-            "C. AWS Simple Monthly Calculator",
+            "B. AWS Migration Evaluator",
+            "C. AWS Pricing Calculator",
             "D. Cost Explorer"
         ],
         "correct_answers": [
@@ -9260,8 +9260,8 @@
         "answers": [
             "A. Open an AWS Support case, provide the architecture proposal, and ask for a monthly cost estimation.",
             "B. Collect the published prices of the AWS services and calculate the monthly estimate.",
-            "C. Use the AWS Simple Monthly Calculator to estimate the monthly cost.",
-            "D. Use the AWS Total Cost of Ownership (TCO) Calculator to estimate the monthly cost."
+            "C. Use the AWS Pricing Calculator to estimate the monthly cost.",
+            "D. Use the AWS Migration Evaluator to estimate the monthly cost."
         ],
         "correct_answers": [
             "C"
@@ -12010,7 +12010,7 @@
         "answers": [
             "A. Amazon Aurora Backtrack",
             "B. Amazon CloudWatch Billing Alarms",
-            "C. AWS Simple Monthly Calculator",
+            "C. AWS Pricing Calculator",
             "D. AWS Cost and Usage report"
         ],
         "correct_answers": [
@@ -12625,7 +12625,7 @@
             "D. Amazon CloudWatch"
         ],
         "correct_answers": [
-            "B"
+            "C"
         ],
         "uuid": "a72e54c9-2eda-46e3-8f10-c04c748e2441",
         "source": "awslagi"
@@ -13727,17 +13727,16 @@
     {
         "question_number": 113,
         "part": 1,
-        "question": "Which AWS tools assist with estimating costs? (Choose three.)",
+        "question": "Which AWS tools assist with estimating costs? (Choose two.)",
         "answers": [
             "A. Detailed billing report",
             "B. Cost allocation tags",
-            "C. AWS Simple Monthly Calculator",
-            "D. AWS Total Cost of Ownership (TCO) Calculator",
-            "E. Cost Estimator"
+            "C. AWS Pricing Calculator",
+            "D. AWS Migration Evaluator"
         ],
         "correct_answers": [
             "C",
-            "E"
+            "D"
         ],
         "uuid": "7396f6f7-6437-4e78-9502-b573a63359ee",
         "source": "awslagi"
