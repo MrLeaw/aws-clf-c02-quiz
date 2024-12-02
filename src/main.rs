@@ -1,6 +1,7 @@
 use colored::Colorize;
 use rand::seq::SliceRandom;
 use std::{
+    f64::RADIX,
     io::{self, BufReader, Write},
     process::exit,
 };
@@ -49,18 +50,10 @@ impl PartialEq for Question {
 struct ProgressState {
     already_answered_uuids: Vec<String>,
     wrong_answered_uuids: Vec<String>,
-    correct_count: usize,
-    total_count: usize,
     times: Vec<f64>,
 }
 
-fn save_progress(
-    already_answered: Vec<Question>,
-    wrong_answered: Vec<Question>,
-    correct_count: usize,
-    total_count: usize,
-    times: Vec<f64>,
-) {
+fn save_progress(already_answered: Vec<Question>, wrong_answered: Vec<Question>, times: Vec<f64>) {
     // save the already answered questions to a file
     let home_path = dirs::home_dir().expect("Error getting home directory");
     let home_path = home_path.to_str().unwrap();
@@ -73,8 +66,6 @@ fn save_progress(
     let progress_state = ProgressState {
         already_answered_uuids: already_answered.iter().map(|q| q.uuid.clone()).collect(),
         wrong_answered_uuids: wrong_answered.iter().map(|q| q.uuid.clone()).collect(),
-        correct_count,
-        total_count,
         times,
     };
 
@@ -104,11 +95,14 @@ fn load_progress(
         .cloned()
         .collect();
 
+    let total_count = already_answered.len();
+    let correct_count = total_count - progress_state.wrong_answered_uuids.len();
+
     Ok((
         already_answered,
         wrong_answered,
-        progress_state.correct_count,
-        progress_state.total_count,
+        correct_count,
+        total_count,
         progress_state.times,
     ))
 }
@@ -150,10 +144,10 @@ fn main() {
     );
     let mut user_input = String::new();
     std::io::stdin().read_line(&mut user_input).unwrap();
-    if user_input == ":q\n" {
+    if user_input.starts_with(":q") {
         exit(0);
     }
-    if user_input == ":r\n" {
+    if user_input.starts_with(":r") {
         all_questions = load_questions();
     }
 
@@ -284,40 +278,41 @@ fn main() {
             }
             println!("\n");
             // let the user type one or more answers (separated by comma) (i.e. "A", "A,B")
-            print!("{}", "Answer: ".cyan());
-            io::stdout().flush().unwrap();
-            let mut user_input = String::new();
-            std::io::stdin().read_line(&mut user_input).unwrap();
-            if user_input == ":q\n" {
-                exit(0);
-            }
-            if user_input == ":r\n" {
-                break 'outer;
-            }
-            let user_input = user_input.trim().replace(",", "").to_uppercase();
-            let mut user_selection: Vec<char> = user_input.chars().collect();
-            while user_selection.len() == 0
-                || user_selection.len() != random_question.correct_answers.len()
-            {
+            let mut user_selection: Vec<char>;
+            loop {
+                print!("{}", "Answer: ".cyan());
+                io::stdout().flush().unwrap();
+                let mut user_input = String::new();
+                std::io::stdin().read_line(&mut user_input).unwrap();
+                if user_input.starts_with(":q") {
+                    exit(0);
+                }
+                if user_input.starts_with(":r") {
+                    break 'outer;
+                }
+                let user_input = user_input.trim().replace(",", "").to_uppercase();
+                user_selection = user_input.chars().collect();
+                let number_of_answers = random_question.answers.len();
+                let accepted_letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".chars().collect::<Vec<char>>();
+                let accepted_letters = &accepted_letters[..number_of_answers];
+                if user_selection.len() != 0
+                    && user_selection.len() == random_question.correct_answers.len()
+                    && user_selection.iter().all(|c| accepted_letters.contains(c))
+                {
+                    break;
+                }
                 print!(
                     "Please enter {} answer",
                     random_question.correct_answers.len()
                 );
                 if random_question.correct_answers.len() > 1 {
-                    println!("s separated by comma");
+                    println!(
+                        "s (separated by comma or without any separator, in range A-{})",
+                        accepted_letters[number_of_answers - 1]
+                    );
                 } else {
-                    println!("");
+                    println!(" (in range A-{})", accepted_letters[number_of_answers - 1]);
                 }
-                let mut user_input = String::new();
-                std::io::stdin().read_line(&mut user_input).unwrap();
-                if user_input == ":q\n" {
-                    break;
-                }
-                if user_input == ":r\n" {
-                    break 'outer;
-                }
-                let user_input = user_input.trim().replace(",", "").to_uppercase();
-                user_selection = user_input.chars().collect();
             }
             times.push(start_timestamp.elapsed().as_millis() as f64 / 1000.0);
             let mut correct = true;
@@ -353,8 +348,6 @@ fn main() {
             save_progress(
                 already_answered.clone(),
                 wrong_answered.clone(),
-                correct_count,
-                total_count,
                 times.clone(),
             );
             // press any key to continue
@@ -375,7 +368,7 @@ fn main() {
         );
         let mut user_input = String::new();
         std::io::stdin().read_line(&mut user_input).unwrap();
-        if user_input == ":q\n" {
+        if user_input.starts_with(":q") {
             exit(0);
         }
         exit(0)
